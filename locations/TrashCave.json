@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Trash Cave",
+    "sections": [
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "stick"
+        ]
+      },
+      {
+        "name": "Ice Barricade",
+        "access_rules": [
+          "stick"
+        ]
+      },
+      {
+        "name": "Mimicuties",
+        "access_rules": [
+          "sword"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "sword",
+          "stick,forcewand",
+          "stick,$keys|d4|2,[$realkeys|d4|2]"
+        ]
+      },
+      {
+        "name": "Cube Maze",
+        "access_rules": [
+          "sword,$keys|d4|1,[$realkeys|d4|3]"
+        ]
+      },
+      {
+        "name": "Rotnip Arena",
+        "access_rules": [
+          "stick,$keys|d4|1,[$realkeys|d4|4]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "sword,$keys|d4|2,[$realkeys|d4|4]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 640,
+        "y": 670
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Treasure",
+    "sections": [
+      {
+        "ref": "Trash Cave/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1195,
+        "y": 50
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Cube Maze",
+    "sections": [
+      {
+        "ref": "Trash Cave/Cube Maze"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1010,
+        "y": 100
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Rotnip Arena",
+    "sections": [
+      {
+        "ref": "Trash Cave/Rotnip Arena"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1235,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Mimicuties",
+    "sections": [
+      {
+        "ref": "Trash Cave/Mimicuties"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1075,
+        "y": 110
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Crayons",
+    "sections": [
+      {
+        "ref": "Trash Cave/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1160,
+        "y": 140
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Ice Barricade",
+    "sections": [
+      {
+        "ref": "Trash Cave/Ice Barricade"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1075,
+        "y": 170
+      }
+    ]
+  },
+  {
+    "name": "Trash Cave Boss",
+    "sections": [
+      {
+        "ref": "Trash Cave/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1075,
+        "y": 50
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Sand Castle",
+    "sections": [
+      {
+        "name": "Orbiting Balls",
+        "access_rules": [
+          "stick"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "stick,chain",
+          "firemace",
+          "forcewand",
+          "dynamite"
+        ]
+      },
+      {
+        "name": "Spikebun Dunes",
+        "access_rules": [
+          "$weapon"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "dynamite",
+          "$weapon,$keys|d2|1,[$realkeys|d2|2]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "sword,forcewand",
+          "stick,forcewand,$keys|d2|1,[$realkeys|d2|2]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 100,
+        "y": 700
+      }
+    ]
+  },
+  {
+    "name": "Sand Castle Orbiting Balls",
+    "sections": [
+      {
+        "ref": "Sand Castle/Orbiting Balls"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 570,
+        "y": 130
+      }
+    ]
+  },
+  {
+    "name": "Sand Castle Treasure",
+    "sections": [
+      {
+        "ref": "Sand Castle/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 670,
+        "y": 140
+      }
+    ]
+  },
+  {
+    "name": "Sand Castle Crayons",
+    "sections": [
+      {
+        "ref": "Sand Castle/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 630,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Sand Castle Spikebun Dunes",
+    "sections": [
+      {
+        "ref": "Sand Castle/Spikebun Dunes"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 710,
+        "y": 50
+      }
+    ]
+  },
+  {
+    "name": "Sand Castle Boss",
+    "sections": [
+      {
+        "ref": "Sand Castle/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 550,
+        "y": 50
+      }
+    ]
+  }
+]

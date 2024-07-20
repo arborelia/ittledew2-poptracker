@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Pillow Fort",
+    "sections": [
+      {
+        "name": "Shellbun Nest"
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$weapon"
+        ]
+      },
+      {
+        "name": "Safety Jenny Gate",
+        "access_rules": [
+          "$weapon"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$weapon,$keys|d1|1,[$realkeys|d1|2]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$weapon,$keys|d1|1,[$realkeys|d1|2]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 625,
+        "y": 370
+      }
+    ]
+  },
+  {
+    "name": "Pillow Fort Shellbun Nest",
+    "sections": [
+      {
+        "ref": "Pillow Fort/Shellbun Nest"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 390,
+        "y": 140
+      }
+    ]
+  },
+  {
+    "name": "Pillow Fort Treasure",
+    "sections": [
+      {
+        "ref": "Pillow Fort/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 110
+      }
+    ]
+  },
+  {
+    "name": "Pillow Fort Crayons",
+    "sections": [
+      {
+        "ref": "Pillow Fort/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 390,
+        "y": 110
+      }
+    ]
+  },
+  {
+    "name": "Pillow Fort Safety Jenny Gate",
+    "sections": [
+      {
+        "ref": "Pillow Fort/Safety Jenny Gate"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 430,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Pillow Fort Boss",
+    "sections": [
+      {
+        "ref": "Pillow Fort/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 50
+      }
+    ]
+  }
+]

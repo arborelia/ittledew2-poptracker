@@ -1,0 +1,13 @@
+﻿{
+  "name": "Ittle Dew 2+ Randomizer Tracker",
+  "game_name": "Ittle Dew 2",
+  "platform": "pc",
+  "package_version": "1.0",
+  "package_uid": "ittledew2_arborelia",
+  "author": "arborelia",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    }
+  }
+}

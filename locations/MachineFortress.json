@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Machine Fortress",
+    "sections": [
+      {
+        "name": "Hyperdusa Conveyor",
+        "access_rules": [
+          "$shard16"
+        ]
+      },
+      {
+        "name": "Decoy",
+        "access_rules": [
+          "$shard16,dynamite"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$shard16,dynamite"
+        ]
+      },
+      {
+        "name": "Spiked Numbers",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|1,[$realkeys|s2|1]"
+        ]
+      },
+      {
+        "name": "Grinder",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|2,[$realkeys|s2|2]"
+        ]
+      },
+      {
+        "name": "Lit Path",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|3,[$realkeys|s2|3]"
+        ]
+      },
+      {
+        "name": "Robonips",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|4,[$realkeys|s2|4]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|5,[$realkeys|s2|5]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$shard16,$nonforce,$keys|s2|5,[$realkeys|s2|5]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 895,
+        "y": 320
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Hyperdusa Conveyor",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Hyperdusa Conveyor"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 345,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Decoy",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Decoy"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 550,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Crayons",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Spiked Numbers",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Spiked Numbers"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 390,
+        "y": 715
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Grinder",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Grinder"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 430,
+        "y": 685
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Lit Path",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Lit Path"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 390,
+        "y": 655
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Robonips",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Robonips"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 345,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Treasure",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 430,
+        "y": 595
+      }
+    ]
+  },
+  {
+    "name": "Machine Fortress Boss",
+    "sections": [
+      {
+        "ref": "Machine Fortress/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 550,
+        "y": 685
+      }
+    ]
+  }
+]

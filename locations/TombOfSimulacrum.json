@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Tomb of Simulacrum",
+    "sections": [
+      {
+        "name": "Metal Jelly",
+        "access_rules": [
+          "$forbidden"
+        ]
+      },
+      {
+        "name": "8-Tile Slider",
+        "access_rules": [
+          "$forbidden,ice,wand"
+        ]
+      },
+      {
+        "name": "Self-Locked Tile",
+        "access_rules": [
+          "$forbidden,ice,stick"
+        ]
+      },
+      {
+        "name": "Roundabout Crystal",
+        "access_rules": [
+          "$forbidden,ice,dynamite,wand,stick"
+        ]
+      },
+      {
+        "name": "Corner Torch",
+        "access_rules": [
+          "$forbidden,ice,mace,dynamite,$keys|s4|1,[$realkeys|s4|1]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$forbidden,dynamite,$puzzledmg,$keys|s4|2,[$realkeys|s4|2]"
+        ]
+      },
+      {
+        "name": "Mothula Floor",
+        "access_rules": [
+          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Molten Conveyors",
+        "access_rules": [
+          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Blind Barrelcutie",
+        "access_rules": [
+          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Flaming Spiked Orbitals",
+        "access_rules": [
+          "$forbidden,ice,roll,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Hyperdusa Hell",
+        "access_rules": [
+          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$forbidden,ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$forbidden,$puzzledmg,ice,$keys|s4|10,[$realkeys|s4|10]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 753,
+        "y": 32
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum 8-Tile Slider",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/8-Tile Slider"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 995,
+        "y": 715
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Crayons",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1035,
+        "y": 715
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Self-Locked Tile",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Self-Locked Tile"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 955,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Mothula Floor",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Mothula Floor"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1095,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Metal Jelly",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Metal Jelly"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 915,
+        "y": 775
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Molten Conveyors",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Molten Conveyors"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1155,
+        "y": 775
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Boss",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1155,
+        "y": 595
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Treasure",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 955,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Corner Torch",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Corner Torch"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 995,
+        "y": 655
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Blind Barrelcutie",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Blind Barrelcutie"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1075,
+        "y": 655
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Flaming Spiked Orbitals",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Flaming Spiked Orbitals"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1155,
+        "y": 655
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Roundabout Crystal",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Roundabout Crystal"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 915,
+        "y": 685
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Simulacrum Hyperdusa Hell",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Hyperdusa Hell"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1155,
+        "y": 700
+      }
+    ]
+  }
+]

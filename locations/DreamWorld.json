@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Wizardry Lab",
+    "sections": [
+      {
+        "name": "Entrance",
+        "access_rules": [
+          "raftpiece,wand"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Go clear it",
+        "access_rules": [
+          "raftpiece,stick,wand"
+        ],
+        "item_count": 7
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 495,
+        "y": 490,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "name": "Syncope",
+    "sections": [
+      {
+        "name": "Initial Key",
+        "access_rules": [
+          "raftpiece,dynamite"
+        ]
+      },
+      {
+        "name": "Shifting Key",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+        ]
+      },
+      {
+        "name": "Switch Chamber",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+        ]
+      },
+      {
+        "name": "Foyer",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Knights Hint Item",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Shadow Walker",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Piano",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Garden",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Force Blast Maze",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "raftpiece,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,ice,wand",
+          "raftpiece,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "raftpiece,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+        ],
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 495,
+        "y": 465,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower",
+    "sections": [
+      {
+        "name": "First Floor",
+        "access_rules": [
+          "raftpiece,stick,ice",
+          "raftpiece,ice,wand"
+        ],
+        "num_items": 2
+      },
+      {
+        "name": "Second Floor",
+        "access_rules": [
+          "raftpiece,sword,ice",
+          "raftpiece,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Third Floor Before Lock",
+        "access_rules": [
+          "raftpiece,sword,ice",
+          "raftpiece,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "raftpiece,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Blue Portal Reward",
+        "access_rules": [
+          "raftpiece,sword,ice",
+          "raftpiece,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "raftpiece,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ]
+      },
+      {
+        "name": "Third Floor Icy Square",
+        "access_rules": [
+          "raftpiece,sword,ice,$keys|dream2|1,[$realkeys|dream2|4]",
+          "raftpiece,stick,ice,wand,$keys|dream2|3,[$realkeys|dream2|4]",
+          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+        ]
+      },
+      {
+        "name": "Fourth Floor Key",
+        "access_rules": [
+          "raftpiece,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
+          "raftpiece,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "raftpiece,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
+          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Bad Dream (*MSM *S *MSM *MSM)",
+        "access_rules": [
+          "raftpiece,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
+          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 550,
+        "y": 490,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "name": "Antigram",
+    "sections": [
+      {
+        "name": "Southwest Light Path",
+        "access_rules": [
+          "raftpiece,sword,chain"
+        ]
+      },
+      {
+        "name": "Southeast Walk of Faith",
+        "access_rules": [
+          "raftpiece,sword,chain"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "West Ice Puzzle",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+        ]
+      },
+      {
+        "name": "East Ice Puzzle",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+        ]
+      },
+      {
+        "name": "Northwest Bomb Maze",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+        ]
+      },
+      {
+        "name": "Northeast Bomb Maze",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+        ]
+      },
+      {
+        "name": "Last Stretch",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "raftpiece,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+        ],
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 550,
+        "y": 465,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "name": "Quietus",
+    "sections": [
+      {
+        "name": "Tricky Floors",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Northwest vault",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
+        ]
+      },
+      {
+        "name": "Northeast Vault",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+        ]
+      },
+      {
+        "name": "Tangled Wires",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Center Room",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Electro Bomb",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Southwest Vault",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+        ]
+      },
+      {
+        "name": "Southeast vault",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+        ]
+      },
+      {
+        "name": "Giant Mess",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ],
+        "item_count": 3
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 522,
+        "y": 445,
+        "size": 20
+      }
+    ]
+  }
+]

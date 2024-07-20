@@ -1,0 +1,39 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "shared_item_grid",
+                    "dock": "left"
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overworld",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "overworld"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dungeons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dungeons"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

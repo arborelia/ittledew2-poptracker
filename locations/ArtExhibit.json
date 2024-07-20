@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Art Exhibit",
+    "sections": [
+      {
+        "name": "First Item",
+        "access_rules": [
+          "$weapon"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "dynamite,$nondynamite"
+        ]
+      },
+      {
+        "name": "Spike Floor",
+        "access_rules": [
+          "dynamite,$nondynamite"
+        ]
+      },
+      {
+        "name": "Lemon Easels",
+        "access_rules": [
+          "$weapon,$keys|d3|1,[$realkeys|d3|1]",
+          "dynamite,$nondynamite"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "dynamite",
+          "$weapon,$keys|d3|1,[$realkeys|d3|4]"
+        ]
+      },
+      {
+        "name": "Business Casual Man",
+        "access_rules": [
+          "dynamite,$nondynamite,$keys|d3|1,[$realkeys|d3|3]",
+          "dynamite,$keys|d3|2,[$realkeys|d3|4]",
+          "dynamite,sword,$keys|d3|1,[$realkeys|d3|4]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "sword,dynamite",
+          "dynamite,$nondynamite,$keys|d3|2,[$realkeys|d3|4]",
+          "dynamite,$keys|d3|3,[$realkeys|d3|4]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 890,
+        "y": 470
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit First Item",
+    "sections": [
+      {
+        "ref": "Art Exhibit/First Item"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 875,
+        "y": 230
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Lemon Easels",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Lemon Easels"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 915,
+        "y": 170
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Crayons",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 110
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Spike Floor",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Spike Floor"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 875,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Treasure",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 170
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Business Casual Man",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Business Casual Man"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 50
+      }
+    ]
+  },
+  {
+    "name": "Art Exhibit Boss",
+    "sections": [
+      {
+        "ref": "Art Exhibit/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 915,
+        "y": 50
+      }
+    ]
+  }
+]

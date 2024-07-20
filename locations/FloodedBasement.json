@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Flooded Basement",
+    "sections": [
+      {
+        "name": "Portal Cube",
+        "access_rules": [
+          "stick",
+          "icering",
+          "dynamite"
+        ]
+      },
+      {
+        "name": "Crossway Combat",
+        "access_rules": [
+          "stick,chain",
+          "icering,sword",
+          "$weapon,$keys|d5|1,[$realkeys|d5|3]"
+        ]
+      },
+      {
+        "name": "Land Sharks",
+        "access_rules": [
+          "$weapon,$keys|d5|1,[$realkeys|d5|4]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "icering,stick,$keys|d5|2,[$realkeys|d5|3]",
+          "chain,stick,$keys|d5|2,[$realkeys|d5|3]",
+          "$weapon,$keys|d5|3,[$realkeys|d5|3]"
+        ]
+      },
+      {
+        "name": "Keeled Fishbun",
+        "access_rules": [
+          "icering,stick,$keys|d5|2,[$realkeys|d5|3]",
+          "stick,chain,$keys|d5|2,[$realkeys|d5|3]",
+          "$weapon,$keys|d5|3,[$realkeys|d5|3]"
+        ]
+      },
+      {
+        "name": "Number Wall",
+        "access_rules": [
+          "icering,stick,$keys|d5|2,[$realkeys|d5|3]",
+          "stick,chain,$keys|d5|2,[$realkeys|d5|3]",
+          "$weapon,$keys|d5|3,[$realkeys|d5|3]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "icering,stick,$projectile",
+          "$weapon,$keys|d5|4,[$realkeys|d5|5]",
+          "stick,chain,$keys|d5|3,[$realkeys|d5|5]",
+          "icering,sword,$keys|d5|3,[$realkeys|d5|5]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "icering,stick,$keys|d5|3,[$realkeys|d5|5]",
+          "chain,stick,$keys|d5|3,[$realkeys|d5|5]",
+          "$weapon,$keys|d5|4,[$realkeys|d5|5]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 45,
+        "y": 190
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Portal Cube",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Portal Cube"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 105,
+        "y": 325
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Crayons",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 185,
+        "y": 355
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Treasure",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 245,
+        "y": 365
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Crossway Combat",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Crossway Combat"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 185,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Number Wall",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Number Wall"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 310,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Keeled Fishbun",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Keeled Fishbun"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 270,
+        "y": 415
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Land Sharks",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Land Sharks"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 185,
+        "y": 475
+      }
+    ]
+  },
+  {
+    "name": "Flooded Basement Boss",
+    "sections": [
+      {
+        "ref": "Flooded Basement/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 225,
+        "y": 325
+      }
+    ]
+  }
+]

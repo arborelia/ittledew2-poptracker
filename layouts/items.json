@@ -1,0 +1,83 @@
+{
+    "use_items": {
+        "type": "dock",
+        "dock": "left",
+        "h_alignment": "left",
+        "v_alignment": "center",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4,4",
+                "item_size": 48,
+                "badge_font_size": 20,
+                "rows": [
+                    [
+                        "melee",
+                        "forcewand",
+                        "icering",
+                        "dynamite"
+                    ],
+                    [
+                        "lockpick",
+                        "chain",
+                        "shard",
+                        "forbiddenkey"
+                    ],
+                    [
+                        "roll",
+                        "headband",
+                        "fakeefcs",
+                        "raftpiece"
+                    ],
+                    [
+                        "key-d1",
+                        "key-d2",
+                        "key-d3",
+                        "key-d4"
+                    ],
+                    [
+                        "key-d5",
+                        "key-d6",
+                        "key-d7",
+                        "key-d8"
+                    ],
+                    [
+                        "key-s1",
+                        "key-s2",
+                        "key-s3",
+                        "key-s4"
+                    ],
+                    [
+                        "key-dream2",
+                        "key-dream3",
+                        "key-dream4",
+                        "key-dream5"
+                    ]
+                ]
+            }
+        ]
+    },
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "dock": "left",
+                        "h_alignment": "center",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "use_items"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

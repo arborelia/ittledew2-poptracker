@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Potassium Mine",
+    "sections": [
+      {
+        "name": "Conveyor Plaza"
+      },
+      {
+        "name": "Far South",
+        "access_rules": [
+          "$nondynamite"
+        ]
+      },
+      {
+        "name": "Ice Tutorial",
+        "access_rules": [
+          "stick,icering",
+          "forcewand,icering"
+        ]
+      },
+      {
+        "name": "Slug Ordered Tiles",
+        "access_rules": [
+          "$weapon,$keys|d6|1,[$realkeys|d6|4]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$weapon,$keys|d6|1,[$realkeys|d6|5]",
+          "chain,stick,forcewand,$keys|d6|1,[$realkeys|d6|4]",
+          "chain,stick,icering,$keys|d6|1,[$realkeys|d6|4]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$weapon,$keys|d6|1,[$realkeys|d6|5]"
+        ]
+      },
+      {
+        "name": "Crayon Compensation",
+        "access_rules": [
+          "$weapon,$keys|d6|1,[$realkeys|d6|5]",
+          "icering",
+          "dynamite,$nondynamite"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "icering,$keys|d6|2,[$realkeys|d6|5]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 945,
+        "y": 20
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Conveyor Plaza",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Conveyor Plaza"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 490,
+        "y": 445
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Ice Tutorial",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Ice Tutorial"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 355
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Crayons",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 390,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Treasure",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 550,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Crayon Compensation",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Crayon Compensation"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 430,
+        "y": 415
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Slug Ordered Tiles",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Slug Ordered Tiles"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 550,
+        "y": 415
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Far South",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Far South"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 505
+      }
+    ]
+  },
+  {
+    "name": "Potassium Mine Boss",
+    "sections": [
+      {
+        "ref": "Potassium Mine/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 470,
+        "y": 325
+      }
+    ]
+  }
+]

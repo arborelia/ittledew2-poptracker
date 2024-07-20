@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Dark Hypostyle",
+    "sections": [
+      {
+        "name": "Initial Key",
+        "access_rules": [
+          "$shard24"
+        ]
+      },
+      {
+        "name": "Red Gauntlet",
+        "access_rules": [
+          "$shard24,stick,$keys|s3|1,[$realkeys|s3|4]",
+          "$shard24,dynamite,$keys|s3|1,[$realkeys|s3|4]"
+        ]
+      },
+      {
+        "name": "Red Reimbursement",
+        "access_rules": [
+          "$shard24,stick,$keys|s3|2,[$realkeys|s3|4]",
+          "$shard24,dynamite,$keys|s3|2,[$realkeys|s3|4]"
+        ]
+      },
+      {
+        "name": "Yellow Monochrome",
+        "access_rules": [
+          "$shard24,stick,$keys|s3|1,[$realkeys|s3|4]"
+        ]
+      },
+      {
+        "name": "Yellow Reimbursement",
+        "access_rules": [
+          "$shard24,stick,icering,$keys|s3|1,[$realkeys|s3|4]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$shard24,$nonforce,$keys|s3|1,[$realkeys|s3|5]"
+        ]
+      },
+      {
+        "name": "Blue Reimbursement",
+        "access_rules": [
+          "$shard24,$nonforce,$keys|s3|1,[$realkeys|s3|5]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$shard24,$weapon,$keys|s3|2,[$realkeys|s3|5]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$shard24,stick,icering,$keys|s3|2,[$realkeys|s3|5]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 765,
+        "y": 725
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Initial Key",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Initial Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 675,
+        "y": 595
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Red Gauntlet",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Red Gauntlet"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 755,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Red Reimbursement",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Red Reimbursement"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 715,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Yellow Monochrome",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Yellow Monochrome"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 755,
+        "y": 685
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Yellow Reimbursement",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Yellow Reimbursement"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 715,
+        "y": 655
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Crayons",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 715,
+        "y": 745
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Blue Reimbursement",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Blue Reimbursement"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 715,
+        "y": 715
+      }
+    ]
+  },
+  {
+    "name": "Dark Hypostyle Boss",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 595
+      }
+    ]
+  }
+]

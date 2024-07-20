@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Melee Weapon",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/items/stick.png",
+        "codes": "stick",
+        "name": "Stick"
+      },
+      {
+        "img": "images/items/fire-sword.png",
+        "codes": "firesword,sword",
+        "name": "Fire Sword"
+      },
+      {
+        "img": "images/items/fire-mace.png",
+        "codes": "firemace,mace",
+        "name": "Fire Mace"
+      },
+      {
+        "img": "images/items/EFCS.png",
+        "codes": "efcs",
+        "name": "EFCS"
+      }
+    ],
+    "codes": "melee"
+  },
+  {
+    "name": "Force Wand",
+    "type": "consumable",
+    "img": "images/items/force-wand.png",
+    "codes": "forcewand,force,wand",
+    "max_quantity": 4
+  },
+  {
+    "name": "Ice Ring",
+    "type": "consumable",
+    "img": "images/items/ice-ring.png",
+    "codes": "icering,ice",
+    "max_quantity": 4
+  },
+  {
+    "name": "Dynamite",
+    "type": "consumable",
+    "img": "images/items/dynamite.png",
+    "codes": "dynamite",
+    "max_quantity": 4
+  },
+  {
+    "name": "Roll",
+    "type": "toggle",
+    "img": "images/items/roll.png",
+    "codes": "roll"
+  },
+  {
+    "name": "Chain",
+    "type": "consumable",
+    "img": "images/items/chain.png",
+    "codes": "chain",
+    "max_quantity": 3
+  },
+  {
+    "name": "Secret Shards",
+    "type": "consumable",
+    "img": "images/items/secret-shard.png",
+    "codes": "shard",
+    "max_quantity": 24
+  },
+  {
+    "name": "Forbidden Keys",
+    "type": "consumable",
+    "img": "images/items/forbidden-key.png",
+    "codes": "forbiddenkey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Lockpicks",
+    "type": "consumable",
+    "img": "images/items/lockpick.png",
+    "codes": "lockpick",
+    "max_quantity": 99
+  },
+  {
+    "name": "Cleared Impossible Puzzles",
+    "type": "toggle",
+    "img": "images/items/wut.png",
+    "codes": "fakeefcs"
+  },
+  {
+    "name": "Headband",
+    "type": "toggle",
+    "img": "images/items/headband.png",
+    "codes": "headband"
+  },
+  {
+    "name": "Raft Pieces",
+    "type": "consumable",
+    "img": "images/items/raft-piece.png",
+    "codes": "raftpiece",
+    "max_quantity": 8
+  },
+  {
+    "name": "Pillow Fort keys",
+    "type": "consumable",
+    "img": "images/items/d1-pillow-fort-keys.png",
+    "codes": "key-d1",
+    "max_quantity": 2
+  },
+  {
+    "name": "Sand Castle keys",
+    "type": "consumable",
+    "img": "images/items/d2-sand-castle-keys.png",
+    "codes": "key-d2",
+    "max_quantity": 2
+  },
+  {
+    "name": "Art Exhibit keys",
+    "type": "consumable",
+    "img": "images/items/d3-art-exhibit-keys.png",
+    "codes": "key-d3",
+    "max_quantity": 4
+  },
+  {
+    "name": "Trash Cave keys",
+    "type": "consumable",
+    "img": "images/items/d4-trash-cave-keys.png",
+    "codes": "key-d4",
+    "max_quantity": 4
+  },
+  {
+    "name": "Flooded Basement keys",
+    "type": "consumable",
+    "img": "images/items/d5-flooded-basement-keys.png",
+    "codes": "key-d5",
+    "max_quantity": 5
+  },
+  {
+    "name": "Potassium Mine keys",
+    "type": "consumable",
+    "img": "images/items/d6-potassium-mine-keys.png",
+    "codes": "key-d6",
+    "max_quantity": 5
+  },
+  {
+    "name": "Boiling Grave keys",
+    "type": "consumable",
+    "img": "images/items/d7-boiling-grave-keys.png",
+    "codes": "key-d7",
+    "max_quantity": 5
+  },
+  {
+    "name": "Grand Library keys",
+    "type": "consumable",
+    "img": "images/items/d8-grand-library-keys.png",
+    "codes": "key-d8",
+    "max_quantity": 8
+  },
+  {
+    "name": "Sunken Labyrinth keys",
+    "type": "consumable",
+    "img": "images/items/s1-sunken-labyrinth-keys.png",
+    "codes": "key-s1",
+    "max_quantity": 3
+  },
+  {
+    "name": "Machine Fortress keys",
+    "type": "consumable",
+    "img": "images/items/s2-machine-fortress-keys.png",
+    "codes": "key-s2",
+    "max_quantity": 5
+  },
+  {
+    "name": "Dark Hypostyle keys",
+    "type": "consumable",
+    "img": "images/items/s3-dark-hypostyle-keys.png",
+    "codes": "key-s3",
+    "max_quantity": 5
+  },
+  {
+    "name": "Tomb of Simulacrum keys",
+    "type": "consumable",
+    "img": "images/items/s4-tomb-of-simulacrum-keys.png",
+    "codes": "key-s4",
+    "max_quantity": 10
+  },
+  {
+    "name": "Bottomless Tower keys",
+    "type": "consumable",
+    "img": "images/items/dream2-bottomless-tower-keys.png",
+    "codes": "key-dream2",
+    "max_quantity": 4
+  },
+  {
+    "name": "Syncope keys",
+    "type": "consumable",
+    "img": "images/items/dream3-syncope-keys.png",
+    "codes": "key-dream3",
+    "max_quantity": 3
+  },
+  {
+    "name": "Antigram keys",
+    "type": "consumable",
+    "img": "images/items/dream4-antigram-keys.png",
+    "codes": "key-dream4",
+    "max_quantity": 4
+  },
+  {
+    "name": "Quietus keys",
+    "type": "consumable",
+    "img": "images/items/dream5-quietus-keys.png",
+    "codes": "key-dream5",
+    "max_quantity": 5
+  }
+]

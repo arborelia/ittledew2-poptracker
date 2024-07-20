@@ -1,0 +1,72 @@
+{
+    "shared_item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "badge_font_size": 20,
+        "rows": [
+            [
+                "red",
+                "blue",
+                "boots",
+                "gloves"
+            ],
+            [
+                "snorkel",
+                "steelskin",
+                "ticket",
+                "anykey"
+            ],
+            [
+                "badge",
+                "mask",
+                "seal",
+                "heart"
+            ]
+        ]
+    },
+    "tracker_broadcast": {
+        "type": "array",
+        "background": "#000000",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "container",
+                "margin": "0,0,0,0",
+                "content": {
+                    "type": "layout",
+                    "key": "shared_item_grid"
+                }
+            },
+            {
+                "type": "container",
+                "width": 420,
+                "height": 360,
+                "margin": "0,0,0,0",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "World Map",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "world"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dungeons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dungeons"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

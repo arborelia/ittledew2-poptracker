@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Sunken Labyrinth",
+    "sections": [
+      {
+        "name": "Laser Eyes",
+        "access_rules": [
+          "$shard8"
+        ]
+      },
+      {
+        "name": "Gold Titan",
+        "access_rules": [
+          "$shard8"
+        ]
+      },
+      {
+        "name": "Mimicutie",
+        "access_rules": [
+          "$shard8,forcewand"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$shard8,$weapon,$keys|s1|1,[$realkeys|s1|3]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "$shard8,forcewand,$keys|s1|2,[$realkeys|s1|3]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "$shard8,forcewand,$keys|s1|1,[$realkeys|s1|2]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 435,
+        "y": 475
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Laser Eyes",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Laser Eyes"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 65,
+        "y": 715
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Gold Titan",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Gold Titan"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 145,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Mimicutie",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Mimicutie"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 65,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Treasure",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 65,
+        "y": 685
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Crayons",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 145,
+        "y": 775
+      }
+    ]
+  },
+  {
+    "name": "Sunken Labyrinth Boss",
+    "sections": [
+      {
+        "ref": "Sunken Labyrinth/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 230,
+        "y": 625
+      }
+    ]
+  }
+]

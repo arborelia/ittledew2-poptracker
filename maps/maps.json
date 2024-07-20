@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "overworld",
+    "img": "images/maps/overworld.png",
+    "location_size": 25,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "dungeons",
+    "img": "images/maps/dungeons.jpg",
+    "location_size": 15,
+    "location_border_thickness": 3
+  }
+]

@@ -1,0 +1,285 @@
+[
+    {
+        "name": "Autumn Climb",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 350,
+                "y": 330,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Vault",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 160,
+                "y": 550,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Painful Plain",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 230,
+                "y": 770,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Farthest Shore",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 890,
+                "y": 400,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Scrap Yard",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 950,
+                "y": 520,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick",
+                    "wand",
+                    "dynamite",
+                    "ice,[headband]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Brutal Oasis",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 300,
+                "y": 615,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,$nondynamite,[roll]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Former Colossus",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 765,
+                "y": 615,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "name": "Former Colossus main",
+                "access_rules": [
+                    "stick"
+                ]
+            },
+            {
+                "name": "Ludo City",
+                "access_rules": [
+                    "stick,$puzzledmg"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sand Crucible",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 185,
+                "y": 335,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ocean Castle",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 190,
+                "y": 165,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,[roll]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Promenade Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 550,
+                "y": 270,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maze of Steel",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1020,
+                "y": 120,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wall of Text",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 840,
+                "y": 635,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,[roll]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lost City of Avlopp",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1035,
+                "y": 775,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,[roll]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Northern End",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 705,
+                "y": 30,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "[roll],stick",
+                    "[roll],wand",
+                    "[roll],dynamite",
+                    "[roll],ice,[headband]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Moon Garden",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 60,
+                "y": 20,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick,[roll]"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Boiling Grave",
+    "sections": [
+      {
+        "name": "Titans Waiting Room"
+      },
+      {
+        "name": "Skullnips Lava Dive"
+      },
+      {
+        "name": "Lava Pillars",
+        "access_rules": [
+          "roll,icering",
+          "chain,stick,roll,$keys|d7|1,[$realkeys|d7|2]"
+        ]
+      },
+      {
+        "name": "Treasure",
+        "access_rules": [
+          "$weapon,roll,$keys|d7|1,[$realkeys|d7|5]"
+        ]
+      },
+      {
+        "name": "Frozen Gauntlet",
+        "access_rules": [
+          "chain,stick,roll,$keys|d7|2,[$realkeys|d7|3]",
+          "chain,stick,icering,forcewand,$keys|d7|2,[$realkeys|d7|3]"
+        ]
+      },
+      {
+        "name": "Royal Tomb",
+        "access_rules": [
+          "chain,stick,roll,$keys|d7|2,[$realkeys|d7|3]",
+          "chain,stick,icering,forcewand,$keys|d7|2,[$realkeys|d7|3]"
+        ]
+      },
+      {
+        "name": "Crayons",
+        "access_rules": [
+          "chain,stick,roll,$keys|d7|3,[$realkeys|d7|5]",
+          "chain,stick,icering,forcewand,$keys|d7|3,[$realkeys|d7|5]"
+        ]
+      },
+      {
+        "name": "Boss",
+        "access_rules": [
+          "chain,stick,roll,$keys|d7|3,[$realkeys|d7|5]",
+          "chain,stick,icering,forcewand,$keys|d7|3,[$realkeys|d7|5]"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 848,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Titans Waiting Room",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Titans Waiting Room"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 835,
+        "y": 505
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Skullnips Lava Dive",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Skullnips Lava Dive"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 475
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Lava Pillars",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Lava Pillars"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 755,
+        "y": 445
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Treasure",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 712,
+        "y": 505
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Frozen Gauntlet",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Frozen Gauntlet"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 325
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Royal Tomb",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Royal Tomb"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 712,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Crayons",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Crayons"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 712,
+        "y": 325
+      }
+    ]
+  },
+  {
+    "name": "Boiling Grave Boss",
+    "sections": [
+      {
+        "ref": "Boiling Grave/Boss"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 835,
+        "y": 325
+      }
+    ]
+  }
+]
