@@ -8,7 +8,6 @@ function has(item, amount)
     end
 end
 
--- example from the Messenger pack:
 function weapon()
     return has("stick") or has("forcewand") or has("icering") or has("dynamite")
 end

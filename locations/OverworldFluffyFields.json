@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ice Blockade Chest",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 650,
+                "y": 403,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Timed Bridge Chest",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 694,
+                "y": 313,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    }
+]
