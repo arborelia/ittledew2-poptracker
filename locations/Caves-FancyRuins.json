@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Two Torches",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 802,
+                "y": 316,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Numbered Torch",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1030,
+                "y": 316,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Two Crystals",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 751,
+                "y": 358,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Big Ogler Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 895,
+                "y": 370,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rhythm Pillars",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 780,
+                "y": 436,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Teleporter Puzzle",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 607,
+                "y": 470,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Touch grass for a few seconds",
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Four Oglers Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 668,
+                "y": 503,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Button under the tree",
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spike Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 828,
+                "y": 491,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hiding Hermit",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 770,
+                "y": 534,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice and Torch",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1030,
+                "y": 485,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Let the stressed ogler do its thing",
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    }
+]

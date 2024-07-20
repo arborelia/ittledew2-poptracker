@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Bush Fire",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 957,
+                "y": 597,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Numbered tiles open it",
+                "access_rules": [
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crystal path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 924,
+                "y": 718,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "I don't know how to get in",
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cannon Spinner",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 870,
+                "y": 612,
+                "size": 10
+            },
+            {
+                "map": "overworld",
+                "x": 960,
+                "y": 752,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Follow the lost soul",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mimicbuns",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 956,
+                "y": 595,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Teleporter Maze",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 934,
+                "y": 658,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chilly Roger Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 836,
+                "y": 680,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,roll"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rickety Bridge",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 872,
+                "y": 724,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Titans Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 877,
+                "y": 665,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Counterclockwise through the gates",
+                "access_rules": [
+                    "$nonforce"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Teleporter Grate",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1010,
+                "y": 736,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hint Hermit",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 875,
+                "y": 790,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    }
+]
