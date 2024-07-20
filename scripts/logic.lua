@@ -12,6 +12,10 @@ function weapon()
     return has("stick") or has("forcewand") or has("icering") or has("dynamite")
 end
 
+function openchest()
+    return weapon() or has("roll")
+end
+
 function puzzledmg()
     return has("efcs") or has("fakeefcs") or has("dynamite", 4)
 end

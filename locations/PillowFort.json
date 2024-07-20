@@ -20,7 +20,7 @@
       {
         "name": "Treasure",
         "access_rules": [
-          "$weapon,$keys|d1|1,[$realkeys|d1|2]"
+          "$openchest,$keys|d1|1,[$realkeys|d1|2]"
         ]
       },
       {

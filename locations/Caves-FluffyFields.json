@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Goldbun Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 454,
+                "y": 335,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Portal Room",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 549,
+                "y": 318,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Circle the tree counterclockwise",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Timed Bridge",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 694,
+                "y": 313,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hermit Hint",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 379,
+                "y": 384,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "By the weird flex",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Laser Room",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 627,
+                "y": 350,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Number Blocks",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 436,
+                "y": 434,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Let the stressed fishbun do its thing",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice Blockade",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 650,
+                "y": 403,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Double Spikebun Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 275,
+                "y": 475,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hidden switches in the field",
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Potion Bar",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 525,
+                "y": 502,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Six Buns Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 324,
+                "y": 529,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artist Backroom",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 487,
+                "y": 516,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    }
+]
