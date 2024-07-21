@@ -167,6 +167,7 @@
         ],
         "sections": [
             {
+                "name": "Launch a mushroom",
                 "access_rules": [
                     "$weapon"
                 ]
@@ -203,7 +204,6 @@
         ],
         "sections": [
             {
-                "name": "Launch a mushroom",
                 "access_rules": [
                     "$weapon"
                 ]
