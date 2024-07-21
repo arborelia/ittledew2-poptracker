@@ -80,6 +80,10 @@ function can_phase_itemless()
     return false
 end
 
+function can_phase_itemless_difficult()
+    return false
+end
+
 function can_phase_ice()
     return false
 end

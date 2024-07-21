@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Volcanic Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 78,
+                "y": 180,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ice and Barrels",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 128,
+                "y": 203,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Eight Crystals",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 225,
+                "y": 170,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick",
+                    "dynamite,icering,[stick]",
+                    "dynamite,forcewand,[stick]",
+                    "$can_phase_ice"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgetful Jennies",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 38,
+                "y": 255,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Push the Crystals",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 135,
+                "y": 270,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Exhausted Turnip",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 315,
+                "y": 318,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bee Nest Combat",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 125,
+                "y": 360,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pushable Fan",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 288,
+                "y": 370,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon",
+                    "roll,$can_phase_itemless_difficult"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Moving Crystals",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 325,
+                "y": 378,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "stick",
+                    "icering",
+                    "dynamite,forcewand"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shark House",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 22,
+                "y": 428,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    }
+]

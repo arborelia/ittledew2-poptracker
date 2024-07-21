@@ -148,7 +148,7 @@
                 ]
             },
             {
-                "name": "Ludo City",
+                "name": "Ludo City (dev room)",
                 "access_rules": [
                     "stick,$puzzledmg"
                 ]
