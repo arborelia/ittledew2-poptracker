@@ -123,7 +123,9 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "stick",
+                    "$weapon,$can_phase_ice",
+                    "$weapon,$can_phase_dynamite"
                 ]
             }
         ]

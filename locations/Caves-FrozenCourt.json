@@ -4,14 +4,14 @@
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 957,
-                "y": 597,
+                "x": 885,
+                "y": 570,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Numbered tiles open it",
+                "name": "Numbered tiles under teal trees",
                 "access_rules": [
                     "stick"
                 ]
@@ -30,7 +30,7 @@
         ],
         "sections": [
             {
-                "name": "I don't know how to get in",
+                "name": "Follow the lost soul in daytime",
                 "access_rules": [
                     "$weapon"
                 ]
@@ -45,17 +45,11 @@
                 "x": 870,
                 "y": 612,
                 "size": 10
-            },
-            {
-                "map": "overworld",
-                "x": 960,
-                "y": 752,
-                "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Follow the lost soul",
+                "name": "Follow the lost soul at night",
                 "access_rules": [
                     "$openchest"
                 ]
@@ -148,7 +142,8 @@
             {
                 "name": "Counterclockwise through the gates",
                 "access_rules": [
-                    "$nonforce"
+                    "$nonforce",
+                    "$can_phase_itemless,$openchest"
                 ]
             }
         ]

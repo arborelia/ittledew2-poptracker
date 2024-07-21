@@ -1,66 +1,12 @@
 [
+    // Where is Sleeping Jenny?
     {
-        "name": "Two Torches",
+        "name": "Turnip Combat",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 802,
-                "y": 316,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "stick"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Numbered Torch",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 1030,
-                "y": 316,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "stick"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Two Crystals",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 751,
-                "y": 358,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$weapon",
-                    "$can_phase_itemless,roll,$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Big Ogler Combat",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 895,
-                "y": 370,
+                "x": 212,
+                "y": 615,
                 "size": 10
             }
         ],
@@ -73,68 +19,52 @@
         ]
     },
     {
-        "name": "Rhythm Pillars",
+        "name": "Barrel Blast",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 780,
-                "y": 436,
+                "x": 222,
+                "y": 653,
                 "size": 10
             }
         ],
         "sections": [
             {
+                "name": "Switch is under a bush",
                 "access_rules": [
-                    "stick"
+                    "stick",
+                    "dynamite"
                 ]
             }
         ]
     },
     {
-        "name": "Teleporter Puzzle",
+        "name": "Four Crystals",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 607,
-                "y": 470,
+                "x": 275,
+                "y": 567,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Touch grass for a few seconds",
+                "name": "Behind a tree",
                 "access_rules": [
-                    "$weapon"
+                    "stick",
+                    "icering"
                 ]
             }
         ]
     },
     {
-        "name": "Four Oglers Combat",
+        "name": "Rotating Spikes",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 668,
-                "y": 503,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Button under the tree",
-                "access_rules": [
-                    "stick"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Spike Path",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 828,
-                "y": 491,
+                "x": 540,
+                "y": 628,
                 "size": 10
             }
         ],
@@ -147,12 +77,12 @@
         ]
     },
     {
-        "name": "Hiding Hermit",
+        "name": "Number Tiles",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 770,
-                "y": 534,
+                "x": 610,
+                "y": 692,
                 "size": 10
             }
         ],
@@ -165,20 +95,93 @@
         ]
     },
     {
-        "name": "Ice and Torch",
+        "name": "Whirlwind",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 1030,
-                "y": 485,
+                "x": 635,
+                "y": 740,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Let the stressed ogler do its thing",
+                "name": "Hit the star and play the tune",
                 "access_rules": [
-                    "stick"
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magic Crystal",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 605,
+                "y": 613,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "I'm magical, baby!",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artist Turnip",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 775,
+                "y": 560,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hint Bee",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 475,
+                "y": 725,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Extinguish Flames",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 578,
+                "y": 758,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
                 ]
             }
         ]

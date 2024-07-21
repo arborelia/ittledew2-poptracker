@@ -30,7 +30,9 @@
         "sections": [
             {
                 "name": "Touch grass for 30 seconds",
-                "access_rules": []
+                "access_rules": [
+                    "$openchest"
+                ]
             }
         ]
     },
@@ -122,7 +124,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon,$nondynamite,[roll]"
+                    "stick,[roll]",
+                    "icering,[roll]"
                 ]
             }
         ]
@@ -200,6 +203,7 @@
         ],
         "sections": [
             {
+                "name": "Launch a mushroom",
                 "access_rules": [
                     "$weapon"
                 ]

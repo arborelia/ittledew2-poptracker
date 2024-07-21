@@ -74,3 +74,16 @@ end
 function forbidden()
     return has("forbiddenkey", 4)
 end
+
+-- leaving room for glitch logic
+function can_phase_itemless()
+    return false
+end
+
+function can_phase_ice()
+    return false
+end
+
+function can_phase_dynamite()
+    return false
+end

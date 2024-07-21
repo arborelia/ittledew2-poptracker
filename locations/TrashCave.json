@@ -37,7 +37,7 @@
       {
         "name": "Rotnip Arena",
         "access_rules": [
-          "stick,$keys|d4|1,[$realkeys|d4|4]"
+          "stick,$keys|d4|1,[$realkeys|d4|3]"
         ]
       },
       {
