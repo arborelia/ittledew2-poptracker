@@ -18,25 +18,6 @@
         ]
     },
     {
-        "name": "Jenny Berry House",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 583,
-                "y": 546,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Touch grass for 30 seconds",
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
         "name": "The Vault",
         "map_locations": [
             {
@@ -276,6 +257,7 @@
         ],
         "sections": [
             {
+                "name": "Red Green Blue",
                 "access_rules": [
                     "[roll],stick",
                     "[roll],wand",

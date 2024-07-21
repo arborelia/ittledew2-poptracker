@@ -1,11 +1,29 @@
 [
     {
-        "name": "Turnip Combat",
+        "name": "Timed Platforms",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 212,
-                "y": 615,
+                "x": 135,
+                "y": 18,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Timed Number Tiles",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 20,
+                "y": 142,
                 "size": 10
             }
         ],
@@ -18,187 +36,134 @@
         ]
     },
     {
-        "name": "Barrel Blast",
+        "name": "Volcano Hint",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 222,
-                "y": 653,
+                "x": 232,
+                "y": 128,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Switch is under a bush",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lava fans",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 288,
+                "y": 42,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Rock and roll",
+                "access_rules": [
+                    "roll,stick",
+                    "roll,icering",
+                    "roll,dynamite"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Force Turrets",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 515,
+                "y": 22,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Crank it up",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hint Shark",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 345,
+                "y": 135,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Teleporter Cube",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 505,
+                "y": 120,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Push the electric rock",
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dark Maze",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 595,
+                "y": 75,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
                 "access_rules": [
                     "stick",
-                    "dynamite"
+                    "icering",
+                    "forcewand"
                 ]
             }
         ]
     },
     {
-        "name": "Four Crystals",
+        "name": "Block Factory",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 275,
-                "y": 567,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Behind a tree",
-                "access_rules": [
-                    "stick",
-                    "icering"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Sleeping Jenny",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 388,
-                "y": 628,
+                "x": 602,
+                "y": 130,
                 "size": 10
             }
         ],
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Rotating Spikes",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 540,
-                "y": 628,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$weapon"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Number Tiles",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 610,
-                "y": 692,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Whirlwind",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 635,
-                "y": 740,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Hit the star and play the tune",
-                "access_rules": [
-                    "$weapon"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Magic Crystal",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 605,
-                "y": 613,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "I'm magical, baby!",
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Artist Turnip",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 775,
-                "y": 560,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Hint Bee",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 475,
-                "y": 725,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Extinguish Flames",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 578,
-                "y": 758,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$weapon"
+                    "stick"
                 ]
             }
         ]

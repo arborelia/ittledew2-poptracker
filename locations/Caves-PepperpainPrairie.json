@@ -1,11 +1,11 @@
 [
     {
-        "name": "Turnip Combat",
+        "name": "Cowbun Combat",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 212,
-                "y": 615,
+                "x": 340,
+                "y": 185,
                 "size": 10
             }
         ],
@@ -18,52 +18,89 @@
         ]
     },
     {
-        "name": "Barrel Blast",
+        "name": "Brutus Combat",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 222,
-                "y": 653,
+                "x": 445,
+                "y": 192,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Switch is under a bush",
+                "name": "OOOOOOUUUGH!",
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Torch Disappearing Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 652,
+                "y": 258,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Follow a disguised exploding cowbun",
                 "access_rules": [
                     "stick",
-                    "dynamite"
+                    "forcewand",
+                    "roll,$can_phase_ice",
+                    "roll,$can_phase_dynamite"
                 ]
             }
         ]
     },
     {
-        "name": "Four Crystals",
+        "name": "Spiky Hint Bee",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 275,
-                "y": 567,
+                "x": 605,
+                "y": 285,
                 "size": 10
             }
         ],
         "sections": [
             {
-                "name": "Behind a tree",
                 "access_rules": [
-                    "stick",
-                    "icering"
+                    "$openchest"
                 ]
             }
         ]
     },
     {
-        "name": "Sleeping Jenny",
+        "name": "Cannon Path",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 388,
-                "y": 628,
+                "x": 772,
+                "y": 290,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Volcano Trail",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 890,
+                "y": 290,
                 "size": 10
             }
         ],
@@ -76,12 +113,30 @@
         ]
     },
     {
-        "name": "Rotating Spikes",
+        "name": "Barrel Hint Bee",
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 540,
-                "y": 628,
+                "x": 860,
+                "y": 180,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Guns",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1015,
+                "y": 170,
                 "size": 10
             }
         ],
@@ -89,6 +144,24 @@
             {
                 "access_rules": [
                     "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Buzzsaw Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 822,
+                "y": 28,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon,roll"
                 ]
             }
         ]
@@ -98,100 +171,8 @@
         "map_locations": [
             {
                 "map": "overworld",
-                "x": 610,
-                "y": 692,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Whirlwind",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 635,
-                "y": 740,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Hit the star and play the tune",
-                "access_rules": [
-                    "$weapon"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Magic Crystal",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 605,
-                "y": 613,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "I'm magical, baby!",
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Artist Turnip",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 775,
-                "y": 560,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Hint Bee",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 475,
-                "y": 725,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "access_rules": [
-                    "$openchest"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Extinguish Flames",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 578,
-                "y": 758,
+                "x": 1030,
+                "y": 45,
                 "size": 10
             }
         ],
@@ -199,6 +180,24 @@
             {
                 "access_rules": [
                     "$weapon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pacifist Brute",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 695,
+                "y": 165,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest"
                 ]
             }
         ]
