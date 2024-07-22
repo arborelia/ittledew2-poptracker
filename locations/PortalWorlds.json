@@ -11,6 +11,7 @@
         ],
         "sections": [
             {
+                "name": "Hit pillars 1 9 3 5 7 according to your numpad",
                 "access_rules": [
                     "stick"
                 ]
@@ -65,6 +66,7 @@
         ],
         "sections": [
             {
+                "name": "Step on numbered plants",
                 "access_rules": [
                     "$weapon"
                 ]
@@ -83,6 +85,7 @@
         ],
         "sections": [
             {
+                "name": "Find 3 number switches under grass",
                 "access_rules": [
                     "stick",
                     "wand",
@@ -98,12 +101,13 @@
             {
                 "map": "overworld",
                 "x": 300,
-                "y": 615,
+                "y": 630,
                 "size": 15
             }
         ],
         "sections": [
             {
+                "name": "Push the switch up into the wall",
                 "access_rules": [
                     "stick,[roll]",
                     "icering,[roll]"
@@ -123,13 +127,13 @@
         ],
         "sections": [
             {
-                "name": "Former Colossus main",
+                "name": "Light the torches",
                 "access_rules": [
                     "stick"
                 ]
             },
             {
-                "name": "Ludo City (dev room)",
+                "name": "Ludo City dev room, via passage in back of Colossus",
                 "access_rules": [
                     "stick,$puzzledmg"
                 ]
@@ -203,6 +207,7 @@
         ],
         "sections": [
             {
+                "name": "Spend some time with the grieving cowbun",
                 "access_rules": [
                     "$weapon"
                 ]
@@ -221,6 +226,7 @@
         ],
         "sections": [
             {
+                "name": "Make someone spin in their grave",
                 "access_rules": [
                     "$weapon,[roll]"
                 ]
@@ -239,6 +245,7 @@
         ],
         "sections": [
             {
+                "name": "Passage under the snow in the lower right of the court",
                 "access_rules": [
                     "$weapon,[roll]"
                 ]
@@ -279,6 +286,7 @@
         ],
         "sections": [
             {
+                "name": "Zigzag around the lit masks to light the torches",
                 "access_rules": [
                     "stick,[roll]"
                 ]

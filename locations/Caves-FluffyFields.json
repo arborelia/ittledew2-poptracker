@@ -29,7 +29,7 @@
         ],
         "sections": [
             {
-                "name": "Circle the tree counterclockwise",
+                "name": "Circle the tree. Everything is always counterclockwise",
                 "access_rules": [
                     "$openchest"
                 ]

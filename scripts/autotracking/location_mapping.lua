@@ -5,5 +5,5 @@
 BASE = 238492834
 
 LOCATION_MAPPING = {
-    [BASE + 801] = {"@Pillow Fort/Shellbun Nest"},
+    -- [BASE + 801] = {"@Pillow Fort/Shellbun Nest"},
 }
