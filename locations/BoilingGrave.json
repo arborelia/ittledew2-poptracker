@@ -3,13 +3,13 @@
     "name": "Boiling Grave",
     "sections": [
       {
-        "name": "Titans Waiting Room"
+        "name": "Titans Combat"
       },
       {
-        "name": "Skullnips Lava Dive"
+        "name": "Skullnips Combat"
       },
       {
-        "name": "Lava Pillars",
+        "name": "Roll Pillars",
         "access_rules": [
           "roll,icering",
           "chain,stick,roll,$keys|d7|1,[$realkeys|d7|2]"
@@ -22,7 +22,7 @@
         ]
       },
       {
-        "name": "Frozen Gauntlet",
+        "name": "Chilly Roger Combat",
         "access_rules": [
           "chain,stick,roll,$keys|d7|2,[$realkeys|d7|3]",
           "chain,stick,icering,forcewand,$keys|d7|2,[$realkeys|d7|3]"
@@ -59,10 +59,10 @@
     ]
   },
   {
-    "name": "Boiling Grave Titans Waiting Room",
+    "name": "Boiling Grave Titans Combat",
     "sections": [
       {
-        "ref": "Boiling Grave/Titans Waiting Room"
+        "ref": "Boiling Grave/Titans Combat"
       }
     ],
     "map_locations": [
@@ -74,10 +74,10 @@
     ]
   },
   {
-    "name": "Boiling Grave Skullnips Lava Dive",
+    "name": "Boiling Grave Skullnips Combat",
     "sections": [
       {
-        "ref": "Boiling Grave/Skullnips Lava Dive"
+        "ref": "Boiling Grave/Skullnips Combat"
       }
     ],
     "map_locations": [
@@ -89,10 +89,10 @@
     ]
   },
   {
-    "name": "Boiling Grave Lava Pillars",
+    "name": "Boiling Grave Roll Pillars",
     "sections": [
       {
-        "ref": "Boiling Grave/Lava Pillars"
+        "ref": "Boiling Grave/Roll Pillars"
       }
     ],
     "map_locations": [
@@ -119,10 +119,10 @@
     ]
   },
   {
-    "name": "Boiling Grave Frozen Gauntlet",
+    "name": "Boiling Grave Chilly Roger Combat",
     "sections": [
       {
-        "ref": "Boiling Grave/Frozen Gauntlet"
+        "ref": "Boiling Grave/Chilly Roger Combat"
       }
     ],
     "map_locations": [

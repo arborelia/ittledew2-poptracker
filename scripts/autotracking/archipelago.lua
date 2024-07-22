@@ -5,12 +5,9 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-HOSTED = {gameover=1}
+HOSTED = {}
 
 function onSetReply(key, value, old)
-    if key == "A Short Hike - Player " .. Archipelago.PlayerNumber .. " - Game Complete" then
-        Tracker:FindObjectForCode("gameover", ITEMS).Active = true
-    end
 end
 
 function onClear(slot_data)
@@ -60,13 +57,6 @@ function onClear(slot_data)
             end
         end
     end
-    -- reset hosted items
-    for k, _ in pairs(HOSTED) do
-        local obj = Tracker:FindObjectForCode(k)
-        if obj then
-            obj.Active = false
-        end
-    end
 
     if slot_data.settings.logicLevel then
         if slot_data.settings.logicLevel == 0 then
@@ -81,7 +71,6 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
-    Archipelago:SetNotify({"A Short Hike - Player " .. Archipelago.PlayerNumber .. " - Game Complete"})
 end
 
 -- called when an item gets collected

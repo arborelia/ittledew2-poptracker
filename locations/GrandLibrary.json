@@ -28,7 +28,7 @@
         ]
       },
       {
-        "name": "Stored Key",
+        "name": "Storied Key",
         "access_rules": [
           "$has|raftpiece|7,ice,mace,wand"
         ]
@@ -46,32 +46,37 @@
         ]
       },
       {
-        "name": "Carrot Lobotomy",
+        "name": "Carrot Lobotomy Key",
         "access_rules": [
           "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|6]"
         ]
       },
       {
-        "name": "Red Crystal Ice",
+        "name": "Crystals and Buttons Key",
         "access_rules": [
           "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|7]"
         ]
       },
       {
-        "name": "Hexrot Gauntlet",
+        "name": "Hexrot Combat Key",
         "access_rules": [
           "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|6,[$realkeys|d8|7]"
         ]
       },
       {
-        "name": "Penultimate Chest",
+        "name": "Boss Key",
         "access_rules": [
           "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
         ]
       },
       {
-        "name": "Passel",
-        "item_count": 2,
+        "name": "Boss",
+        "access_rules": [
+          "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
+        ]
+      },
+      {
+        "name": "Extra Boss Reward",
         "access_rules": [
           "$has|raftpiece|7,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
         ]
@@ -131,10 +136,10 @@
     ]
   },
   {
-    "name": "Grand Library Stored Key",
+    "name": "Grand Library Storied Key",
     "sections": [
       {
-        "ref": "Grand Library/Stored Key"
+        "ref": "Grand Library/Storied Key"
       }
     ],
     "map_locations": [
@@ -191,10 +196,10 @@
     ]
   },
   {
-    "name": "Grand Library Carrot Lobotomy",
+    "name": "Grand Library Carrot Lobotomy Key",
     "sections": [
       {
-        "ref": "Grand Library/Carrot Lobotomy"
+        "ref": "Grand Library/Carrot Lobotomy Key"
       }
     ],
     "map_locations": [
@@ -206,10 +211,10 @@
     ]
   },
   {
-    "name": "Grand Library Red Crystal Ice",
+    "name": "Grand Library Crystals and Buttons Key",
     "sections": [
       {
-        "ref": "Grand Library/Red Crystal Ice"
+        "ref": "Grand Library/Crystals and Buttons Key"
       }
     ],
     "map_locations": [
@@ -221,10 +226,10 @@
     ]
   },
   {
-    "name": "Grand Library Hexrot Gauntlet",
+    "name": "Grand Library Hexrot Combat Key",
     "sections": [
       {
-        "ref": "Grand Library/Hexrot Gauntlet"
+        "ref": "Grand Library/Hexrot Combat Key"
       }
     ],
     "map_locations": [
@@ -236,10 +241,10 @@
     ]
   },
   {
-    "name": "Grand Library Penultimate Chest",
+    "name": "Grand Library Boss Key",
     "sections": [
       {
-        "ref": "Grand Library/Penultimate Chest"
+        "ref": "Grand Library/Boss Key"
       }
     ],
     "map_locations": [
@@ -251,16 +256,31 @@
     ]
   },
   {
-    "name": "Grand Library Passel",
+    "name": "Grand Library Boss",
     "sections": [
       {
-        "ref": "Grand Library/Passel"
+        "ref": "Grand Library/Boss"
       }
     ],
     "map_locations": [
       {
         "map": "dungeons",
-        "x": 1035,
+        "x": 1045,
+        "y": 310
+      }
+    ]
+  },
+  {
+    "name": "Grand Library Extra Boss Reward",
+    "sections": [
+      {
+        "ref": "Grand Library/Extra Boss Reward"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1025,
         "y": 310
       }
     ]

@@ -3,10 +3,10 @@
     "name": "Potassium Mine",
     "sections": [
       {
-        "name": "Conveyor Plaza"
+        "name": "Hub Room"
       },
       {
-        "name": "Far South",
+        "name": "South Conveyors",
         "access_rules": [
           "$nondynamite"
         ]
@@ -19,7 +19,7 @@
         ]
       },
       {
-        "name": "Slug Ordered Tiles",
+        "name": "Number Tiles",
         "access_rules": [
           "$weapon,$keys|d6|1,[$realkeys|d6|4]"
         ]
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "name": "Crayon Compensation",
+        "name": "West Minecart Track",
         "access_rules": [
           "$weapon,$keys|d6|1,[$realkeys|d6|5]",
           "icering",
@@ -62,10 +62,10 @@
     ]
   },
   {
-    "name": "Potassium Mine Conveyor Plaza",
+    "name": "Potassium Mine Hub Room",
     "sections": [
       {
-        "ref": "Potassium Mine/Conveyor Plaza"
+        "ref": "Potassium Mine/Hub Room"
       }
     ],
     "map_locations": [
@@ -122,10 +122,10 @@
     ]
   },
   {
-    "name": "Potassium Mine Crayon Compensation",
+    "name": "Potassium Mine West Minecart Track",
     "sections": [
       {
-        "ref": "Potassium Mine/Crayon Compensation"
+        "ref": "Potassium Mine/West Minecart Track"
       }
     ],
     "map_locations": [
@@ -137,10 +137,10 @@
     ]
   },
   {
-    "name": "Potassium Mine Slug Ordered Tiles",
+    "name": "Potassium Mine Number Tiles",
     "sections": [
       {
-        "ref": "Potassium Mine/Slug Ordered Tiles"
+        "ref": "Potassium Mine/Number Tiles"
       }
     ],
     "map_locations": [
@@ -152,10 +152,10 @@
     ]
   },
   {
-    "name": "Potassium Mine Far South",
+    "name": "Potassium Mine South Conveyors",
     "sections": [
       {
-        "ref": "Potassium Mine/Far South"
+        "ref": "Potassium Mine/South Conveyors"
       }
     ],
     "map_locations": [

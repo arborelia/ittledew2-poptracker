@@ -19,25 +19,6 @@
         ]
     },
     {
-        "name": "Frozen Court - Crystal path",
-        "map_locations": [
-            {
-                "map": "overworld",
-                "x": 924,
-                "y": 718,
-                "size": 10
-            }
-        ],
-        "sections": [
-            {
-                "name": "Follow the lost soul in daytime",
-                "access_rules": [
-                    "$weapon"
-                ]
-            }
-        ]
-    },
-    {
         "name": "Frozen Court - Cannon Spinner",
         "map_locations": [
             {
@@ -49,7 +30,7 @@
         ],
         "sections": [
             {
-                "name": "Follow the lost soul at night",
+                "name": "Follow the lost soul in daytime",
                 "access_rules": [
                     "$openchest"
                 ]
@@ -140,10 +121,29 @@
         ],
         "sections": [
             {
-                "name": "Counterclockwise through the gates",
+                "name": "Counterclockwise through gates",
                 "access_rules": [
                     "$nonforce",
                     "$can_phase_itemless,$openchest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frozen Court - Crystal Path",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 924,
+                "y": 718,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "name": "Follow the lost soul at night",
+                "access_rules": [
+                    "$weapon"
                 ]
             }
         ]

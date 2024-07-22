@@ -15,7 +15,7 @@
         ]
       },
       {
-        "name": "Mimicuties",
+        "name": "Mimic Combat",
         "access_rules": [
           "sword"
         ]
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "name": "Rotnip Arena",
+        "name": "Rotnip Combat",
         "access_rules": [
           "stick,$keys|d4|1,[$realkeys|d4|3]"
         ]
@@ -86,10 +86,10 @@
     ]
   },
   {
-    "name": "Trash Cave Rotnip Arena",
+    "name": "Trash Cave Rotnip Combat",
     "sections": [
       {
-        "ref": "Trash Cave/Rotnip Arena"
+        "ref": "Trash Cave/Rotnip Combat"
       }
     ],
     "map_locations": [
@@ -101,10 +101,10 @@
     ]
   },
   {
-    "name": "Trash Cave Mimicuties",
+    "name": "Trash Cave Mimic Combat",
     "sections": [
       {
-        "ref": "Trash Cave/Mimicuties"
+        "ref": "Trash Cave/Mimic Combat"
       }
     ],
     "map_locations": [

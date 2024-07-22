@@ -73,6 +73,24 @@
         ]
     },
     {
+        "name": "Fancy Ruins - Hint Turnip",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 730,
+                "y": 440,
+                "size": 10
+            }
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$weapon"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Fancy Ruins - Rhythm Pillars",
         "map_locations": [
             {

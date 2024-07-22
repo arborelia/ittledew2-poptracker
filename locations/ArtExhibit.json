@@ -3,7 +3,7 @@
     "name": "Art Exhibit",
     "sections": [
       {
-        "name": "First Item",
+        "name": "Entry Combat",
         "access_rules": [
           "$weapon"
         ]
@@ -21,17 +21,17 @@
         ]
       },
       {
-        "name": "Lemon Easels",
+        "name": "Evil Easels",
         "access_rules": [
-          "$weapon,$keys|d3|1,[$realkeys|d3|1]",
+          "$openchest,$keys|d3|1,[$realkeys|d3|1]",
           "dynamite,$nondynamite"
         ]
       },
       {
         "name": "Treasure",
         "access_rules": [
-          "dynamite",
-          "$weapon,$keys|d3|1,[$realkeys|d3|4]"
+          "dynamite,$keys|d3|1,[$realkeys|d3|4]",
+          "$openchest,$keys|d3|2,[$realkeys|d3|4]"
         ]
       },
       {
@@ -60,10 +60,10 @@
     ]
   },
   {
-    "name": "Art Exhibit First Item",
+    "name": "Art Exhibit Entry Combat",
     "sections": [
       {
-        "ref": "Art Exhibit/First Item"
+        "ref": "Art Exhibit/Entry Combat"
       }
     ],
     "map_locations": [
@@ -75,10 +75,10 @@
     ]
   },
   {
-    "name": "Art Exhibit Lemon Easels",
+    "name": "Art Exhibit Evil Easels",
     "sections": [
       {
-        "ref": "Art Exhibit/Lemon Easels"
+        "ref": "Art Exhibit/Evil Easels"
       }
     ],
     "map_locations": [

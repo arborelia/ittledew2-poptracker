@@ -1,6 +1,6 @@
 [
     {
-        "name": "White Gates Combat",
+        "name": "Sweetwater Coast - White Gates Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Feral Gates Combat",
+        "name": "Sweetwater Coast - Feral Gates Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "Three Teleporters",
+        "name": "Sweetwater Coast - Three Teleporters",
         "map_locations": [
             {
                 "map": "overworld",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name": "Four Candy Snakes Combat",
+        "name": "Sweetwater Coast - Four Candy Snakes Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "name": "Portal Spikes",
+        "name": "Sweetwater Coast - Portal Spikes",
         "map_locations": [
             {
                 "map": "overworld",
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "name": "Hint Hermit",
+        "name": "Sweetwater Coast - Hint Hermit",
         "map_locations": [
             {
                 "map": "overworld",
@@ -109,7 +109,7 @@
         ]
     },
     {
-        "name": "Fake Chest Cave",
+        "name": "Sweetwater Coast - Fake Chest Cave",
         "map_locations": [
             {
                 "map": "overworld",
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "name": "Wooden Balls Spike Floor",
+        "name": "Sweetwater Coast - Wooden Balls Spike Floor",
         "map_locations": [
             {
                 "map": "overworld",
@@ -147,7 +147,7 @@
         ]
     },
     {
-        "name": "Kung Fu Jenny",
+        "name": "Sweetwater Coast - Kung Fu Jenny",
         "map_locations": [
             {
                 "map": "overworld",
