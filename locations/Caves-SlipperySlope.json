@@ -1,6 +1,6 @@
 [
     {
-        "name": "Volcanic Path",
+        "name": "Slippery Slope - Volcanic Path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Ice and Barrels",
+        "name": "Slippery Slope - Ice and Barrels",
         "map_locations": [
             {
                 "map": "overworld",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "Eight Crystals",
+        "name": "Slippery Slope - Eight Crystals",
         "map_locations": [
             {
                 "map": "overworld",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "name": "Forgetful Jennies",
+        "name": "Slippery Slope - Forgetful Jennies",
         "map_locations": [
             {
                 "map": "overworld",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "name": "Push the Crystals",
+        "name": "Slippery Slope - Push the Crystals",
         "map_locations": [
             {
                 "map": "overworld",
@@ -93,7 +93,7 @@
         ]
     },
     {
-        "name": "Exhausted Turnip",
+        "name": "Slippery Slope - Exhausted Turnip",
         "map_locations": [
             {
                 "map": "overworld",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "name": "Bee Nest Combat",
+        "name": "Slippery Slope - Bee Nest Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "name": "Pushable Fan",
+        "name": "Slippery Slope - Pushable Fan",
         "map_locations": [
             {
                 "map": "overworld",
@@ -148,7 +148,7 @@
         ]
     },
     {
-        "name": "Moving Crystals",
+        "name": "Slippery Slope - Moving Crystals",
         "map_locations": [
             {
                 "map": "overworld",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "name": "Shark House",
+        "name": "Slippery Slope - Shark House",
         "map_locations": [
             {
                 "map": "overworld",

@@ -1,6 +1,7 @@
 --  Load configuration options up front
 ScriptHost:LoadScript("scripts/settings.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/autotracking.lua")
 
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddItems("items/common.json")

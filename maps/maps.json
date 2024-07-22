@@ -7,7 +7,7 @@
   },
   {
     "name": "dungeons",
-    "img": "images/maps/dungeons.jpg",
+    "img": "images/maps/dungeons.png",
     "location_size": 15,
     "location_border_thickness": 3
   }

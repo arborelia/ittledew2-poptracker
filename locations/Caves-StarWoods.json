@@ -1,6 +1,6 @@
 [
     {
-        "name": "Turnip Combat",
+        "name": "Star Woods - Turnip Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Barrel Blast",
+        "name": "Star Woods - Barrel Blast",
         "map_locations": [
             {
                 "map": "overworld",
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "name": "Four Crystals",
+        "name": "Star Woods - Four Crystals",
         "map_locations": [
             {
                 "map": "overworld",
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "name": "Sleeping Jenny",
+        "name": "Star Woods - Sleeping Jenny",
         "map_locations": [
             {
                 "map": "overworld",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "name": "Rotating Spikes",
+        "name": "Star Woods - Rotating Spikes",
         "map_locations": [
             {
                 "map": "overworld",
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "name": "Number Tiles",
+        "name": "Star Woods - Number Tiles",
         "map_locations": [
             {
                 "map": "overworld",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "name": "Whirlwind",
+        "name": "Star Woods - Whirlwind",
         "map_locations": [
             {
                 "map": "overworld",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "name": "Magic Crystal",
+        "name": "Star Woods - Magic Crystal",
         "map_locations": [
             {
                 "map": "overworld",
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "name": "Artist Turnip",
+        "name": "Star Woods - Artist Turnip",
         "map_locations": [
             {
                 "map": "overworld",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "name": "Hint Bee",
+        "name": "Star Woods - Hint Bee",
         "map_locations": [
             {
                 "map": "overworld",
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "name": "Extinguish Flames",
+        "name": "Star Woods - Extinguish Flames",
         "map_locations": [
             {
                 "map": "overworld",

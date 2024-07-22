@@ -1,6 +1,6 @@
 [
     {
-        "name": "Goldbun Combat",
+        "name": "Fluffy Fields - Goldbun Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Portal Room",
+        "name": "Fluffy Fields - Portal Room",
         "map_locations": [
             {
                 "map": "overworld",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "name": "Timed Bridge",
+        "name": "Fluffy Fields - Timed Bridge",
         "map_locations": [
             {
                 "map": "overworld",
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name": "Hermit Hint",
+        "name": "Fluffy Fields - Hermit Hint",
         "map_locations": [
             {
                 "map": "overworld",
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "name": "Laser Room",
+        "name": "Fluffy Fields - Laser Room",
         "map_locations": [
             {
                 "map": "overworld",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "name": "Number Blocks",
+        "name": "Fluffy Fields - Number Blocks",
         "map_locations": [
             {
                 "map": "overworld",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "name": "Ice Blockade",
+        "name": "Fluffy Fields - Ice Blockade",
         "map_locations": [
             {
                 "map": "overworld",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "name": "Double Spikebun Combat",
+        "name": "Fluffy Fields - Double Spikebun Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "name": "Potion Bar",
+        "name": "Fluffy Fields - Potion Bar",
         "map_locations": [
             {
                 "map": "overworld",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "name": "Six Buns Combat",
+        "name": "Fluffy Fields - Six Buns Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "name": "Artist Backroom",
+        "name": "Fluffy Fields - Artist Backroom",
         "map_locations": [
             {
                 "map": "overworld",
@@ -204,7 +204,7 @@
         ]
     },
     {
-        "name": "Jenny Berry House",
+        "name": "Fluffy Fields - Jenny Berry House",
         "map_locations": [
             {
                 "map": "overworld",

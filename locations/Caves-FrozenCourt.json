@@ -1,6 +1,6 @@
 [
     {
-        "name": "Bush Fire",
+        "name": "Frozen Court - Bush Fire",
         "map_locations": [
             {
                 "map": "overworld",
@@ -19,7 +19,7 @@
         ]
     },
     {
-        "name": "Crystal path",
+        "name": "Frozen Court - Crystal path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "name": "Cannon Spinner",
+        "name": "Frozen Court - Cannon Spinner",
         "map_locations": [
             {
                 "map": "overworld",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "name": "Mimicbuns",
+        "name": "Frozen Court - Mimicbuns",
         "map_locations": [
             {
                 "map": "overworld",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "name": "Teleporter Maze",
+        "name": "Frozen Court - Teleporter Maze",
         "map_locations": [
             {
                 "map": "overworld",
@@ -93,7 +93,7 @@
         ]
     },
     {
-        "name": "Chilly Roger Combat",
+        "name": "Frozen Court - Chilly Roger Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "name": "Rickety Bridge",
+        "name": "Frozen Court - Rickety Bridge",
         "map_locations": [
             {
                 "map": "overworld",
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "name": "Titans Combat",
+        "name": "Frozen Court - Titans Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -149,7 +149,7 @@
         ]
     },
     {
-        "name": "Teleporter Grate",
+        "name": "Frozen Court - Teleporter Grate",
         "map_locations": [
             {
                 "map": "overworld",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "name": "Hint Hermit",
+        "name": "Frozen Court - Hint Hermit",
         "map_locations": [
             {
                 "map": "overworld",

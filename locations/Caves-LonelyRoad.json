@@ -1,6 +1,6 @@
 [
     {
-        "name": "Timed Platforms",
+        "name": "Lonely Road - Timed Platforms",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Timed Number Tiles",
+        "name": "Lonely Road - Timed Number Tiles",
         "map_locations": [
             {
                 "map": "overworld",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "Volcano Hint",
+        "name": "Lonely Road - Volcano Hint",
         "map_locations": [
             {
                 "map": "overworld",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name": "Lava fans",
+        "name": "Lonely Road - Lava fans",
         "map_locations": [
             {
                 "map": "overworld",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "name": "Force Turrets",
+        "name": "Lonely Road - Force Turrets",
         "map_locations": [
             {
                 "map": "overworld",
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "name": "Hint Shark",
+        "name": "Lonely Road - Hint Shark",
         "map_locations": [
             {
                 "map": "overworld",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "name": "Teleporter Cube",
+        "name": "Lonely Road - Teleporter Cube",
         "map_locations": [
             {
                 "map": "overworld",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "name": "Dark Maze",
+        "name": "Lonely Road - Dark Maze",
         "map_locations": [
             {
                 "map": "overworld",
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "name": "Block Factory",
+        "name": "Lonely Road - Block Factory",
         "map_locations": [
             {
                 "map": "overworld",

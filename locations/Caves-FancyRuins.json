@@ -1,6 +1,6 @@
 [
     {
-        "name": "Two Torches",
+        "name": "Fancy Ruins - Two Torches",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Numbered Torch",
+        "name": "Fancy Ruins - Numbered Torch",
         "map_locations": [
             {
                 "map": "overworld",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "Two Crystals",
+        "name": "Fancy Ruins - Two Crystals",
         "map_locations": [
             {
                 "map": "overworld",
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name": "Big Ogler Combat",
+        "name": "Fancy Ruins - Big Ogler Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "name": "Rhythm Pillars",
+        "name": "Fancy Ruins - Rhythm Pillars",
         "map_locations": [
             {
                 "map": "overworld",
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "name": "Teleporter Puzzle",
+        "name": "Fancy Ruins - Teleporter Puzzle",
         "map_locations": [
             {
                 "map": "overworld",
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "name": "Four Oglers Combat",
+        "name": "Fancy Ruins - Four Oglers Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "name": "Spike Path",
+        "name": "Fancy Ruins - Spike Path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -147,7 +147,7 @@
         ]
     },
     {
-        "name": "Hiding Hermit",
+        "name": "Fancy Ruins - Hiding Hermit",
         "map_locations": [
             {
                 "map": "overworld",
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "name": "Ice and Torch",
+        "name": "Fancy Ruins - Ice and Torch",
         "map_locations": [
             {
                 "map": "overworld",

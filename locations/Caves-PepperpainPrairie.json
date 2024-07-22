@@ -1,6 +1,6 @@
 [
     {
-        "name": "Cowbun Combat",
+        "name": "Pepperpain Prairie - Cowbun Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Brutus Combat",
+        "name": "Pepperpain Prairie - Brutus Combat",
         "map_locations": [
             {
                 "map": "overworld",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "name": "Torch Disappearing Path",
+        "name": "Pepperpain Prairie - Torch Disappearing Path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -59,7 +59,7 @@
         ]
     },
     {
-        "name": "Spiky Hint Bee",
+        "name": "Pepperpain Prairie - Spiky Hint Bee",
         "map_locations": [
             {
                 "map": "overworld",
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "name": "Cannon Path",
+        "name": "Pepperpain Prairie - Cannon Path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "name": "Volcano Trail",
+        "name": "Pepperpain Prairie - Volcano Trail",
         "map_locations": [
             {
                 "map": "overworld",
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "name": "Barrel Hint Bee",
+        "name": "Pepperpain Prairie - Barrel Hint Bee",
         "map_locations": [
             {
                 "map": "overworld",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "name": "Haunted Guns",
+        "name": "Pepperpain Prairie - Haunted Guns",
         "map_locations": [
             {
                 "map": "overworld",
@@ -149,7 +149,7 @@
         ]
     },
     {
-        "name": "Buzzsaw Path",
+        "name": "Pepperpain Prairie - Buzzsaw Path",
         "map_locations": [
             {
                 "map": "overworld",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "name": "Number Tiles",
+        "name": "Pepperpain Prairie - Number Tiles",
         "map_locations": [
             {
                 "map": "overworld",
@@ -185,7 +185,7 @@
         ]
     },
     {
-        "name": "Pacifist Brute",
+        "name": "Pepperpain Prairie - Pacifist Brute",
         "map_locations": [
             {
                 "map": "overworld",
