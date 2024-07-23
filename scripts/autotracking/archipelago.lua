@@ -7,6 +7,29 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 HOSTED = {}
 
+-- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
+-- dumps a table in a readable string
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+
+
 function onSetReply(key, value, old)
 end
 
@@ -58,15 +81,36 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data.settings.logicLevel then
-        if slot_data.settings.logicLevel == 0 then
-            Tracker:FindObjectForCode("logic").CurrentStage = 0
-        elseif slot_data.settings.logicLevel == 1 then
-            Tracker:FindObjectForCode("logic").CurrentStage = 1
-        elseif slot_data.settings.logicLevel == 2 then
-            Tracker:FindObjectForCode("logic").CurrentStage = 2
+    if slot_data.key_settings then
+        if slot_data.key_settings == 0 then
+            Tracker:FindObjectForCode("keysey").Active = false
+            Tracker:FindObjectForCode("keyrings").Active = false
+        elseif slot_data.key_settings == 1 then
+            Tracker:FindObjectForCode("keysey").Active = false
+            Tracker:FindObjectForCode("keyrings").Active = true
+        elseif slot_data.key_settings == 2 then
+            Tracker:FindObjectForCode("keysey").Active = true
+            Tracker:FindObjectForCode("keyrings").Active = false
         end
     end
+
+    if slot_data.roll_opens_chests then
+        Tracker:FindObjectForCode("roll-chests").Active = (slot_data.roll_opens_chests == 1)
+    end
+
+    if slot_data.open_d8 then
+        Tracker:FindObjectForCode("open-library").Active = (slot_data.open_d8 == 1)
+    end
+
+    if slot_data.open_dreamworld then
+        Tracker:FindObjectForCode("open-dream").Active = (slot_data.open_dreamworld == 1)
+    end
+
+    if slot_data.dream_dungeons_do_not_change_items then
+        Tracker:FindObjectForCode("dreams-keep-items").Active = (slot_data.dream_dungeons_do_not_change_items == 1)
+    end
+
+    -- todo: slot_data.shard_settings == 0
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
@@ -173,7 +217,6 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
         print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
             item_player))
     end
-    -- not implemented yet :(
 end
 
 -- called when a bounce message is received 
