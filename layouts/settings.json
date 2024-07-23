@@ -1,0 +1,31 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "background": "#000000",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "name": "Settings",
+                "type": "itemgrid",
+                "item_margin": "4,4",
+                "item_size": "128,32",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "keyrings",
+                        "keysey"
+                    ],
+                    [
+                        "open-library",
+                        "roll-chests"
+                    ],
+                    [
+                        "open-dream",
+                        "dreams-keep-items"
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -211,5 +211,41 @@
     "img": "images/items/dream5-quietus-keys.png",
     "codes": "key-dream5",
     "max_quantity": 5
+  },
+  {
+    "name": "Roll opens chests",
+    "type": "toggle",
+    "img": "images/settings/roll-chests.png",
+    "codes": "roll-chests"
+  },
+  {
+    "name": "Open Library",
+    "type": "toggle",
+    "img": "images/settings/open-library.png",
+    "codes": "open-library"
+  },
+  {
+    "name": "Keyrings",
+    "type": "toggle",
+    "img": "images/settings/keyrings.png",
+    "codes": "keyrings"
+  },
+  {
+    "name": "Keysey",
+    "type": "toggle",
+    "img": "images/settings/keysey.png",
+    "codes": "keysey"
+  },
+  {
+    "name": "Open Dream",
+    "type": "toggle",
+    "img": "images/settings/open-dream.png",
+    "codes": "open-dream"
+  },
+  {
+    "name": "Dream dungeons keep items",
+    "type": "toggle",
+    "img": "images/settings/dreams-keep-items.png",
+    "codes": "dreams-keep-items"
   }
 ]

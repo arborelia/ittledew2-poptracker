@@ -8,7 +8,7 @@
             {
                 "type": "itemgrid",
                 "item_margin": "4,4",
-                "item_size": 48,
+                "item_size": 64,
                 "badge_font_size": 20,
                 "rows": [
                     [
@@ -59,7 +59,7 @@
     },
     "shared_item_grid": {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "content": [
             {
                 "type": "dock",
@@ -73,6 +73,23 @@
                             {
                                 "type": "layout",
                                 "key": "use_items"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Settings",
+                        "dock": "left",
+                        "h_alignment": "center",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "settings_popup"
                             }
                         ]
                     }
