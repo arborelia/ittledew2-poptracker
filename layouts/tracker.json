@@ -11,6 +11,11 @@
                     "dock": "left"
                 },
                 {
+                    "type": "layout",
+                    "key": "settings_grid",
+                    "dock": "left"
+                },
+                {
                     "type": "tabbed",
                     "tabs": [
                         {

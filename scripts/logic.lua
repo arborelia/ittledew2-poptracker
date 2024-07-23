@@ -13,7 +13,7 @@ function weapon()
 end
 
 function openchest()
-    return weapon() or has("roll")
+    return weapon() or (has("roll-chests") and has("roll"))
 end
 
 function puzzledmg()
@@ -35,12 +35,14 @@ end
 function keys(dungeon, amount)
     local npicks = Tracker:ProviderCountForCode("lockpick")
     local nkeys = Tracker:ProviderCountForCode("key-" .. dungeon)
-    return npicks + nkeys >= tonumber(amount)
+    if has("keyrings") then nkeys = nkeys * 10 end
+    return has("keysey") or npicks + nkeys >= tonumber(amount)
 end
 
 function realkeys(dungeon, amount)
     local nkeys = Tracker:ProviderCountForCode("key-" .. dungeon)
-    return nkeys >= tonumber(amount)
+    if has("keyrings") then nkeys = nkeys * 10 end
+    return has("keysey") or nkeys >= tonumber(amount)
 end
 
 function quietus()
@@ -57,6 +59,10 @@ function quietus_in_logic()
     else
         return false
     end
+end
+
+function library()
+    return has("open-library") or has("raftpiece", 7)
 end
 
 function shard8()
