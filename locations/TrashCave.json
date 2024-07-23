@@ -43,7 +43,7 @@
       {
         "name": "Boss",
         "access_rules": [
-          "sword,$keys|d4|2,[$realkeys|d4|4]"
+          "sword,$keys|d4|2,[$realkeys|d4|4],[roll]"
         ]
       }
     ],

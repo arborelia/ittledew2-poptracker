@@ -27,7 +27,7 @@
       {
         "name": "Treasure",
         "access_rules": [
-          "$weapon,$keys|d6|1,[$realkeys|d6|5]",
+          "$openchest,$keys|d6|1,[$realkeys|d6|5]",
           "chain,stick,forcewand,$keys|d6|1,[$realkeys|d6|4]",
           "chain,stick,icering,$keys|d6|1,[$realkeys|d6|4]"
         ]
@@ -35,7 +35,7 @@
       {
         "name": "Crayons",
         "access_rules": [
-          "$weapon,$keys|d6|1,[$realkeys|d6|5]"
+          "$openchest,$keys|d6|1,[$realkeys|d6|5]"
         ]
       },
       {
@@ -49,7 +49,7 @@
       {
         "name": "Boss",
         "access_rules": [
-          "icering,$keys|d6|2,[$realkeys|d6|5]"
+          "icering,$keys|d6|2,[$realkeys|d6|5],[roll]"
         ]
       }
     ],

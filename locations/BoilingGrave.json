@@ -18,7 +18,7 @@
       {
         "name": "Treasure",
         "access_rules": [
-          "$weapon,roll,$keys|d7|1,[$realkeys|d7|5]"
+          "$openchest,roll,$keys|d7|1,[$realkeys|d7|5]"
         ]
       },
       {
@@ -45,8 +45,8 @@
       {
         "name": "Boss",
         "access_rules": [
-          "chain,stick,roll,$keys|d7|3,[$realkeys|d7|5]",
-          "chain,stick,icering,forcewand,$keys|d7|3,[$realkeys|d7|5]"
+          "chain,stick,roll,$keys|d7|3,[$realkeys|d7|5],[roll]",
+          "chain,stick,icering,forcewand,$keys|d7|3,[$realkeys|d7|5],[roll]"
         ]
       }
     ],

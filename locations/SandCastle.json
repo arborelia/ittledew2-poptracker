@@ -27,14 +27,14 @@
         "name": "Treasure",
         "access_rules": [
           "dynamite",
-          "$weapon,$keys|d2|1,[$realkeys|d2|2]"
+          "$openchest,$keys|d2|1,[$realkeys|d2|2]"
         ]
       },
       {
         "name": "Boss",
         "access_rules": [
-          "sword,forcewand",
-          "stick,forcewand,$keys|d2|1,[$realkeys|d2|2]"
+          "sword,forcewand,[roll]",
+          "stick,forcewand,$keys|d2|1,[$realkeys|d2|2],[roll]"
         ]
       }
     ],
