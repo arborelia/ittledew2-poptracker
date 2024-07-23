@@ -82,7 +82,7 @@
     "max_quantity": 99
   },
   {
-    "name": "Cleared Impossible Puzzles",
+    "name": "Impossible Gates Pass",
     "type": "toggle",
     "img": "images/items/wut.png",
     "codes": "fakeefcs"

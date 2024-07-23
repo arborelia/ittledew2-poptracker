@@ -49,4 +49,5 @@ ITEM_MAPPING = {
     [BASE + 49] = {"key-dream2", "consumable"},
     [BASE + 51] = {"key-dream4", "consumable"},
     [BASE + 53] = {"key-dream5", "consumable"},
+    [BASE + 65] = {"fakeefcs", "toggle"}
 }
