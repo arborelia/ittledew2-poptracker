@@ -8,6 +8,10 @@ function has(item, amount)
     end
 end
 
+function dream()
+    return has("raftpiece") or has("open-dream")
+end
+
 function weapon()
     return has("stick") or has("forcewand") or has("icering") or has("dynamite")
 end

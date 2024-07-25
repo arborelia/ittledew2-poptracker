@@ -35,6 +35,15 @@
                                     "dungeons"
                                 ]
                             }
+                        },
+                        {
+                            "title": "Dream World",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dreamworld"
+                                ]
+                            }
                         }
                     ]
                 }

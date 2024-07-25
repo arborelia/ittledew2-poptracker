@@ -5,16 +5,50 @@
       {
         "name": "Entrance",
         "access_rules": [
-          "raftpiece,wand"
-        ],
-        "item_count": 1
+          "$dream,wand"
+        ]
       },
       {
-        "name": "Go clear it",
+        "name": "West Energy Source",
         "access_rules": [
-          "raftpiece,stick,wand"
-        ],
-        "item_count": 7
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "East Mirrors",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "East Energy Source",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "Cannon",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "Reward A",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "Reward B",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
+      },
+      {
+        "name": "Reward C",
+        "access_rules": [
+          "$dream,stick,wand"
+        ]
       }
     ],
     "map_locations": [
@@ -30,74 +64,91 @@
     "name": "Syncope",
     "sections": [
       {
-        "name": "Initial Key",
+        "name": "Shifting Blue-Red",
         "access_rules": [
-          "raftpiece,dynamite"
+          "$dream,dynamite"
         ]
       },
       {
-        "name": "Shifting Key",
+        "name": "Shifting Blue-Blue",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Switch Chamber",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Foyer",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
-        "name": "Knights Hint Item",
+        "name": "Knights Hint",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
         "name": "Shadow Walker",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
         "name": "Piano",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
         "name": "Garden",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
-        "name": "Force Blast Maze",
+        "name": "Force Turret Maze",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand"
         ]
       },
       {
-        "name": "Boss",
+        "name": "Reward A",
         "access_rules": [
-          "raftpiece,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,ice,wand",
-          "raftpiece,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "raftpiece,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
-        ],
-        "item_count": 3
+          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand",
+          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+        ]
+      },
+      {
+        "name": "Reward B",
+        "access_rules": [
+          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand",
+          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+        ]
+      },
+      {
+        "name": "Reward C",
+        "access_rules": [
+          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$dream,dynamite,ice,wand",
+          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+        ]
       }
     ],
     "map_locations": [
@@ -113,66 +164,98 @@
     "name": "Bottomless Tower",
     "sections": [
       {
-        "name": "First Floor",
+        "name": "1F Card",
         "access_rules": [
-          "raftpiece,stick,ice",
-          "raftpiece,ice,wand"
-        ],
-        "num_items": 2
-      },
-      {
-        "name": "Second Floor",
-        "access_rules": [
-          "raftpiece,sword,ice",
-          "raftpiece,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "Third Floor Before Lock",
-        "access_rules": [
-          "raftpiece,sword,ice",
-          "raftpiece,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "raftpiece,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "Blue Portal Reward",
-        "access_rules": [
-          "raftpiece,sword,ice",
-          "raftpiece,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "raftpiece,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+          "$dream,stick,ice",
+          "$dream,ice,wand"
         ]
       },
       {
-        "name": "Third Floor Icy Square",
+        "name": "1F Key",
         "access_rules": [
-          "raftpiece,sword,ice,$keys|dream2|1,[$realkeys|dream2|4]",
-          "raftpiece,stick,ice,wand,$keys|dream2|3,[$realkeys|dream2|4]",
-          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$dream,stick,ice",
+          "$dream,ice,wand"
         ]
       },
       {
-        "name": "Fourth Floor Key",
+        "name": "2F Card",
         "access_rules": [
-          "raftpiece,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
-          "raftpiece,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]"
+          "$dream,sword,ice",
+          "$dream,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
         ]
       },
       {
-        "name": "Boss",
+        "name": "2F Key",
         "access_rules": [
-          "raftpiece,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
-          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
-        ],
-        "item_count": 3
+          "$dream,sword,ice",
+          "$dream,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
+        ]
+      },
+      {
+        "name": "3F Ice Square Card",
+        "access_rules": [
+          "$dream,sword,ice",
+          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ]
+      },
+      {
+        "name": "3F Key",
+        "access_rules": [
+          "$dream,sword,ice",
+          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ]
+      },
+      {
+        "name": "3F Spike Gates Card",
+        "access_rules": [
+          "$dream,sword,ice",
+          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ]
+      },
+      {
+        "name": "Blue Portal Card",
+        "access_rules": [
+          "$dream,sword,ice",
+          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+        ]
+      },
+      {
+        "name": "4F Key",
+        "access_rules": [
+          "$dream,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
+          "$dream,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]"
+        ]
+      },
+      {
+        "name": "Reward A",
+        "access_rules": [
+          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+        ]
+      },
+      {
+        "name": "Reward B",
+        "access_rules": [
+          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+        ]
+      },
+      {
+        "name": "Reward C",
+        "access_rules": [
+          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+        ]
       },
       {
         "name": "Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2",
         "access_rules": [
-          "raftpiece,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
-          "raftpiece,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$dream,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       }
     ],
@@ -191,51 +274,51 @@
       {
         "name": "Southwest Light Path",
         "access_rules": [
-          "raftpiece,sword,chain"
+          "$dream,sword,chain"
         ]
       },
       {
         "name": "Southeast Walk of Faith",
         "access_rules": [
-          "raftpiece,sword,chain"
+          "$dream,sword,chain"
         ],
         "item_count": 2
       },
       {
         "name": "West Ice Puzzle",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "East Ice Puzzle",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "Northwest Bomb Maze",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "Northeast Bomb Maze",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "Last Stretch",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$dream,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
         ],
         "item_count": 2
       },
       {
         "name": "Boss",
         "access_rules": [
-          "raftpiece,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
         ],
         "item_count": 3
       }
@@ -322,5 +405,471 @@
         "size": 20
       }
     ]
-  }
+  },
+  {
+    "name": "Wizardry Lab Entrance",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/Entrance"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 700,
+        "y": 1930
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab West Energy Source",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/West Energy Source"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 327,
+        "y": 1590
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab East Mirrors",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/East Mirrors"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 935,
+        "y": 1515
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab East Energy Source",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/East Energy Source"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 935,
+        "y": 1650
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab Cannon",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/Cannon"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 525,
+        "y": 1200
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab Reward A",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/Reward A"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 965,
+        "y": 1735
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab Reward B",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/Reward B"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 985,
+        "y": 1735
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab Reward C",
+    "sections": [
+      {
+        "ref": "Wizardry Lab/Reward C"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1015,
+        "y": 1735
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 1F Card",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/1F Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1875,
+        "y": 1300
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 1F Key",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/1F Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2160,
+        "y": 1245
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 2F Card",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/2F Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2495,
+        "y": 1210
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 2F Key",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/2F Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2765,
+        "y": 1195
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 3F Ice Square Card",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/3F Ice Square Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2222,
+        "y": 1790
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 3F Spike Gates Card",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/3F Spike Gates Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1865,
+        "y": 1755
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 3F Key",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/3F Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2222,
+        "y": 1895
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower 4F Key",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/4F Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2695,
+        "y": 1705
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower Reward A",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/Reward A"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2720,
+        "y": 1765
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower Reward B",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/Reward B"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2740,
+        "y": 1765
+      }
+    ]
+  },
+  {
+    "name": "Bottomless Tower Reward C",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/Reward C"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2760,
+        "y": 1765
+      }
+    ]
+  },
+  {
+    "name": "Bad Dream",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2830,
+        "y": 1775,
+        "size": 60
+      }
+    ]
+  },
+  {
+    "name": "Syncope Shifting Blue-Red",
+    "sections": [
+      {
+        "ref": "Syncope/Shifting Blue-Red"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 510,
+        "y": 740
+      }
+    ]
+  },
+  {
+    "name": "Syncope Shifting Blue-Blue",
+    "sections": [
+      {
+        "ref": "Syncope/Shifting Blue-Blue"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 655,
+        "y": 740
+      }
+    ]
+  },
+  {
+    "name": "Syncope Switch Chamber",
+    "sections": [
+      {
+        "ref": "Syncope/Switch Chamber"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 510,
+        "y": 860
+      }
+    ]
+  },
+  {
+    "name": "Syncope Foyer",
+    "sections": [
+      {
+        "ref": "Syncope/Foyer"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 625,
+        "y": 615
+      }
+    ]
+  },
+  {
+    "name": "Syncope Piano",
+    "sections": [
+      {
+        "ref": "Syncope/Piano"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 480,
+        "y": 390
+      }
+    ]
+  },
+  {
+    "name": "Syncope Shadow Walker",
+    "sections": [
+      {
+        "ref": "Syncope/Shadow Walker"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 445,
+        "y": 290
+      }
+    ]
+  },
+  {
+    "name": "Syncope Knights Hint",
+    "sections": [
+      {
+        "ref": "Syncope/Knights Hint"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 340,
+        "y": 290
+      }
+    ]
+  },
+  {
+    "name": "Syncope Garden",
+    "sections": [
+      {
+        "ref": "Syncope/Garden"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 900,
+        "y": 480
+      }
+    ]
+  },
+  {
+    "name": "Syncope Reward A",
+    "sections": [
+      {
+        "ref": "Syncope/Reward A"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 760,
+        "y": 875
+      }
+    ]
+  },
+  {
+    "name": "Syncope Reward B",
+    "sections": [
+      {
+        "ref": "Syncope/Reward B"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 745,
+        "y": 845
+      }
+    ]
+  },
+  {
+    "name": "Syncope Reward C",
+    "sections": [
+      {
+        "ref": "Syncope/Reward C"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 775,
+        "y": 845
+      }
+    ]
+  },
 ]

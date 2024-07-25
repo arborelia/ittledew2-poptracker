@@ -10,5 +10,11 @@
     "img": "images/maps/dungeons.png",
     "location_size": 15,
     "location_border_thickness": 3
+  },
+  {
+    "name": "dreamworld",
+    "img": "images/maps/dreamworld.png",
+    "location_size": 40,
+    "location_border_thickness": 3
   }
 ]
