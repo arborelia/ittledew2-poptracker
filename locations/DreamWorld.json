@@ -66,13 +66,13 @@
       {
         "name": "Shifting Blue-Red",
         "access_rules": [
-          "$dream,dynamite"
+          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Shifting Blue-Blue",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$dream,dynamite"
         ]
       },
       {
@@ -272,56 +272,77 @@
     "name": "Antigram",
     "sections": [
       {
-        "name": "Southwest Light Path",
+        "name": "West Light Bridge Card",
         "access_rules": [
           "$dream,sword,chain"
         ]
       },
       {
-        "name": "Southeast Walk of Faith",
+        "name": "Free Key",
         "access_rules": [
           "$dream,sword,chain"
-        ],
-        "item_count": 2
+        ]
       },
       {
-        "name": "West Ice Puzzle",
+        "name": "East Light Bridge Card",
+        "access_rules": [
+          "$dream,sword,chain"
+        ]
+      },
+      {
+        "name": "West Ice Card",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "East Ice Puzzle",
+        "name": "East Ice Card",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "Northwest Bomb Maze",
+        "name": "West Bombs Key",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "Northeast Bomb Maze",
+        "name": "East Bombs Key",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "Last Stretch",
+        "name": "End East Bridge",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
-        ],
-        "item_count": 2
+        ]
       },
       {
-        "name": "Boss",
+        "name": "End West Bridge",
+        "access_rules": [
+          "$dream,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
+        ]
+      },
+      {
+        "name": "Reward A",
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
-        ],
-        "item_count": 3
-      }
+        ]
+      },
+      {
+        "name": "Reward B",
+        "access_rules": [
+          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+        ]
+      },
+      {
+        "name": "Reward C",
+        "access_rules": [
+          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+        ]
+      },
     ],
     "map_locations": [
       {
@@ -491,7 +512,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 965,
+        "x": 960,
         "y": 1735
       }
     ]
@@ -506,7 +527,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 985,
+        "x": 990,
         "y": 1735
       }
     ]
@@ -521,7 +542,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 1015,
+        "x": 1020,
         "y": 1735
       }
     ]
@@ -656,7 +677,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 2720,
+        "x": 2710,
         "y": 1765
       }
     ]
@@ -686,7 +707,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 2760,
+        "x": 2770,
         "y": 1765
       }
     ]
@@ -869,6 +890,186 @@
         "map": "dreamworld",
         "x": 775,
         "y": 845
+      }
+    ]
+  },
+  {
+    "name": "Antigram Free Key",
+    "sections": [
+      {
+        "ref": "Antigram/Free Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2590,
+        "y": 850
+      }
+    ]
+  },
+  {
+    "name": "Antigram East Light Bridge Card",
+    "sections": [
+      {
+        "ref": "Antigram/East Light Bridge Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2545,
+        "y": 880
+      }
+    ]
+  },
+  {
+    "name": "Antigram West Light Bridge Card",
+    "sections": [
+      {
+        "ref": "Antigram/West Light Bridge Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2315,
+        "y": 880
+      }
+    ]
+  },
+  {
+    "name": "Antigram West Ice Card",
+    "sections": [
+      {
+        "ref": "Antigram/West Ice Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2168,
+        "y": 770
+      }
+    ]
+  },
+  {
+    "name": "Antigram East Ice Card",
+    "sections": [
+      {
+        "ref": "Antigram/East Ice Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2692,
+        "y": 770
+      }
+    ]
+  },
+  {
+    "name": "Antigram West Bombs Key",
+    "sections": [
+      {
+        "ref": "Antigram/West Bombs Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2210,
+        "y": 510
+      }
+    ]
+  },
+  {
+    "name": "Antigram East Bombs Key",
+    "sections": [
+      {
+        "ref": "Antigram/East Bombs Key"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2650,
+        "y": 510
+      }
+    ]
+  },
+  {
+    "name": "Antigram End West Bridge",
+    "sections": [
+      {
+        "ref": "Antigram/End West Bridge"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2400,
+        "y": 490
+      }
+    ]
+  },
+  {
+    "name": "Antigram End East Bridge",
+    "sections": [
+      {
+        "ref": "Antigram/End East Bridge"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2470,
+        "y": 490
+      }
+    ]
+  },
+  {
+    "name": "Antigram Reward A",
+    "sections": [
+      {
+        "ref": "Antigram/Reward A"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2405,
+        "y": 275
+      }
+    ]
+  },
+  {
+    "name": "Antigram Reward B",
+    "sections": [
+      {
+        "ref": "Antigram/Reward B"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2435,
+        "y": 275
+      }
+    ]
+  },
+  {
+    "name": "Antigram Reward C",
+    "sections": [
+      {
+        "ref": "Antigram/Reward C"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 2465,
+        "y": 275
       }
     ]
   },
