@@ -58,7 +58,7 @@ function quietus()
 end
 
 function quietus_in_logic()
-    if has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") then
+    if has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") and has("roll") then
         return realkeys("dream2", 4) and realkeys("dream4", 4)
     else
         return false

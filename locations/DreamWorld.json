@@ -233,22 +233,22 @@
       {
         "name": "Reward A",
         "access_rules": [
-          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$dream,sword,ice,roll,$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,roll,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
@@ -342,7 +342,7 @@
         "access_rules": [
           "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
         ]
-      },
+      }
     ],
     "map_locations": [
       {
@@ -357,21 +357,21 @@
     "name": "Quietus",
     "sections": [
       {
-        "name": "Tricky Floors",
+        "name": "Alternating Floors",
         "access_rules": [
           "$quietus,[$quietus_in_logic]"
         ]
       },
       {
-        "name": "Northwest vault",
+        "name": "NW Vault",
         "access_rules": [
           "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
         ]
       },
       {
-        "name": "Northeast Vault",
+        "name": "NE Vault",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
         ]
       },
       {
@@ -387,21 +387,21 @@
         ]
       },
       {
-        "name": "Electro Bomb",
+        "name": "Push the Coil",
         "access_rules": [
           "$quietus,[$quietus_in_logic]"
         ]
       },
       {
-        "name": "Southwest Vault",
+        "name": "SW Vault",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
         ]
       },
       {
-        "name": "Southeast vault",
+        "name": "SE Vault",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|4]"
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
         ]
       },
       {
@@ -411,11 +411,22 @@
         ]
       },
       {
-        "name": "Boss",
+        "name": "Reward A",
         "access_rules": [
           "$quietus,[$quietus_in_logic]"
-        ],
-        "item_count": 3
+        ]
+      },
+      {
+        "name": "Reward B",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
+      },
+      {
+        "name": "Reward C",
+        "access_rules": [
+          "$quietus,[$quietus_in_logic]"
+        ]
       }
     ],
     "map_locations": [
@@ -1073,4 +1084,184 @@
       }
     ]
   },
+  {
+    "name": "Quietus Center Room",
+    "sections": [
+      {
+        "ref": "Quietus/Center Room"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1455,
+        "y": 510
+      }
+    ]
+  },
+  {
+    "name": "Quietus Alternating Floors",
+    "sections": [
+      {
+        "ref": "Quietus/Alternating Floors"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1155,
+        "y": 365
+      }
+    ]
+  },
+  {
+    "name": "Quietus Tangled Wires",
+    "sections": [
+      {
+        "ref": "Quietus/Tangled Wires"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1750,
+        "y": 390
+      }
+    ]
+  },
+  {
+    "name": "Quietus Push the Coil",
+    "sections": [
+      {
+        "ref": "Quietus/Push the Coil"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1190,
+        "y": 625
+      }
+    ]
+  },
+  {
+    "name": "Quietus Giant Mess",
+    "sections": [
+      {
+        "ref": "Quietus/Giant Mess"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1680,
+        "y": 590
+      }
+    ]
+  },
+  {
+    "name": "Quietus NW Vault",
+    "sections": [
+      {
+        "ref": "Quietus/NW Vault"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1280,
+        "y": 410
+      }
+    ]
+  },
+  {
+    "name": "Quietus NE Vault",
+    "sections": [
+      {
+        "ref": "Quietus/NE Vault"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1550,
+        "y": 385
+      }
+    ]
+  },
+  {
+    "name": "Quietus SW Vault",
+    "sections": [
+      {
+        "ref": "Quietus/SW Vault"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1360,
+        "y": 615
+      }
+    ]
+  },
+  {
+    "name": "Quietus SE Vault",
+    "sections": [
+      {
+        "ref": "Quietus/SE Vault"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1615,
+        "y": 630
+      }
+    ]
+  },
+  {
+    "name": "Quietus Reward A",
+    "sections": [
+      {
+        "ref": "Quietus/Reward A"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1325,
+        "y": 875
+      }
+    ]
+  },
+  {
+    "name": "Quietus Reward B",
+    "sections": [
+      {
+        "ref": "Quietus/Reward B"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1295,
+        "y": 825
+      }
+    ]
+  },
+  {
+    "name": "Quietus Reward C",
+    "sections": [
+      {
+        "ref": "Quietus/Reward C"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1355,
+        "y": 825
+      }
+    ]
+  }
 ]
