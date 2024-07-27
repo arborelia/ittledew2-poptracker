@@ -12,6 +12,47 @@ function dream()
     return has("raftpiece") or has("open-dream")
 end
 
+function dreamchange()
+    return not has("dreams-keep-items")
+end
+
+function wizardry()
+    return has("open-dream") or (has("raftpiece") and has("forcewand"))
+end
+
+function bottomless()
+    return has("open-dream") or (has("raftpiece") and has("icering"))
+end
+
+function syncope()
+    return has("open-dream") or (has("raftpiece") and has("dynamite"))
+end
+
+function antigram()
+    return has("open-dream") or (has("raftpiece") and has("sword") and has("chain"))
+end
+
+function quietus()
+    if has("open-dream") then
+        return keys("dream2", 4) and keys("dream4", 4)
+    elseif has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") then
+        return keys("dream2", 2) and keys("dream4", 4)
+    else
+        return false
+    end
+end
+
+function quietus_in_logic()
+    if has("open-dream") then
+        return keys("dream2", 4) and keys("dream4", 4)
+    elseif has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") and has("roll") then
+        return realkeys("dream2", 4) and realkeys("dream4", 4)
+    else
+        return false
+    end
+end
+
+
 function weapon()
     return has("stick") or has("forcewand") or has("icering") or has("dynamite")
 end
@@ -47,22 +88,6 @@ function realkeys(dungeon, amount)
     local nkeys = Tracker:ProviderCountForCode("key-" .. dungeon)
     if has("keyrings") then nkeys = nkeys * 10 end
     return has("keysey") or nkeys >= tonumber(amount)
-end
-
-function quietus()
-    if has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") then
-        return keys("dream2", 2) and keys("dream4", 4)
-    else
-        return false
-    end
-end
-
-function quietus_in_logic()
-    if has("raftpiece") and has("firemace") and has("forcewand") and has("sword") and has("icering") and has("chain") and has("roll") then
-        return realkeys("dream2", 4) and realkeys("dream4", 4)
-    else
-        return false
-    end
 end
 
 function library()

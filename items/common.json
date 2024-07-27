@@ -243,7 +243,7 @@
     "codes": "open-dream"
   },
   {
-    "name": "Dream dungeons keep items",
+    "name": "Dream dungeons keep same items",
     "type": "toggle",
     "img": "images/settings/dreams-keep-items.png",
     "codes": "dreams-keep-items"

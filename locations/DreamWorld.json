@@ -5,49 +5,56 @@
       {
         "name": "Entrance",
         "access_rules": [
-          "$dream,wand"
+          "$wizardry"
         ]
       },
       {
         "name": "West Energy Source",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "East Mirrors",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "East Energy Source",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "Cannon",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$dream,stick,wand"
+          "$wizardry,dreams-keep-items,stick,wand",
+          "$wizardry,$dreamchange"
         ]
       }
     ],
@@ -66,88 +73,99 @@
       {
         "name": "Shifting Blue-Red",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Shifting Blue-Blue",
         "access_rules": [
-          "$dream,dynamite"
+          "$syncope"
         ]
       },
       {
         "name": "Switch Chamber",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Foyer",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand"
         ]
       },
       {
         "name": "Knights Hint",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Shadow Walker",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Piano",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Garden",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Force Turret Maze",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand",
-          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand",
-          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$dream,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$dream,dynamite,ice,wand",
-          "$dream,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$dream,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
         ]
       }
     ],
@@ -166,96 +184,109 @@
       {
         "name": "1F Card",
         "access_rules": [
-          "$dream,stick,ice",
-          "$dream,ice,wand"
+          "$bottomless,dreams-keep-items,stick,ice",
+          "$bottomless,$dreamchange",
+          "$bottomless,dreams-keep-items,ice,wand"
         ]
       },
       {
         "name": "1F Key",
         "access_rules": [
-          "$dream,stick,ice",
-          "$dream,ice,wand"
+          "$bottomless,dreams-keep-items,stick,ice",
+          "$bottomless,$dreamchange",
+          "$bottomless,dreams-keep-items,ice,wand"
         ]
       },
       {
         "name": "2F Card",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
+          "$bottomless,dreams-keep-items,sword",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,$dreamchange,$keys|dream2|1,[$realkeys|dream2|1]"
         ]
       },
       {
         "name": "2F Key",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]"
+          "$bottomless,dreams-keep-items,sword,ice",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,$dreamchange,$keys|dream2|1,[$realkeys|dream2|1]"
         ]
       },
       {
         "name": "3F Ice Square Card",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+          "$bottomless,dreams-keep-items,sword,ice",
+          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]",
+          "$bottomless,$dreamchange,$keys|dream2|2,[$realkeys|dream2|2]"
         ]
       },
       {
         "name": "3F Key",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+          "$bottomless,dreams-keep-items,sword,ice",
+          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]",
+          "$bottomless,$dreamchange,$keys|dream2|2,[$realkeys|dream2|2]"
         ]
       },
       {
         "name": "3F Spike Gates Card",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+          "$bottomless,dreams-keep-items,sword,ice",
+          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]",
+          "$bottomless,$dreamchange,$keys|dream2|2,[$realkeys|dream2|2]"
         ]
       },
       {
         "name": "Blue Portal Card",
         "access_rules": [
-          "$dream,sword,ice",
-          "$dream,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "$dream,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]"
+          "$bottomless,dreams-keep-items,sword,ice",
+          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]",
+          "$bottomless,$dreamchange,$keys|dream2|2,[$realkeys|dream2|2]"
         ]
       },
       {
         "name": "4F Key",
         "access_rules": [
-          "$dream,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
-          "$dream,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]"
+          "$bottomless,dreams-keep-items,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]",
+          "$bottomless,$dreamchange,$keys|dream2|3,[$realkeys|dream2|3]"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
+          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
+          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$dream,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
+          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       },
       {
         "name": "Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2",
         "access_rules": [
-          "$dream,sword,ice,$keys|dream2|2,[$realkeys|dream2|4]",
-          "$dream,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
+          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
+          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
         ]
       }
     ],
@@ -274,73 +305,80 @@
       {
         "name": "West Light Bridge Card",
         "access_rules": [
-          "$dream,sword,chain"
+          "$antigram"
         ]
       },
       {
         "name": "Free Key",
         "access_rules": [
-          "$dream,sword,chain"
+          "$antigram"
         ]
       },
       {
         "name": "East Light Bridge Card",
         "access_rules": [
-          "$dream,sword,chain"
+          "$antigram"
         ]
       },
       {
         "name": "West Ice Card",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "East Ice Card",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "West Bombs Key",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "East Bombs Key",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]"
+          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "End East Bridge",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|1,[$realkeys|dream4|3]"
         ]
       },
       {
         "name": "End West Bridge",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|1,[$realkeys|dream4|3]"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
+          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
+          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$dream,sword,chain,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
+          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
         ]
       }
     ],
