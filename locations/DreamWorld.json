@@ -11,50 +11,43 @@
       {
         "name": "West Energy Source",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "East Mirrors",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "East Energy Source",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "Cannon",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$wizardry,dreams-keep-items,stick,wand",
-          "$wizardry,$dreamchange"
+          "$wizardryCompletable"
         ]
       }
     ],
@@ -141,31 +134,19 @@
       {
         "name": "Reward A",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
-          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
+          "$syncopeCompletable,[$syncopeCompletableInLogic]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
-          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
+          "$syncopeCompletable,[$syncopeCompletableInLogic]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|3,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
-          "$syncope,dreams-keep-items,dynamite,ice,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,wand,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,$dreamchange,$keys|dream3|3,[$realkeys|dream3|3]"
+          "$syncopeCompletable,[$syncopeCompletableInLogic]"
         ]
       }
     ],
@@ -260,33 +241,25 @@
       {
         "name": "Reward A",
         "access_rules": [
-          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
-          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomlessCompletable,[$bottomlessCompletableInLogic]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
-          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomlessCompletable,[$bottomlessCompletableInLogic]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
-          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomlessCompletable,[$bottomlessCompletableInLogic]"
         ]
       },
       {
         "name": "Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2",
         "access_rules": [
-          "$bottomless,dreams-keep-items,sword,ice,[roll],$keys|dream2|2,[$realkeys|dream2|4]",
-          "$bottomless,dreams-keep-items,stick,ice,[roll],$keys|dream2|4,[$realkeys|dream2|4]",
-          "$bottomless,$dreamchange,$keys|dream2|4,[$realkeys|dream2|4]"
+          "$bottomlessCompletable,[$bottomlessCompletableInLogic]"
         ]
       }
     ],
@@ -351,34 +324,31 @@
       {
         "name": "End East Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|1,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
         ]
       },
       {
         "name": "End West Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|1,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
-          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigramCompletable,[$antigramCompletableInLogic]"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
-          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigramCompletable,[$antigramCompletableInLogic]"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$antigram,dreams-keep-items,$weapon,[roll],$keys|dream4|4,[$realkeys|dream4|4]",
-          "$antigram,$dreamchange,$keys|dream4|4,[$realkeys|dream4|4]"
+          "$antigramCompletable,[$antigramCompletableInLogic]"
         ]
       }
     ],

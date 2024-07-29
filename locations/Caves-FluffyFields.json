@@ -217,7 +217,7 @@
             {
                 "name": "Touch grass for 30 seconds",
                 "access_rules": [
-                    "$openchest"
+                    "$weapon"
                 ]
             }
         ]

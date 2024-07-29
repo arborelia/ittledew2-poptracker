@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$weapon"
                 ]
             }
         ]
