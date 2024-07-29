@@ -112,7 +112,7 @@
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
           "$syncope,dreams-keep-items,dynamite,ice,wand",
-          "$syncope,dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
       {
