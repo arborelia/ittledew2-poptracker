@@ -94,6 +94,20 @@
     "codes": "headband"
   },
   {
+    "name": "Amulet",
+    "type": "consumable",
+    "img": "images/items/amulet.png",
+    "codes": "amulet",
+    "max_quantity": 3
+  },
+  {
+    "name": "Tome",
+    "type": "consumable",
+    "img": "images/items/tome.png",
+    "codes": "tome",
+    "max_quantity": 3
+  },
+  {
     "name": "Raft Pieces",
     "type": "consumable",
     "img": "images/items/raft-piece.png",
@@ -247,5 +261,47 @@
     "type": "toggle",
     "img": "images/settings/dreams-keep-items.png",
     "codes": "dreams-keep-items"
-  }
+  },
+  {
+    "name": "Sweetwater Coast access",
+    "type": "toggle",
+    "img": "images/items/d2-sand-castle.png",
+    "codes": "access-coast"
+  },
+  {
+    "name": "Fancy Ruins access",
+    "type": "toggle",
+    "img": "images/items/d3-art-exhibit.png",
+    "codes": "access-ruins"
+  },
+  {
+    "name": "Star Woods access",
+    "type": "toggle",
+    "img": "images/items/d4-trash-cave.png",
+    "codes": "access-woods"
+  },
+  {
+    "name": "Slippery Slope access",
+    "type": "toggle",
+    "img": "images/items/d5-flooded-basement.png",
+    "codes": "access-slope"
+  },
+  {
+    "name": "Pepperpain Prairie access",
+    "type": "toggle",
+    "img": "images/items/d6-potassium-mine.png",
+    "codes": "access-prairie"
+  },
+  {
+    "name": "Frozen Court access",
+    "type": "toggle",
+    "img": "images/items/d7-boiling-grave.png",
+    "codes": "access-court"
+  },
+  {
+    "name": "Lonely Road access",
+    "type": "toggle",
+    "img": "images/items/d8-grand-library.png",
+    "codes": "access-road"
+  },
 ]

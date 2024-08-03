@@ -11,8 +11,10 @@ ITEM_MAPPING = {
     -- TODO: ice upgrade
     -- TODO: chain upgrade
     [BASE + 9] = {"roll", "toggle"},
-    [BASE + 11] = {"headband", "toggle"},
-    [BASE + 14] = {"shard", "toggle"},
+    [BASE + 11] = {"headband", "consumable"},
+    [BASE + 12] = {"amulet", "consumable"},
+    [BASE + 13] = {"tome", "consumable"},
+    [BASE + 14] = {"shard", "consumable"},
     [BASE + 15] = {"forbiddenkey", "consumable"},
     [BASE + 16] = {"lockpick", "consumable"},
     [BASE + 21] = {"raftpiece", "consumable"},
@@ -49,5 +51,13 @@ ITEM_MAPPING = {
     [BASE + 49] = {"key-dream2", "consumable"},
     [BASE + 51] = {"key-dream4", "consumable"},
     [BASE + 53] = {"key-dream5", "consumable"},
-    [BASE + 65] = {"fakeefcs", "toggle"}
+    [BASE + 65] = {"fakeefcs", "toggle"},
+
+    [BASE + 900] = {"access-coast", "toggle"},
+    [BASE + 901] = {"access-ruins", "toggle"},
+    [BASE + 902] = {"access-woods", "toggle"},
+    [BASE + 903] = {"access-slope", "toggle"},
+    [BASE + 904] = {"access-prairie", "toggle"},
+    [BASE + 905] = {"access-court", "toggle"},
+    [BASE + 906] = {"access-road", "toggle"},
 }

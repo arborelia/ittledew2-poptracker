@@ -6,53 +6,82 @@
         "v_alignment": "center",
         "content": [
             {
-                "type": "itemgrid",
-                "item_margin": "4,4",
-                "item_size": 64,
-                "badge_font_size": 20,
-                "rows": [
-                    [
-                        "melee",
-                        "forcewand",
-                        "icering",
-                        "dynamite"
-                    ],
-                    [
-                        "lockpick",
-                        "chain",
-                        "shard",
-                        "forbiddenkey"
-                    ],
-                    [
-                        "roll",
-                        "headband",
-                        "fakeefcs",
-                        "raftpiece"
-                    ],
-                    [
-                        "key-d1",
-                        "key-d2",
-                        "key-d3",
-                        "key-d4"
-                    ],
-                    [
-                        "key-d5",
-                        "key-d6",
-                        "key-d7",
-                        "key-d8"
-                    ],
-                    [
-                        "key-s1",
-                        "key-s2",
-                        "key-s3",
-                        "key-s4"
-                    ],
-                    [
-                        "key-dream2",
-                        "key-dream3",
-                        "key-dream4",
-                        "key-dream5"
-                    ]
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "4,4",
+                        "item_size": 64,
+                        "badge_font_size": 20,
+                        "rows": [
+                            [
+                                "melee",
+                                "forcewand",
+                                "icering",
+                                "dynamite"
+                            ],
+                            [
+                                "roll",
+                                "lockpick",
+                                "shard",
+                                "forbiddenkey"
+                            ],
+                            [
+                                "chain",
+                                "headband",
+                                "amulet",
+                                "tome"
+                            ],
+                            [
+                                "fakeefcs",
+                                "",
+                                "",
+                                "raftpiece"
+                            ],
+                            [
+                                "key-d1",
+                                "key-d2",
+                                "key-d3",
+                                "key-d4"
+                            ],
+                            [
+                                "key-d5",
+                                "key-d6",
+                                "key-d7",
+                                "key-d8"
+                            ],
+                            [
+                                "key-s1",
+                                "key-s2",
+                                "key-s3",
+                                "key-s4"
+                            ],
+                            [
+                                "key-dream2",
+                                "key-dream3",
+                                "key-dream4",
+                                "key-dream5"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": 32,
+                        "badge_font_size": 20,
+                        "rows": [
+                            [
+                                "access-coast",
+                                "access-ruins",
+                                "access-woods",
+                                "access-slope",
+                                "access-prairie",
+                                "access-court",
+                                "access-road"
+                            ]
+                        ]
+                    }
                 ]
             }
         ]
