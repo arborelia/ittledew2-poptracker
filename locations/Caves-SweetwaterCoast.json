@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|coast,$weapon"
                 ]
             }
         ]
@@ -30,7 +30,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|coast,$weapon"
                 ]
             }
         ]
@@ -48,7 +48,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|coast,$openchest"
                 ]
             }
         ]
@@ -66,7 +66,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|coast,$weapon"
                 ]
             }
         ]
@@ -84,8 +84,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "roll,$weapon",
-                    "roll,$can_phase_itemless"
+                    "$access|coast,roll,$weapon",
+                    "$access|coast,roll,$can_phase_itemless"
                 ]
             }
         ]
@@ -103,7 +103,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|coast,$openchest"
                 ]
             }
         ]
@@ -121,9 +121,9 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick",
-                    "forcewand",
-                    "icering"
+                    "$access|coast,stick",
+                    "$access|coast,forcewand",
+                    "$access|coast,icering"
                 ]
             }
         ]
@@ -141,7 +141,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|coast,$openchest"
                 ]
             }
         ]
@@ -159,7 +159,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|coast,$openchest"
                 ]
             }
         ]

@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|woods,$weapon"
                 ]
             }
         ]
@@ -31,8 +31,8 @@
             {
                 "name": "Switch is under a bush",
                 "access_rules": [
-                    "stick",
-                    "dynamite"
+                    "$access|woods,stick",
+                    "$access|woods,dynamite"
                 ]
             }
         ]
@@ -51,8 +51,8 @@
             {
                 "name": "Behind a tree",
                 "access_rules": [
-                    "stick",
-                    "icering"
+                    "$access|woods,stick",
+                    "$access|woods,icering"
                 ]
             }
         ]
@@ -70,7 +70,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|woods,$weapon"
                 ]
             }
         ]
@@ -88,7 +88,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|woods,$weapon"
                 ]
             }
         ]
@@ -106,7 +106,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|woods,$openchest"
                 ]
             }
         ]
@@ -125,7 +125,7 @@
             {
                 "name": "Hit the star, draw a star counterclockwise from the left symbol",
                 "access_rules": [
-                    "$weapon"
+                    "$access|woods,$weapon"
                 ]
             }
         ]
@@ -144,7 +144,7 @@
             {
                 "name": "I'm magical, baby!",
                 "access_rules": [
-                    "$openchest"
+                    "$access|woods,$openchest"
                 ]
             }
         ]
@@ -162,7 +162,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|woods,$openchest"
                 ]
             }
         ]
@@ -180,7 +180,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|woods,$openchest"
                 ]
             }
         ]
@@ -198,7 +198,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|woods,$weapon"
                 ]
             }
         ]

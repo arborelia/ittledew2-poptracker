@@ -13,7 +13,7 @@
             {
                 "name": "Numbered tiles under teal trees",
                 "access_rules": [
-                    "stick"
+                    "$access|court,stick"
                 ]
             }
         ]
@@ -32,7 +32,7 @@
             {
                 "name": "Follow the lost soul in daytime",
                 "access_rules": [
-                    "$openchest"
+                    "$access|court,$openchest"
                 ]
             }
         ]
@@ -50,7 +50,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|court,$weapon"
                 ]
             }
         ]
@@ -68,7 +68,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|court,$openchest"
                 ]
             }
         ]
@@ -86,7 +86,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon,roll"
+                    "$access|court,$weapon,roll"
                 ]
             }
         ]
@@ -104,7 +104,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|court,$openchest"
                 ]
             }
         ]
@@ -123,8 +123,8 @@
             {
                 "name": "Counterclockwise through gates",
                 "access_rules": [
-                    "$nonforce",
-                    "$can_phase_itemless,$openchest"
+                    "$access|court,$nonforce",
+                    "$access|court,$can_phase_itemless,$openchest"
                 ]
             }
         ]
@@ -143,7 +143,7 @@
             {
                 "name": "Follow the lost soul at night",
                 "access_rules": [
-                    "$weapon"
+                    "$access|court,$weapon"
                 ]
             }
         ]
@@ -161,7 +161,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|court,$weapon"
                 ]
             }
         ]
@@ -179,7 +179,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|court,$openchest"
                 ]
             }
         ]

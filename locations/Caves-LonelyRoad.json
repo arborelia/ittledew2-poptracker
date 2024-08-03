@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|road,$weapon"
                 ]
             }
         ]
@@ -30,7 +30,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|road,$weapon"
                 ]
             }
         ]
@@ -48,7 +48,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|road,$openchest"
                 ]
             }
         ]
@@ -67,9 +67,9 @@
             {
                 "name": "Rock and roll",
                 "access_rules": [
-                    "roll,stick",
-                    "roll,icering",
-                    "roll,dynamite"
+                    "$access|road,roll,stick",
+                    "$access|road,roll,icering",
+                    "$access|road,roll,dynamite"
                 ]
             }
         ]
@@ -88,7 +88,7 @@
             {
                 "name": "Crank it up",
                 "access_rules": [
-                    "stick"
+                    "$access|road,stick"
                 ]
             }
         ]
@@ -106,7 +106,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|road,$openchest"
                 ]
             }
         ]
@@ -125,7 +125,7 @@
             {
                 "name": "Push the electric rock",
                 "access_rules": [
-                    "$openchest"
+                    "$access|road,$openchest"
                 ]
             }
         ]
@@ -143,9 +143,9 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick",
-                    "icering",
-                    "forcewand"
+                    "$access|road,stick",
+                    "$access|road,icering",
+                    "$access|road,forcewand"
                 ]
             }
         ]
@@ -163,7 +163,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick"
+                    "$access|road,stick"
                 ]
             }
         ]

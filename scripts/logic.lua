@@ -8,6 +8,17 @@ function has(item, amount)
     end
 end
 
+function access(region)
+    -- todo: add option
+    if region == "court" then
+        return has("access-court") and (has("access-ruins") or has("access-woods"))
+    elseif region == "road" then
+        return has("access-road") and has("access-slope")
+    else
+        return has("access-" .. region)
+    end
+end
+
 function dream()
     return has("raftpiece")
 end

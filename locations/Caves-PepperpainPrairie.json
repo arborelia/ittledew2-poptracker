@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -31,7 +31,7 @@
             {
                 "name": "OOOOOOUUUGH!",
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -50,10 +50,10 @@
             {
                 "name": "Follow a disguised exploding cowbun",
                 "access_rules": [
-                    "stick",
-                    "forcewand",
-                    "roll,$can_phase_ice",
-                    "roll,$can_phase_dynamite"
+                    "$access|prairie,stick",
+                    "$access|prairie,forcewand",
+                    "$access|prairie,roll,$can_phase_ice",
+                    "$access|prairie,roll,$can_phase_dynamite"
                 ]
             }
         ]
@@ -71,7 +71,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|prairie,$openchest"
                 ]
             }
         ]
@@ -89,7 +89,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -107,7 +107,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -125,7 +125,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|prairie,$openchest"
                 ]
             }
         ]
@@ -143,7 +143,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -161,7 +161,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon,roll"
+                    "$access|prairie,$weapon,roll"
                 ]
             }
         ]
@@ -179,7 +179,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -197,7 +197,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|prairie,$openchest"
                 ]
             }
         ]

@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick"
+                    "$access|ruins,stick"
                 ]
             }
         ]
@@ -30,7 +30,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick"
+                    "$access|ruins,stick"
                 ]
             }
         ]
@@ -48,8 +48,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon",
-                    "$can_phase_itemless,roll,$openchest"
+                    "$access|ruins,$weapon",
+                    "$access|ruins,$can_phase_itemless,roll,$openchest"
                 ]
             }
         ]
@@ -67,7 +67,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|ruins,$weapon"
                 ]
             }
         ]
@@ -85,7 +85,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|ruins,$weapon"
                 ]
             }
         ]
@@ -103,7 +103,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "stick"
+                    "$access|ruins,stick"
                 ]
             }
         ]
@@ -122,7 +122,7 @@
             {
                 "name": "Touch grass for a few seconds",
                 "access_rules": [
-                    "$weapon"
+                    "$access|ruins,$weapon"
                 ]
             }
         ]
@@ -141,7 +141,7 @@
             {
                 "name": "Button under the tree",
                 "access_rules": [
-                    "stick"
+                    "$access|ruins,stick"
                 ]
             }
         ]
@@ -159,7 +159,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|ruins,$weapon"
                 ]
             }
         ]
@@ -177,7 +177,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$openchest"
+                    "$access|ruins,$openchest"
                 ]
             }
         ]
@@ -196,7 +196,7 @@
             {
                 "name": "Let the stressed ogler do its thing",
                 "access_rules": [
-                    "stick"
+                    "$access|ruins,stick"
                 ]
             }
         ]
