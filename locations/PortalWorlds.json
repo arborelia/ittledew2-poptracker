@@ -31,7 +31,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|coast,$weapon"
                 ]
             }
         ]
@@ -49,7 +49,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|coast,$weapon"
                 ]
             }
         ]
@@ -68,7 +68,7 @@
             {
                 "name": "Step on numbered plants",
                 "access_rules": [
-                    "$weapon"
+                    "$access|ruins,$weapon"
                 ]
             }
         ]
@@ -87,10 +87,10 @@
             {
                 "name": "Find 3 number switches under grass",
                 "access_rules": [
-                    "stick",
-                    "wand",
-                    "dynamite",
-                    "ice,[headband]"
+                    "$access|ruins,stick",
+                    "$access|ruins,wand",
+                    "$access|ruins,dynamite",
+                    "$access|ruins,ice,[headband]"
                 ]
             }
         ]
@@ -109,8 +109,8 @@
             {
                 "name": "Push the switch up into the wall",
                 "access_rules": [
-                    "stick,[roll]",
-                    "icering,[roll]"
+                    "$access|woods,stick,[roll]",
+                    "$access|woods,icering,[roll]"
                 ]
             }
         ]
@@ -129,7 +129,7 @@
             {
                 "name": "Light the torches",
                 "access_rules": [
-                    "stick"
+                    "$access|woods,stick"
                 ]
             },
             {
@@ -154,7 +154,7 @@
             {
                 "name": "Launch a mushroom",
                 "access_rules": [
-                    "$weapon"
+                    "$access|slope,$weapon"
                 ]
             }
         ]
@@ -172,7 +172,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon,[roll]"
+                    "$access|slope,$weapon,[roll]"
                 ]
             }
         ]
@@ -190,7 +190,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -209,7 +209,7 @@
             {
                 "name": "Spend some time with the grieving cowbun",
                 "access_rules": [
-                    "$weapon"
+                    "$access|prairie,$weapon"
                 ]
             }
         ]
@@ -228,7 +228,7 @@
             {
                 "name": "Make someone spin in their grave",
                 "access_rules": [
-                    "$weapon,[roll]"
+                    "$access|court,$weapon,[roll]"
                 ]
             }
         ]
@@ -247,7 +247,7 @@
             {
                 "name": "Passage under the snow in the lower right of the court",
                 "access_rules": [
-                    "$weapon,[roll]"
+                    "$access|court,$weapon,[roll]"
                 ]
             }
         ]
@@ -266,10 +266,10 @@
             {
                 "name": "Red Green Blue",
                 "access_rules": [
-                    "[roll],stick",
-                    "[roll],wand",
-                    "[roll],dynamite",
-                    "[roll],ice,[headband]"
+                    "$access|road,[roll],stick",
+                    "$access|road,[roll],wand",
+                    "$access|road,[roll],dynamite",
+                    "$access|road,[roll],ice,[headband]"
                 ]
             }
         ]
@@ -288,7 +288,7 @@
             {
                 "name": "Zigzag around the lit masks to light the torches",
                 "access_rules": [
-                    "stick,[roll]"
+                    "$access|road,stick,[roll]"
                 ]
             }
         ]

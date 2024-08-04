@@ -23,6 +23,10 @@
                     [
                         "open-dream",
                         "dreams-keep-items"
+                    ],
+                    [
+                        "start-warps",
+                        "region-gates"
                     ]
                 ]
             }

@@ -263,6 +263,18 @@
     "codes": "dreams-keep-items"
   },
   {
+    "name": "Start with warps",
+    "type": "toggle",
+    "img": "images/settings/start-warps.png",
+    "codes": "start-warps"
+  },
+  {
+    "name": "Region gates",
+    "type": "toggle",
+    "img": "images/settings/region-gates.png",
+    "codes": "region-gates"
+  },
+  {
     "name": "Sweetwater Coast access",
     "type": "toggle",
     "img": "images/items/d2-sand-castle.png",
@@ -303,5 +315,5 @@
     "type": "toggle",
     "img": "images/items/d8-grand-library.png",
     "codes": "access-road"
-  },
+  }
 ]

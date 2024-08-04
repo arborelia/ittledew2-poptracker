@@ -9,13 +9,18 @@ function has(item, amount)
 end
 
 function access(region)
-    -- todo: add option
-    if region == "court" then
-        return has("access-court") and (has("access-ruins") or has("access-woods"))
-    elseif region == "road" then
-        return has("access-road") and has("access-slope")
-    else
-        return has("access-" .. region)
+    if has("region-gates") then
+        if has("start-warps") then
+            return has("access-" .. region)
+        elseif region == "court" then
+            return has("access-court") and (has("access-ruins") or has("access-woods"))
+        elseif region == "road" then
+            return has("access-road") and has("access-slope")
+        else
+            return has("access-" .. region)
+        end
+    else  -- no region gates, everything is open
+        return true
     end
 end
 
