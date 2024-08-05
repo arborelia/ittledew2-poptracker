@@ -1,6 +1,9 @@
 [
   {
     "name": "Potassium Mine",
+    "access_rules": [
+      "$access|prairie"
+    ],
     "sections": [
       {
         "name": "Hub Room"

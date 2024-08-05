@@ -1,6 +1,9 @@
 [
   {
     "name": "Flooded Basement",
+    "access_rules": [
+      "$access|slope"
+    ],
     "sections": [
       {
         "name": "Portal Cube",

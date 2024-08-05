@@ -1,6 +1,9 @@
 [
   {
     "name": "Trash Cave",
+    "access_rules": [
+      "$access|woods"
+    ],
     "sections": [
       {
         "name": "Crayons",

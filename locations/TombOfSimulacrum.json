@@ -1,6 +1,9 @@
 [
   {
     "name": "Tomb of Simulacrum",
+    "access_rules": [
+      "$access|road,$forbidden"
+    ],
     "sections": [
       {
         "name": "Metal Jelly",
@@ -11,73 +14,73 @@
       {
         "name": "8-Tile Slider",
         "access_rules": [
-          "$forbidden,ice,wand"
+          "ice,wand"
         ]
       },
       {
         "name": "Self-Locked Tile",
         "access_rules": [
-          "$forbidden,ice,stick"
+          "ice,stick"
         ]
       },
       {
         "name": "Roundabout Crystal",
         "access_rules": [
-          "$forbidden,ice,dynamite,wand,stick"
+          "ice,dynamite,wand,stick"
         ]
       },
       {
         "name": "Corner Torch",
         "access_rules": [
-          "$forbidden,ice,mace,dynamite,$keys|s4|1,[$realkeys|s4|1]"
+          "ice,mace,dynamite,$keys|s4|1,[$realkeys|s4|1]"
         ]
       },
       {
         "name": "Crayons",
         "access_rules": [
-          "$forbidden,dynamite,$puzzledmg,$keys|s4|2,[$realkeys|s4|2]"
+          "dynamite,$puzzledmg,$keys|s4|2,[$realkeys|s4|2]"
         ]
       },
       {
         "name": "Mothula Floor",
         "access_rules": [
-          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+          "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Molten Conveyors",
         "access_rules": [
-          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+          "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Blind Barrelcutie",
         "access_rules": [
-          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+          "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Flaming Spiked Orbitals",
         "access_rules": [
-          "$forbidden,ice,roll,$keys|s4|5,[$realkeys|s4|5]"
+          "ice,roll,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Hyperdusa Hell",
         "access_rules": [
-          "$forbidden,ice,$keys|s4|5,[$realkeys|s4|5]"
+          "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Treasure",
         "access_rules": [
-          "$forbidden,ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
+          "ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
         ]
       },
       {
         "name": "Boss",
         "access_rules": [
-          "$forbidden,$puzzledmg,ice,$keys|s4|10,[$realkeys|s4|10]"
+          "$puzzledmg,ice,$keys|s4|10,[$realkeys|s4|10]"
         ]
       }
     ],

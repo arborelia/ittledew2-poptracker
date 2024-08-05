@@ -1,6 +1,9 @@
 [
   {
     "name": "Machine Fortress",
+    "access_rules": [
+      "$access|ruins"
+    ],
     "sections": [
       {
         "name": "Hyperdusa Conveyor",

@@ -1,6 +1,9 @@
 [
   {
     "name": "Art Exhibit",
+    "access_rules": [
+      "$access|ruins"
+    ],
     "sections": [
       {
         "name": "Entry Combat",

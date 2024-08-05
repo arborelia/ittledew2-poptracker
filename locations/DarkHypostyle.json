@@ -1,6 +1,9 @@
 [
   {
     "name": "Dark Hypostyle",
+    "access_rules": [
+      "$access|woods"
+    ],
     "sections": [
       {
         "name": "Initial Key",

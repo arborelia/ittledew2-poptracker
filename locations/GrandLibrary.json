@@ -1,84 +1,87 @@
 [
   {
     "name": "Grand Library",
+    "access_rules": [
+      "$access|road,$library"
+    ],
     "sections": [
       {
         "name": "Treasure",
         "access_rules": [
-          "$library,ice,mace",
-          "$library,ice,chain,sword"
+          "ice,mace",
+          "ice,chain,sword"
         ]
       },
       {
         "name": "Crayons",
         "access_rules": [
-          "$library,ice,mace"
+          "ice,mace"
         ]
       },
       {
         "name": "Patient Key",
         "access_rules": [
-          "$library,mace,ice,wand"
+          "mace,ice,wand"
         ]
       },
       {
         "name": "Fighter's Key",
         "access_rules": [
-          "$library,mace,ice"
+          "mace,ice"
         ]
       },
       {
         "name": "Storied Key",
         "access_rules": [
-          "$library,ice,mace,wand"
+          "ice,mace,wand"
         ]
       },
       {
         "name": "Hidden Key",
         "access_rules": [
-          "$library,ice,mace,wand"
+          "ice,mace,wand"
         ]
       },
       {
         "name": "Delayed Key",
         "access_rules": [
-          "$library,ice,mace,wand,roll,$keys|d8|3,[$realkeys|d8|3]"
+          "ice,mace,wand,roll,$keys|d8|3,[$realkeys|d8|3]"
         ]
       },
       {
         "name": "Carrot Lobotomy Key",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|6]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|6]"
         ]
       },
       {
         "name": "Crystals and Buttons Key",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|7]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|5,[$realkeys|d8|7]"
         ]
       },
       {
         "name": "Hexrot Combat Key",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|6,[$realkeys|d8|7]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|6,[$realkeys|d8|7]"
         ]
       },
       {
         "name": "Boss Key",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
         ]
       },
       {
         "name": "Boss",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
         ]
       },
       {
         "name": "Extra Boss Reward",
         "access_rules": [
-          "$library,mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
+          "mace,roll,wand,ice,dynamite,$keys|d8|8,[$realkeys|d8|8]"
         ]
       }
     ],

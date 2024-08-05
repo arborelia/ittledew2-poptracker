@@ -1,6 +1,9 @@
 [
   {
     "name": "Sand Castle",
+    "access_rules": [
+      "$access|coast"
+    ],
     "sections": [
       {
         "name": "Orbiting Balls",

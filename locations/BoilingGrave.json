@@ -1,6 +1,9 @@
 [
   {
     "name": "Boiling Grave",
+    "access_rules": [
+      "$access|court"
+    ],
     "sections": [
       {
         "name": "Titans Combat"

@@ -135,7 +135,7 @@
             {
                 "name": "Ludo City dev room, via passage in back of Colossus",
                 "access_rules": [
-                    "stick,$puzzledmg"
+                    "$access|woods,stick,$puzzledmg"
                 ]
             }
         ]
