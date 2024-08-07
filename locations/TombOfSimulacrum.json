@@ -6,79 +6,77 @@
     ],
     "sections": [
       {
-        "name": "Metal Jelly",
-        "access_rules": [
-          "$forbidden"
-        ]
+        "name": "Metal Jelly", // room AK
+        "access_rules": []
       },
       {
-        "name": "8-Tile Slider",
+        "name": "8-Tile Slider", // room AB
         "access_rules": [
           "ice,wand"
         ]
       },
       {
-        "name": "Self-Locked Tile",
+        "name": "Self-Locked Tile", // room AF
         "access_rules": [
           "ice,stick"
         ]
       },
       {
-        "name": "Roundabout Crystal",
+        "name": "Roundabout Crystal", // room U
         "access_rules": [
           "ice,dynamite,wand,stick"
         ]
       },
       {
-        "name": "Corner Torch",
+        "name": "Corner Torch", // room Q
         "access_rules": [
           "ice,mace,dynamite,$keys|s4|1,[$realkeys|s4|1]"
         ]
       },
       {
-        "name": "Crayons",
+        "name": "Crayons", // room AC
         "access_rules": [
-          "dynamite,$puzzledmg,$keys|s4|2,[$realkeys|s4|2]"
+          "dynamite,$puzzledmg,$keys|s4|3,[$realkeys|s4|3]"
         ]
       },
       {
-        "name": "Mothula Floor",
-        "access_rules": [
-          "ice,$keys|s4|5,[$realkeys|s4|5]"
-        ]
-      },
-      {
-        "name": "Molten Conveyors",
+        "name": "Mothula Floor", // room Y?
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
-        "name": "Blind Barrelcutie",
+        "name": "Molten Conveyors", // room AQ
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
-        "name": "Flaming Spiked Orbitals",
+        "name": "Blind Barrelcutie", // room S
+        "access_rules": [
+          "ice,$keys|s4|5,[$realkeys|s4|5]"
+        ]
+      },
+      {
+        "name": "Flaming Spiked Orbitals", // room T
         "access_rules": [
           "ice,roll,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
-        "name": "Hyperdusa Hell",
+        "name": "Hyperdusa Hell", // room AI?
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
-        "name": "Treasure",
+        "name": "Treasure", // room I
         "access_rules": [
           "ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
         ]
       },
       {
-        "name": "Boss",
+        "name": "Boss", // room G
         "access_rules": [
           "$puzzledmg,ice,$keys|s4|10,[$realkeys|s4|10]"
         ]

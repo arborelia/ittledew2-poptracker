@@ -64,14 +64,7 @@
     "name": "Syncope",
     "sections": [
       {
-        "name": "Shifting Blue-Red",
-        "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
-        ]
-      },
-      {
-        "name": "Shifting Blue-Blue",
+        "name": "Shifting Chamber",
         "access_rules": [
           "$syncope"
         ]
@@ -748,25 +741,10 @@
     ]
   },
   {
-    "name": "Syncope Shifting Blue-Red",
+    "name": "Syncope Shifting Chamber",
     "sections": [
       {
-        "ref": "Syncope/Shifting Blue-Red"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "dreamworld",
-        "x": 510,
-        "y": 740
-      }
-    ]
-  },
-  {
-    "name": "Syncope Shifting Blue-Blue",
-    "sections": [
-      {
-        "ref": "Syncope/Shifting Blue-Blue"
+        "ref": "Syncope/Shifting Chamber"
       }
     ],
     "map_locations": [
