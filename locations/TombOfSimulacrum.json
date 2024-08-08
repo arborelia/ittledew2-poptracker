@@ -40,7 +40,7 @@
         ]
       },
       {
-        "name": "Mothula Floor", // room Y?
+        "name": "Death Ogler Combat", // room AI
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
@@ -64,7 +64,7 @@
         ]
       },
       {
-        "name": "Hyperdusa Hell", // room AI?
+        "name": "Large Chasm", // room Y
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
@@ -78,7 +78,7 @@
       {
         "name": "Boss", // room G
         "access_rules": [
-          "$puzzledmg,ice,$keys|s4|10,[$realkeys|s4|10]"
+          "$puzzledmg,ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
       }
     ],
