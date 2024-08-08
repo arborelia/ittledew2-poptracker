@@ -17,6 +17,7 @@ ITEM_MAPPING = {
     [BASE + 14] = {"shard", "consumable"},
     [BASE + 15] = {"forbiddenkey", "consumable"},
     [BASE + 16] = {"lockpick", "consumable"},
+    [BASE + 17] = {"crayons", "consumable"},
     [BASE + 21] = {"raftpiece", "consumable"},
     [BASE + 22] = {"key-d1", "consumable"},
     [BASE + 24] = {"key-d2", "consumable"},

@@ -75,6 +75,13 @@
     "max_quantity": 4
   },
   {
+    "name": "Crayons",
+    "type": "consumable",
+    "img": "images/items/craycray.png",
+    "codes": "crayons,crayon",
+    "max_quantity": 20
+  },
+  {
     "name": "Lockpicks",
     "type": "consumable",
     "img": "images/items/lockpick.png",
@@ -277,43 +284,43 @@
   {
     "name": "Sweetwater Coast access",
     "type": "toggle",
-    "img": "images/items/d2-sand-castle.png",
+    "img": "images/locations/coast.png",
     "codes": "access-coast"
   },
   {
     "name": "Fancy Ruins access",
     "type": "toggle",
-    "img": "images/items/d3-art-exhibit.png",
+    "img": "images/locations/ruins.png",
     "codes": "access-ruins"
   },
   {
     "name": "Star Woods access",
     "type": "toggle",
-    "img": "images/items/d4-trash-cave.png",
+    "img": "images/locations/woods.png",
     "codes": "access-woods"
   },
   {
     "name": "Slippery Slope access",
     "type": "toggle",
-    "img": "images/items/d5-flooded-basement.png",
+    "img": "images/locations/slope.png",
     "codes": "access-slope"
   },
   {
     "name": "Pepperpain Prairie access",
     "type": "toggle",
-    "img": "images/items/d6-potassium-mine.png",
+    "img": "images/locations/prairie.png",
     "codes": "access-prairie"
   },
   {
     "name": "Frozen Court access",
     "type": "toggle",
-    "img": "images/items/d7-boiling-grave.png",
+    "img": "images/locations/court.png",
     "codes": "access-court"
   },
   {
     "name": "Lonely Road access",
     "type": "toggle",
-    "img": "images/items/d8-grand-library.png",
+    "img": "images/locations/road.png",
     "codes": "access-road"
   }
 ]

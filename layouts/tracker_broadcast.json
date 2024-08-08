@@ -1,6 +1,73 @@
 {
     "tracker_broadcast": {
-        "type": "layout",
-        "key": "shared_item_grid"
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4,4",
+                "item_size": 64,
+                "badge_font_size": 32,
+                "rows": [
+                    [
+                        "melee",
+                        "forcewand",
+                        "icering",
+                        "dynamite",
+                        "roll",
+                        "shard",
+                        "forbiddenkey",
+                        "raftpiece"
+                    ],
+                    [
+                        "chain",
+                        "headband",
+                        "amulet",
+                        "tome",
+                        "fakeefcs",
+                        "lockpick",
+                        "crayons",
+                        ""
+                    ],
+                    [
+                        "key-d1",
+                        "key-d2",
+                        "key-d3",
+                        "key-d4",
+                        "key-d5",
+                        "key-d6",
+                        "key-d7",
+                        "key-d8"
+                    ],
+                    [
+                        "key-s1",
+                        "key-s2",
+                        "key-s3",
+                        "key-s4",
+                        "key-dream2",
+                        "key-dream3",
+                        "key-dream4",
+                        "key-dream5"
+                    ],
+                    [
+                        "",
+                        "access-coast",
+                        "access-ruins",
+                        "access-woods",
+                        "access-slope",
+                        "access-prairie",
+                        "access-court",
+                        "access-road"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "item_size": 32,
+                "badge_font_size": 20,
+                "rows": []
+            }
+        ]
     }
 }
