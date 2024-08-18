@@ -246,16 +246,27 @@
     "codes": "open-library"
   },
   {
-    "name": "Keyrings",
-    "type": "toggle",
-    "img": "images/settings/keyrings.png",
-    "codes": "keyrings"
-  },
-  {
-    "name": "Keysey",
-    "type": "toggle",
-    "img": "images/settings/keysey.png",
-    "codes": "keysey"
+    "name": "Key settings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/individual-keys.png",
+        "codes": "individual-keys",
+        "name": "Individual keys"
+      },
+      {
+        "img": "images/settings/keyrings.png",
+        "codes": "keyrings",
+        "name": "Keyrings"
+      },
+      {
+        "img": "images/settings/keysey.png",
+        "codes": "keysey",
+        "name": "Keysey"
+      }
+    ],
+    "codes": "key-settings"
   },
   {
     "name": "Open Dream",
@@ -264,10 +275,22 @@
     "codes": "open-dream"
   },
   {
+    "name": "Open Tomb",
+    "type": "toggle",
+    "img": "images/settings/open-tomb.png",
+    "codes": "open-tomb"
+  },
+  {
     "name": "Dream dungeons keep same items",
     "type": "toggle",
     "img": "images/settings/dreams-keep-items.png",
     "codes": "dreams-keep-items"
+  },
+  {
+    "name": "Start with warps",
+    "type": "toggle",
+    "img": "images/settings/start-warps.png",
+    "codes": "start-warps"
   },
   {
     "name": "Start with warps",

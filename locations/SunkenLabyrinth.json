@@ -3,7 +3,7 @@
     "name": "Sunken Labyrinth",
     "sections": [
       {
-        "name": "Laser Eyes",
+        "name": "Death Ogler",
         "access_rules": [
           "$shard8"
         ]
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "name": "Mimicutie",
+        "name": "Mimic Combat",
         "access_rules": [
           "$shard8,forcewand"
         ]
@@ -48,10 +48,10 @@
     ]
   },
   {
-    "name": "Sunken Labyrinth Laser Eyes",
+    "name": "Sunken Labyrinth Death Ogler",
     "sections": [
       {
-        "ref": "Sunken Labyrinth/Laser Eyes"
+        "ref": "Sunken Labyrinth/Death Ogler"
       }
     ],
     "map_locations": [
@@ -78,10 +78,10 @@
     ]
   },
   {
-    "name": "Sunken Labyrinth Mimicutie",
+    "name": "Sunken Labyrinth Mimic Combat",
     "sections": [
       {
-        "ref": "Sunken Labyrinth/Mimicutie"
+        "ref": "Sunken Labyrinth/Mimic Combat"
       }
     ],
     "map_locations": [

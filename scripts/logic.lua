@@ -209,7 +209,7 @@ function shard24()
 end
 
 function forbidden()
-    return has("forbiddenkey", 4)
+    return has("forbiddenkey", 4) or has("open-tomb")
 end
 
 -- leaving room for glitch logic

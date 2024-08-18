@@ -1,0 +1,14 @@
+{
+    "versions": [
+        {
+            "package_version": "1.4",
+            "download_url": "https://github.com/arborelia/ittledew2-poptracker/archive/refs/tags/v1.4.zip",
+            "changelog": [
+                "Settings are autotracked from AP now",
+                "Clear Impossible Gates is autotracked",
+                "Bosses logically require Roll",
+                "Fix logic in dungeons when roll opens chests"
+            ]
+        }
+    ]
+}

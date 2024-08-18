@@ -269,7 +269,7 @@
     "name": "Antigram",
     "sections": [
       {
-        "name": "West Light Bridge Card",
+        "name": "West Light Bridge",
         "access_rules": [
           "$antigram"
         ]
@@ -281,34 +281,34 @@
         ]
       },
       {
-        "name": "East Light Bridge Card",
+        "name": "East Light Bridge",
         "access_rules": [
           "$antigram"
         ]
       },
       {
-        "name": "West Ice Card",
+        "name": "West Ice",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "East Ice Card",
+        "name": "East Ice",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "West Bombs Key",
+        "name": "West Bombs",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
-        "name": "East Bombs Key",
+        "name": "East Bombs",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
@@ -906,10 +906,10 @@
     ]
   },
   {
-    "name": "Antigram East Light Bridge Card",
+    "name": "Antigram East Light Bridge",
     "sections": [
       {
-        "ref": "Antigram/East Light Bridge Card"
+        "ref": "Antigram/East Light Bridge"
       }
     ],
     "map_locations": [
@@ -921,10 +921,10 @@
     ]
   },
   {
-    "name": "Antigram West Light Bridge Card",
+    "name": "Antigram West Light Bridge",
     "sections": [
       {
-        "ref": "Antigram/West Light Bridge Card"
+        "ref": "Antigram/West Light Bridge"
       }
     ],
     "map_locations": [
@@ -936,10 +936,10 @@
     ]
   },
   {
-    "name": "Antigram West Ice Card",
+    "name": "Antigram West Ice",
     "sections": [
       {
-        "ref": "Antigram/West Ice Card"
+        "ref": "Antigram/West Ice"
       }
     ],
     "map_locations": [
@@ -951,10 +951,10 @@
     ]
   },
   {
-    "name": "Antigram East Ice Card",
+    "name": "Antigram East Ice",
     "sections": [
       {
-        "ref": "Antigram/East Ice Card"
+        "ref": "Antigram/East Ice"
       }
     ],
     "map_locations": [
@@ -966,10 +966,10 @@
     ]
   },
   {
-    "name": "Antigram West Bombs Key",
+    "name": "Antigram West Bombs",
     "sections": [
       {
-        "ref": "Antigram/West Bombs Key"
+        "ref": "Antigram/West Bombs"
       }
     ],
     "map_locations": [
@@ -981,10 +981,10 @@
     ]
   },
   {
-    "name": "Antigram East Bombs Key",
+    "name": "Antigram East Bombs",
     "sections": [
       {
-        "ref": "Antigram/East Bombs Key"
+        "ref": "Antigram/East Bombs"
       }
     ],
     "map_locations": [

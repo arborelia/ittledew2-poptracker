@@ -12,7 +12,7 @@
         ]
       },
       {
-        "name": "Decoy",
+        "name": "Bee Chest",
         "access_rules": [
           "$shard16,dynamite"
         ]
@@ -24,25 +24,25 @@
         ]
       },
       {
-        "name": "Spiked Numbers",
+        "name": "Number Tiles",
         "access_rules": [
           "$shard16,$nonforce,$keys|s2|1,[$realkeys|s2|1]"
         ]
       },
       {
-        "name": "Grinder",
+        "name": "Cannon Conveyors",
         "access_rules": [
           "$shard16,$nonforce,$keys|s2|2,[$realkeys|s2|2]"
         ]
       },
       {
-        "name": "Lit Path",
+        "name": "Light Bridge",
         "access_rules": [
           "$shard16,$nonforce,$keys|s2|3,[$realkeys|s2|3]"
         ]
       },
       {
-        "name": "Robonips",
+        "name": "Steel Skullnip Combat",
         "access_rules": [
           "$shard16,$nonforce,$keys|s2|4,[$realkeys|s2|4]"
         ]
@@ -84,10 +84,10 @@
     ]
   },
   {
-    "name": "Machine Fortress Decoy",
+    "name": "Machine Fortress Bee Chest",
     "sections": [
       {
-        "ref": "Machine Fortress/Decoy"
+        "ref": "Machine Fortress/Bee Chest"
       }
     ],
     "map_locations": [
@@ -114,10 +114,10 @@
     ]
   },
   {
-    "name": "Machine Fortress Spiked Numbers",
+    "name": "Machine Fortress Number Tiles",
     "sections": [
       {
-        "ref": "Machine Fortress/Spiked Numbers"
+        "ref": "Machine Fortress/Number Tiles"
       }
     ],
     "map_locations": [
@@ -129,10 +129,10 @@
     ]
   },
   {
-    "name": "Machine Fortress Grinder",
+    "name": "Machine Fortress Cannon Conveyors",
     "sections": [
       {
-        "ref": "Machine Fortress/Grinder"
+        "ref": "Machine Fortress/Cannon Conveyors"
       }
     ],
     "map_locations": [
@@ -144,10 +144,10 @@
     ]
   },
   {
-    "name": "Machine Fortress Lit Path",
+    "name": "Machine Fortress Light Bridge",
     "sections": [
       {
-        "ref": "Machine Fortress/Lit Path"
+        "ref": "Machine Fortress/Light Bridge"
       }
     ],
     "map_locations": [
@@ -159,10 +159,10 @@
     ]
   },
   {
-    "name": "Machine Fortress Robonips",
+    "name": "Machine Fortress Steel Skullnip Combat",
     "sections": [
       {
-        "ref": "Machine Fortress/Robonips"
+        "ref": "Machine Fortress/Steel Skullnip Combat"
       }
     ],
     "map_locations": [

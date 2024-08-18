@@ -12,27 +12,27 @@
         ]
       },
       {
-        "name": "Red Gauntlet",
+        "name": "Red Path Cannon",
         "access_rules": [
           "$shard24,stick,$keys|s3|1,[$realkeys|s3|4]",
           "$shard24,dynamite,$keys|s3|1,[$realkeys|s3|4]"
         ]
       },
       {
-        "name": "Red Reimbursement",
+        "name": "Red Path",
         "access_rules": [
           "$shard24,stick,$keys|s3|2,[$realkeys|s3|4]",
           "$shard24,dynamite,$keys|s3|2,[$realkeys|s3|4]"
         ]
       },
       {
-        "name": "Yellow Monochrome",
+        "name": "Yellow Path Monochrome",
         "access_rules": [
           "$shard24,stick,$keys|s3|1,[$realkeys|s3|4]"
         ]
       },
       {
-        "name": "Yellow Reimbursement",
+        "name": "Yellow Path",
         "access_rules": [
           "$shard24,stick,icering,$keys|s3|1,[$realkeys|s3|4]"
         ]
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "name": "Blue Reimbursement",
+        "name": "Blue Path",
         "access_rules": [
           "$shard24,$nonforce,$keys|s3|1,[$realkeys|s3|5]"
         ]
@@ -86,10 +86,10 @@
     ]
   },
   {
-    "name": "Dark Hypostyle Red Gauntlet",
+    "name": "Dark Hypostyle Red Path Cannon",
     "sections": [
       {
-        "ref": "Dark Hypostyle/Red Gauntlet"
+        "ref": "Dark Hypostyle/Red Path Cannon"
       }
     ],
     "map_locations": [
@@ -101,10 +101,10 @@
     ]
   },
   {
-    "name": "Dark Hypostyle Red Reimbursement",
+    "name": "Dark Hypostyle Red Path",
     "sections": [
       {
-        "ref": "Dark Hypostyle/Red Reimbursement"
+        "ref": "Dark Hypostyle/Red Path"
       }
     ],
     "map_locations": [
@@ -116,10 +116,10 @@
     ]
   },
   {
-    "name": "Dark Hypostyle Yellow Monochrome",
+    "name": "Dark Hypostyle Yellow Path Monochrome",
     "sections": [
       {
-        "ref": "Dark Hypostyle/Yellow Monochrome"
+        "ref": "Dark Hypostyle/Yellow Path Monochrome"
       }
     ],
     "map_locations": [
@@ -131,10 +131,10 @@
     ]
   },
   {
-    "name": "Dark Hypostyle Yellow Reimbursement",
+    "name": "Dark Hypostyle Yellow Path",
     "sections": [
       {
-        "ref": "Dark Hypostyle/Yellow Reimbursement"
+        "ref": "Dark Hypostyle/Yellow Path"
       }
     ],
     "map_locations": [
@@ -161,10 +161,10 @@
     ]
   },
   {
-    "name": "Dark Hypostyle Blue Reimbursement",
+    "name": "Dark Hypostyle Blue Path",
     "sections": [
       {
-        "ref": "Dark Hypostyle/Blue Reimbursement"
+        "ref": "Dark Hypostyle/Blue Path"
       }
     ],
     "map_locations": [

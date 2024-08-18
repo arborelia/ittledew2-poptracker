@@ -13,16 +13,16 @@
                 "h_alignment": "left",
                 "rows": [
                     [
-                        "keyrings",
-                        "keysey"
+                        "key-settings",
+                        "open-library"
                     ],
                     [
-                        "open-library",
-                        "roll-chests"
+                        "roll-chests",
+                        "open-tomb"
                     ],
                     [
-                        "open-dream",
-                        "dreams-keep-items"
+                        "dreams-keep-items",
+                        "open-dream"
                     ],
                     [
                         "start-warps",

@@ -6,8 +6,7 @@
     ],
     "sections": [
       {
-        "name": "Metal Jelly", // room AK
-        "access_rules": []
+        "name": "Metal Jelly" // room AK
       },
       {
         "name": "8-Tile Slider", // room AB
@@ -52,7 +51,7 @@
         ]
       },
       {
-        "name": "Blind Barrelcutie", // room S
+        "name": "EFCS Door Key", // room S
         "access_rules": [
           "ice,$keys|s4|5,[$realkeys|s4|5]"
         ]
@@ -226,10 +225,10 @@
     ]
   },
   {
-    "name": "Tomb of Simulacrum Blind Barrelcutie",
+    "name": "Tomb of Simulacrum EFCS Door Key",
     "sections": [
       {
-        "ref": "Tomb of Simulacrum/Blind Barrelcutie"
+        "ref": "Tomb of Simulacrum/EFCS Door Key"
       }
     ],
     "map_locations": [
@@ -271,10 +270,10 @@
     ]
   },
   {
-    "name": "Tomb of Simulacrum Hyperdusa Hell",
+    "name": "Tomb of Simulacrum Large Chasm",
     "sections": [
       {
-        "ref": "Tomb of Simulacrum/Hyperdusa Hell"
+        "ref": "Tomb of Simulacrum/Large Chasm"
       }
     ],
     "map_locations": [
