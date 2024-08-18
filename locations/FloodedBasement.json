@@ -9,8 +9,8 @@
         "name": "Portal Cube",
         "access_rules": [
           "stick",
-          "icering",
-          "dynamite"
+          "force,dynamite",
+          "icering"
         ]
       },
       {
