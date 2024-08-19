@@ -261,6 +261,6 @@ LOCATION_MAPPING = {
     [BASE + 2513] = {"@Northern End/Red Green Blue"},
     [BASE + 2514] = {"@Moon Garden/Zigzag around the lit masks to light the torches"},
     [BASE + 2600] = {"@Former Colossus/Ludo City dev room, via passage in back of Colossus"},
-    [BASE + 2601] = {"@Bottomless Tower/Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2"},
-    [BASE + 2602] = {"@Lost City of Avlopp/Promised Remedy (difficult secret boss)"}
+    [BASE + 2602] = {"@Bottomless Tower/Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2"},
+    [BASE + 2603] = {"@Lost City of Avlopp/Promised Remedy (difficult secret boss)"}
 }
