@@ -28,6 +28,7 @@
         "access_rules": [
           "sword",
           "stick,forcewand",
+          "stick,icering",
           "stick,$keys|d4|2,[$realkeys|d4|2]"
         ]
       },
