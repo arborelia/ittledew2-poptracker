@@ -68,13 +68,16 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "1,1",
-                        "item_size": 36,
+                        "item_size": "64,48",
                         "badge_font_size": 20,
                         "rows": [
                             [
+                                "",
                                 "access-coast",
                                 "access-ruins",
-                                "access-woods",
+                                "access-woods"
+                            ],
+                            [
                                 "access-slope",
                                 "access-prairie",
                                 "access-court",
