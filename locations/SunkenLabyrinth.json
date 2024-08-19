@@ -48,10 +48,10 @@
     ]
   },
   {
-    "name": "Sunken Labyrinth Death Ogler",
+    "name": "Sunken Labyrinth Mimic Combat",
     "sections": [
       {
-        "ref": "Sunken Labyrinth/Death Ogler"
+        "ref": "Sunken Labyrinth/Mimic Combat"
       }
     ],
     "map_locations": [
@@ -78,10 +78,10 @@
     ]
   },
   {
-    "name": "Sunken Labyrinth Mimic Combat",
+    "name": "Sunken Labyrinth Death Ogler",
     "sections": [
       {
-        "ref": "Sunken Labyrinth/Mimic Combat"
+        "ref": "Sunken Labyrinth/Death Ogler"
       }
     ],
     "map_locations": [
