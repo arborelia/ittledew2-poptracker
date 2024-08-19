@@ -293,16 +293,39 @@
     "codes": "start-warps"
   },
   {
-    "name": "Start with warps",
-    "type": "toggle",
-    "img": "images/settings/start-warps.png",
-    "codes": "start-warps"
-  },
-  {
     "name": "Region gates",
     "type": "toggle",
     "img": "images/settings/region-gates.png",
     "codes": "region-gates"
+  },
+  {
+    "name": "Shard settings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/shards-0.png",
+        "codes": "shard-req-0",
+        "name": "No shards"
+      },
+      {
+        "img": "images/settings/shards-4.png",
+        "codes": "shard-req-4",
+        "name": "4 shards per dungeon"
+      },
+      {
+        "img": "images/settings/shards-8.png",
+        "codes": "shard-req-8",
+        "name": "8 shards per dungeon"
+      },
+      {
+        "img": "images/settings/shards-12.png",
+        "codes": "shard-req-12",
+        "name": "12 shards per dungeon"
+      }
+    ],
+    "codes": "shard-settings",
+    "initial_stage_idx": 2
   },
   {
     "name": "Sweetwater Coast access",

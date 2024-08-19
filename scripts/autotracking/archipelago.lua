@@ -82,16 +82,11 @@ function onClear(slot_data)
     end
 
     if slot_data.key_settings then
-        if slot_data.key_settings == 0 then
-            Tracker:FindObjectForCode("keysey").Active = false
-            Tracker:FindObjectForCode("keyrings").Active = false
-        elseif slot_data.key_settings == 1 then
-            Tracker:FindObjectForCode("keysey").Active = false
-            Tracker:FindObjectForCode("keyrings").Active = true
-        elseif slot_data.key_settings == 2 then
-            Tracker:FindObjectForCode("keysey").Active = true
-            Tracker:FindObjectForCode("keyrings").Active = false
-        end
+        Tracker:FindObjectForCode("key-settings").CurrentStage = slot_data.key_settings
+    end
+
+    if slot_data.shard_settings then
+        Tracker:FindObjectForCode("shard-settings").CurrentStage = slot_data.shard_settings
     end
 
     if slot_data.roll_opens_chests then

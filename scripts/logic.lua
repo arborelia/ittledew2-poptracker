@@ -196,16 +196,24 @@ function library()
     return has("open-library") or has("raftpiece", 7)
 end
 
+function shard_req()
+    if has("shard-req-12") then return 12
+    elseif has("shard-req-8") then return 8
+    elseif has("shard-req-4") then return 4
+    else return 0
+    end
+end
+
 function shard8()
-    return has("shard", 8)
+    return has("shard", shard_req())
 end
 
 function shard16()
-    return has("shard", 16)
+    return has("shard", 2 * shard_req())
 end
 
 function shard24()
-    return has("shard", 24)
+    return has("shard", 3 * shard_req())
 end
 
 function forbidden()

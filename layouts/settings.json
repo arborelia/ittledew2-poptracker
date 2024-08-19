@@ -27,6 +27,10 @@
                     [
                         "start-warps",
                         "region-gates"
+                    ],
+                    [
+                        "shard-settings",
+                        ""
                     ]
                 ]
             }
