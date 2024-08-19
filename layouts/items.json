@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4,4",
+                        "item_margin": "1,1",
                         "item_size": 64,
                         "badge_font_size": 20,
                         "rows": [
@@ -68,7 +68,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "1,1",
-                        "item_size": 40,
+                        "item_size": 36,
                         "badge_font_size": 20,
                         "rows": [
                             [

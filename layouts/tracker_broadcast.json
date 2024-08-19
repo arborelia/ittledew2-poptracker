@@ -60,13 +60,6 @@
                         "access-road"
                     ]
                 ]
-            },
-            {
-                "type": "itemgrid",
-                "item_margin": "2,2",
-                "item_size": 32,
-                "badge_font_size": 20,
-                "rows": []
             }
         ]
     }
