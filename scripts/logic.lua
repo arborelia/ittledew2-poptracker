@@ -143,6 +143,7 @@ function quietus()
         and bottomlessCompletable()
         and syncopeCompletable()
         and antigramCompletable()
+        and (has("open-dream") or has("mace"))
     )
 end
 
@@ -152,6 +153,7 @@ function quietus_in_logic()
         and bottomlessCompletableInLogic()
         and syncopeCompletableInLogic()
         and antigramCompletableInLogic()
+        and quietus()
     )
 end
 

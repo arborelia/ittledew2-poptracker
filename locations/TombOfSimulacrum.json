@@ -180,6 +180,21 @@
     ]
   },
   {
+    "name": "Tomb of Simulacrum Death Ogler Combat",
+    "sections": [
+      {
+        "ref": "Tomb of Simulacrum/Death Ogler Combat"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 1095,
+        "y": 745
+      }
+    ]
+  },
+  {
     "name": "Tomb of Simulacrum Boss",
     "sections": [
       {
