@@ -13,7 +13,7 @@ function access(region)
         if has("start-warps") then
             return has("access-" .. region)
         elseif region == "court" then
-            return has("access-court") and (has("access-ruins") or has("access-woods"))
+            return has("access-court") and (has("access-ruins") or (has("access-woods") and weapon()))
         elseif region == "road" then
             return has("access-road") and has("access-slope")
         else
