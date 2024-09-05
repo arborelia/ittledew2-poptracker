@@ -125,7 +125,7 @@
             {
                 "name": "Hit the star, draw a star counterclockwise from the left symbol",
                 "access_rules": [
-                    "$access|woods,$weapon"
+                    "$access|woods,$nonforce"
                 ]
             }
         ]
@@ -144,7 +144,7 @@
             {
                 "name": "I'm magical, baby!",
                 "access_rules": [
-                    "$access|woods,$openchest"
+                    "$access|woods,$nonforce"
                 ]
             }
         ]

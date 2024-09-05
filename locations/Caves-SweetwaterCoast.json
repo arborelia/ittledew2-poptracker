@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|coast,$weapon"
+                    "$access|coast,$nonforce"
                 ]
             }
         ]
@@ -30,7 +30,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|coast,$weapon"
+                    "$access|coast,$nonforce"
                 ]
             }
         ]

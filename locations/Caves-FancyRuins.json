@@ -141,7 +141,7 @@
             {
                 "name": "Button under the tree",
                 "access_rules": [
-                    "$access|ruins,stick"
+                    "$access|ruins,$nonforce"
                 ]
             }
         ]

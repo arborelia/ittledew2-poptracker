@@ -12,7 +12,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|prairie,$weapon"
+                    "$access|prairie,$nonforce"
                 ]
             }
         ]
