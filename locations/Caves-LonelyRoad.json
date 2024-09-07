@@ -48,7 +48,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|road,$openchest"
+                    "$access|road,$weapon",
+                    "$access|road,$openchest,start-warps"
                 ]
             }
         ]
@@ -125,7 +126,8 @@
             {
                 "name": "Push the electric rock",
                 "access_rules": [
-                    "$access|road,$openchest"
+                    "$access|road,$weapon",
+                    "$access|road,$openchest,start-warps"
                 ]
             }
         ]
