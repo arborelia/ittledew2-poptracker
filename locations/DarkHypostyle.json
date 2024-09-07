@@ -176,6 +176,21 @@
     ]
   },
   {
+    "name": "Dark Hypostyle Treasure",
+    "sections": [
+      {
+        "ref": "Dark Hypostyle/Treasure"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dungeons",
+        "x": 795,
+        "y": 685
+      }
+    ]
+  },
+  {
     "name": "Dark Hypostyle Boss",
     "sections": [
       {

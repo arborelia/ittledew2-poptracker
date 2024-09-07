@@ -683,6 +683,21 @@
     ]
   },
   {
+    "name": "Bottomless Tower Blue Portal Card",
+    "sections": [
+      {
+        "ref": "Bottomless Tower/Blue Portal Card"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 1890,
+        "y": 1215
+      }
+    ]
+  },
+  {
     "name": "Bottomless Tower 4F Key",
     "sections": [
       {
@@ -753,8 +768,8 @@
       {
         "map": "dreamworld",
         "x": 2830,
-        "y": 1775,
-        "size": 60
+        "y": 1780,
+        "size": 40
       }
     ]
   },
@@ -798,7 +813,7 @@
     "map_locations": [
       {
         "map": "dreamworld",
-        "x": 625,
+        "x": 630,
         "y": 615
       }
     ]
@@ -860,6 +875,21 @@
         "map": "dreamworld",
         "x": 900,
         "y": 480
+      }
+    ]
+  },
+  {
+    "name": "Syncope Force Turret Maze",
+    "sections": [
+      {
+        "ref": "Syncope/Force Turret Maze"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "dreamworld",
+        "x": 40,
+        "y": 645
       }
     ]
   },
