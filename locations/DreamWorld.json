@@ -274,6 +274,7 @@
         "name": "West Light Bridge",
         "access_rules": [
           "$antigram,sword,[chain]",
+          "$antigram,mace",
           "$antigram,$dreamchange"
         ]
       },
@@ -287,6 +288,7 @@
         "name": "East Light Bridge",
         "access_rules": [
           "$antigram,sword,[chain]",
+          "$antigram,mace",
           "$antigram,$dreamchange"
         ]
       },
