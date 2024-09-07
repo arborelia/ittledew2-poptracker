@@ -121,7 +121,7 @@ function antigramCompletable()
     if not antigram() then
         return false
     elseif has("dreams-keep-items") then
-        return weapon() and keys("dream4", 4)
+        return weapon() and (has("chain") or has("mace") or has("force")) and keys("dream4", 4)
     else
         return keys("dream4", 4)
     end
@@ -131,7 +131,7 @@ function antigramCompletableInLogic()
     if not antigram() then
         return false
     elseif has("dreams-keep-items") then
-        return weapon() and has("roll") and realkeys("dream4", 4)
+        return weapon() and (has("chain") or has("mace") or has("force")) and has("roll") and realkeys("dream4", 4)
     else
         return realkeys("dream4", 4)
     end

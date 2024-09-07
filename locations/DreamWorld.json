@@ -5,7 +5,8 @@
       {
         "name": "Entrance",
         "access_rules": [
-          "$wizardry"
+          "$wizardry,force",
+          "$wizardry,$dreamchange"
         ]
       },
       {
@@ -66,7 +67,8 @@
       {
         "name": "Shifting Chamber",
         "access_rules": [
-          "$syncope,dynamite"
+          "$syncope,dynamite",
+          "$syncope,$dreamchange"
         ]
       },
       {
@@ -174,7 +176,7 @@
       {
         "name": "2F Card",
         "access_rules": [
-          "$bottomless,dreams-keep-items,sword",
+          "$bottomless,dreams-keep-items,sword,ice",
           "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|1,[$realkeys|dream2|1]",
           "$bottomless,$dreamchange,$keys|dream2|1,[$realkeys|dream2|1]"
         ]
@@ -271,19 +273,21 @@
       {
         "name": "West Light Bridge",
         "access_rules": [
-          "$antigram,sword"
+          "$antigram,sword,[chain]",
+          "$antigram,$dreamchange"
         ]
       },
       {
         "name": "Free Key",
         "access_rules": [
-          "$antigram,sword"
+          "$antigram"
         ]
       },
       {
         "name": "East Light Bridge",
         "access_rules": [
-          "$antigram"
+          "$antigram,sword,[chain]",
+          "$antigram,$dreamchange"
         ]
       },
       {
@@ -317,13 +321,19 @@
       {
         "name": "End East Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],$dreamchange",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,chain,stick",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,force",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,mace"
         ]
       },
       {
         "name": "End West Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],$dreamchange",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,chain,stick",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,force",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,mace"
         ]
       },
       {
@@ -366,7 +376,8 @@
       {
         "name": "NW Vault",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5]"
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5],$dreamchange",
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5],sword,chain"
         ]
       },
       {
@@ -378,7 +389,8 @@
       {
         "name": "Tangled Wires",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
@@ -408,25 +420,29 @@
       {
         "name": "Giant Mess",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,chain,sword",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       }
     ],
