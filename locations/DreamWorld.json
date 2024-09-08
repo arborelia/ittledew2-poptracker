@@ -75,6 +75,9 @@
         "name": "Switch Chamber",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,force,stick,chain,$keys|dream3|1,[$realkeys|dream3|3]",
+          // how is this next one possible? It's in the logic
+          "$syncope,dreams-keep-items,force,$nonforce,$keys|dream3|1,[$realkeys|dream3|3]",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -83,14 +86,14 @@
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand"
+          "$syncope,dreams-keep-items,ice,wand"
         ]
       },
       {
         "name": "Knights Hint",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,ice,wand",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -98,7 +101,7 @@
         "name": "Shadow Walker",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,ice,wand",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -106,7 +109,7 @@
         "name": "Piano",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,ice,wand",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -114,7 +117,7 @@
         "name": "Garden",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,ice,wand",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -122,7 +125,7 @@
         "name": "Force Turret Maze",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,dynamite,ice,wand",
+          "$syncope,dreams-keep-items,ice,wand",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -379,7 +382,7 @@
         "name": "NW Vault",
         "access_rules": [
           "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5],$dreamchange",
-          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5],sword,chain"
+          "$quietus,[$quietus_in_logic],$keys|dream5|1,[$realkeys|dream5|5],sword,chain,force,ice"
         ]
       },
       {
@@ -404,7 +407,8 @@
       {
         "name": "Push the Coil",
         "access_rules": [
-          "$quietus,[$quietus_in_logic]"
+          "$quietus,[$quietus_in_logic],dreams-keep-items,dynamite",
+          "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
@@ -422,28 +426,28 @@
       {
         "name": "Giant Mess",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],dreams-keep-items,chain,sword",
+          "$quietus,[$quietus_in_logic],dreams-keep-items,dynamite,chain,sword,ice",
           "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward A",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],dreams-keep-items,dynamite,chain",
           "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward B",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],dreams-keep-items,dynamite,chain",
           "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       },
       {
         "name": "Reward C",
         "access_rules": [
-          "$quietus,[$quietus_in_logic],dreams-keep-items,chain",
+          "$quietus,[$quietus_in_logic],dreams-keep-items,dynamite,chain",
           "$quietus,[$quietus_in_logic],$dreamchange"
         ]
       }
