@@ -108,6 +108,8 @@ function syncopeCompletableInLogic()
             -- force jump across the shifting room - it's in logic!
             has("icering") and has("wand")
         ) or (
+            has("dynamite") and has("icering") and realkeys("dream3", 1)
+        ) or (
             has("dynamite") and nondynamite() and realkeys("dream3", 3)
         )
     else

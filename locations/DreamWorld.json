@@ -84,49 +84,49 @@
       {
         "name": "Foyer",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand"
         ]
       },
       {
         "name": "Knights Hint",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]"
         ]
       },
       {
         "name": "Shadow Walker",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]"
         ]
       },
       {
         "name": "Piano",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]"
         ]
       },
       {
         "name": "Garden",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]"
         ]
       },
       {
         "name": "Force Turret Maze",
         "access_rules": [
-          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|1]",
           "$syncope,dreams-keep-items,ice,wand",
-          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
+          "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|1]"
         ]
       },
       {
