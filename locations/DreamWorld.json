@@ -68,7 +68,8 @@
         "name": "Shifting Chamber",
         "access_rules": [
           "$syncope,dynamite",
-          "$syncope,$dreamchange"
+          "$syncope,$dreamchange",
+          "$syncope,dreams-keep-items,force,ice,stick"
         ]
       },
       {
