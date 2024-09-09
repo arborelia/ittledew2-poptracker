@@ -75,9 +75,7 @@
         "name": "Switch Chamber",
         "access_rules": [
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
-          "$syncope,dreams-keep-items,force,stick,chain,$keys|dream3|1,[$realkeys|dream3|3]",
-          // how is this next one possible? It's in the logic
-          "$syncope,dreams-keep-items,force,$nonforce,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,force,stick,chain,ice,$keys|dream3|1,[$realkeys|dream3|3]",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -164,6 +162,7 @@
         "name": "1F Card",
         "access_rules": [
           "$bottomless,dreams-keep-items,stick,ice",
+          "$bottomless,dreams-keep-items,ice,wand",
           "$bottomless,$dreamchange",
           "$bottomless,dreams-keep-items,ice,wand"
         ]
@@ -172,6 +171,8 @@
         "name": "1F Key",
         "access_rules": [
           "$bottomless,dreams-keep-items,stick,ice",
+          "$bottomless,dreams-keep-items,mace",
+          "$bottomless,dreams-keep-items,wand",
           "$bottomless,$dreamchange",
           "$bottomless,dreams-keep-items,ice,wand"
         ]
@@ -299,6 +300,7 @@
         "name": "West Ice",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,ice,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
@@ -306,20 +308,23 @@
         "name": "East Ice",
         "access_rules": [
           "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,ice,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "West Bombs",
         "access_rules": [
-          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,stick,chain,dynamite,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
       {
         "name": "East Bombs",
         "access_rules": [
-          "$antigram,dreams-keep-items,sword,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,sword,chain,$keys|dream4|1,[$realkeys|dream4|1]",
+          "$antigram,dreams-keep-items,stick,chain,dynamite,$keys|dream4|1,[$realkeys|dream4|1]",
           "$antigram,$dreamchange,$keys|dream4|1,[$realkeys|dream4|1]"
         ]
       },
