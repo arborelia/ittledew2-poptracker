@@ -72,7 +72,9 @@
       {
         "name": "Switch Chamber",
         "access_rules": [
+          // TODO: check these rules, there was lots of discussion about them
           "$syncope,dreams-keep-items,dynamite,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
+          "$syncope,dreams-keep-items,force,ice,$nondynamite,$keys|dream3|1,[$realkeys|dream3|3]",
           "$syncope,$dreamchange,$keys|dream3|1,[$realkeys|dream3|3]"
         ]
       },
@@ -317,13 +319,19 @@
       {
         "name": "End East Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,dreams-keep-items,stick,chain,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,dreams-keep-items,force,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,dreams-keep-items,mace,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,$dreamchange,$keys|dream4|3,[$realkeys|dream4|3]"
         ]
       },
       {
         "name": "End West Bridge",
         "access_rules": [
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3]"
+          "$antigram,dreams-keep-items,stick,chain,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,dreams-keep-items,force,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,dreams-keep-items,mace,$keys|dream4|3,[$realkeys|dream4|3]",
+          "$antigram,$dreamchange,$keys|dream4|3,[$realkeys|dream4|3]"
         ]
       },
       {

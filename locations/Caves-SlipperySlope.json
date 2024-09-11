@@ -30,7 +30,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$weapon"
+                    "$access|slope,$nonforce"
                 ]
             }
         ]
@@ -87,7 +87,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$weapon"
+                    "$access|slope,$nonforce"
                 ]
             }
         ]

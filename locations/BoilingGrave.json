@@ -21,7 +21,7 @@
       {
         "name": "Treasure",
         "access_rules": [
-          "$openchest,roll,$keys|d7|1,[$realkeys|d7|5]"
+          "$weapon,roll,$keys|d7|1,[$realkeys|d7|5]"
         ]
       },
       {

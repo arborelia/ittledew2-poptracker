@@ -30,7 +30,7 @@
         "name": "Treasure",
         "access_rules": [
           "dynamite",
-          "$openchest,$keys|d2|1,[$realkeys|d2|2]"
+          "$weapon,$keys|d2|1,[$realkeys|d2|2]"
         ]
       },
       {

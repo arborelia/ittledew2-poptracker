@@ -20,13 +20,13 @@
       {
         "name": "Spike Floor",
         "access_rules": [
-          "dynamite,$nondynamite"
+          "dynamite"
         ]
       },
       {
         "name": "Evil Easels",
         "access_rules": [
-          "$openchest,$keys|d3|1,[$realkeys|d3|1]",
+          "$weapon,$keys|d3|1,[$realkeys|d3|1]",
           "dynamite,$nondynamite"
         ]
       },

@@ -41,43 +41,43 @@
       {
         "name": "Death Ogler Combat", // room AI
         "access_rules": [
-          "ice,$keys|s4|5,[$realkeys|s4|5]"
+          "dynamite,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Molten Conveyors", // room AQ
         "access_rules": [
-          "ice,$keys|s4|5,[$realkeys|s4|5]"
+          "dynamite,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "EFCS Door Key", // room S
         "access_rules": [
-          "ice,$keys|s4|5,[$realkeys|s4|5]"
+          "dynamite,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Flaming Spiked Orbitals", // room T
         "access_rules": [
-          "ice,roll,$keys|s4|5,[$realkeys|s4|5]"
+          "dynamite,roll,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Large Chasm", // room Y
         "access_rules": [
-          "ice,$keys|s4|5,[$realkeys|s4|5]"
+          "dynamite,$keys|s4|5,[$realkeys|s4|5]"
         ]
       },
       {
         "name": "Treasure", // room I
         "access_rules": [
-          "ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
+          "dynamite,ice,stick,wand,$keys|s4|10,[$realkeys|s4|10]"
         ]
       },
       {
         "name": "Boss", // room G
         "access_rules": [
-          "$puzzledmg,ice,$keys|s4|5,[$realkeys|s4|5]"
+          "$puzzledmg,dynamite,[roll],$keys|s4|5,[$realkeys|s4|5]"
         ]
       }
     ],

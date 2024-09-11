@@ -49,8 +49,10 @@
         ],
         "sections": [
             {
+                // TODO: check this logic
                 "access_rules": [
-                    "$access|court,$weapon"
+                    "$access|court,stick",
+                    "$access|court,ice"
                 ]
             }
         ]

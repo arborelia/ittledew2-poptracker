@@ -56,7 +56,7 @@
       {
         "name": "Boss",
         "access_rules": [
-          "$shard16,$nonforce,$keys|s2|5,[$realkeys|s2|5]"
+          "$shard16,dynamite,$nondynamite,[roll],$keys|s2|5,[$realkeys|s2|5]"
         ]
       }
     ],

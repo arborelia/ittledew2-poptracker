@@ -5,13 +5,14 @@
       {
         "name": "Death Ogler",
         "access_rules": [
-          "$shard8"
+          "$shard8,[$weapon],[roll]"
         ]
       },
       {
         "name": "Gold Titan",
         "access_rules": [
-          "$shard8"
+          "$shard8,[stick]",
+          "$shard8,[ice]"
         ]
       },
       {
@@ -35,7 +36,7 @@
       {
         "name": "Boss",
         "access_rules": [
-          "$shard8,forcewand,$keys|s1|1,[$realkeys|s1|2]"
+          "$shard8,forcewand,[roll],$keys|s1|1,[$realkeys|s1|2]"
         ]
       }
     ],

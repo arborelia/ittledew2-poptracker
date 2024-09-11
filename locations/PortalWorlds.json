@@ -109,8 +109,7 @@
             {
                 "name": "Push the switch up into the wall",
                 "access_rules": [
-                    "$access|woods,stick,[roll]",
-                    "$access|woods,icering,[roll]"
+                    "$access|woods,$weapon,[roll]"
                 ]
             }
         ]
@@ -228,7 +227,7 @@
             {
                 "name": "Make someone spin in their grave",
                 "access_rules": [
-                    "$access|court,$weapon,[roll]"
+                    "$access|court,stick,[roll]"
                 ]
             }
         ]
@@ -270,11 +269,13 @@
         ],
         "sections": [
             {
+                // TODO: check this logic. also it probably changes when
+                // there's combat logic
                 "name": "Red Green Blue",
                 "access_rules": [
                     "$access|road,[roll],stick",
                     "$access|road,[roll],wand",
-                    "$access|road,[roll],dynamite",
+                    "$access|road,[roll],dynamite,[headband]",
                     "$access|road,[roll],ice,[headband]"
                 ]
             }
@@ -292,7 +293,6 @@
         ],
         "sections": [
             {
-                "name": "Zigzag around the lit masks to light the torches",
                 "access_rules": [
                     "$access|road,stick,[roll]"
                 ]

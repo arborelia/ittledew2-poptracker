@@ -29,6 +29,7 @@
         ],
         "sections": [
             {
+                "name": "Zigzag around the lit masks",
                 "access_rules": [
                     "$access|road,$weapon"
                 ]
@@ -144,8 +145,7 @@
             {
                 "access_rules": [
                     "$access|road,stick",
-                    "$access|road,icering",
-                    "$access|road,forcewand"
+                    "$access|road,icering"
                 ]
             }
         ]
