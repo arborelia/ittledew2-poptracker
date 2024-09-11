@@ -333,7 +333,7 @@
         "name": "End East Bridge",
         "access_rules": [
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],$dreamchange",
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,chain,stick",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,[chain],stick",
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,force",
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,mace"
         ]
@@ -342,7 +342,7 @@
         "name": "End West Bridge",
         "access_rules": [
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],$dreamchange",
-          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,chain,stick",
+          "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,[chain],stick",
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,force",
           "$antigram,$keys|dream4|3,[$realkeys|dream4|3],dreams-keep-items,mace"
         ]
