@@ -20,7 +20,8 @@
       {
         "name": "Spike Floor",
         "access_rules": [
-          "dynamite"
+          "dynamite,$keys|d3|1,[$realkeys|d3|1]",
+          "dynamite,$nondynamite"
         ]
       },
       {
@@ -34,7 +35,7 @@
         "name": "Treasure",
         "access_rules": [
           "dynamite,$keys|d3|1,[$realkeys|d3|4]",
-          "$openchest,$keys|d3|2,[$realkeys|d3|4]"
+          "$weapon,$keys|d3|2,[$realkeys|d3|4]"
         ]
       },
       {
