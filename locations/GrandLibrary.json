@@ -139,10 +139,10 @@
     ]
   },
   {
-    "name": "Grand Library Storied Key",
+    "name": "Grand Library Fighter's Key",
     "sections": [
       {
-        "ref": "Grand Library/Storied Key"
+        "ref": "Grand Library/Fighter's Key"
       }
     ],
     "map_locations": [
@@ -154,10 +154,10 @@
     ]
   },
   {
-    "name": "Grand Library Fighter's Key",
+    "name": "Grand Library Storied Key",
     "sections": [
       {
-        "ref": "Grand Library/Fighter's Key"
+        "ref": "Grand Library/Storied Key"
       }
     ],
     "map_locations": [

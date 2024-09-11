@@ -6,7 +6,10 @@
     ],
     "sections": [
       {
-        "name": "Metal Jelly" // room AK
+        "name": "Metal Jelly", // room AK
+        "access_rules": [
+          "dynamite"
+        ]
       },
       {
         "name": "8-Tile Slider", // room AB

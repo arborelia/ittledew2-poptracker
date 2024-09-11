@@ -86,7 +86,8 @@ function syncopeCompletable()
         return false
     elseif has("dreams-keep-items") then
         return (
-            has("dynamite") and has("icering") and has("wand")
+            -- force jump across the shifting room
+            has("icering") and has("wand")
         ) or (
             has("dynamite")
             and (has("icering") or has("wand"))
@@ -104,7 +105,10 @@ function syncopeCompletableInLogic()
         return false
     elseif has("dreams-keep-items") then
         return (
-            has("dynamite") and has("icering") and has("wand")
+            -- force jump across the shifting room - it's in logic!
+            has("icering") and has("wand")
+        ) or (
+            has("dynamite") and has("icering") and realkeys("dream3", 1)
         ) or (
             has("dynamite") and nondynamite() and realkeys("dream3", 3)
         )

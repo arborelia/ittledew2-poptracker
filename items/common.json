@@ -231,7 +231,7 @@
     "type": "consumable",
     "img": "images/items/dream5-quietus-keys.png",
     "codes": "key-dream5",
-    "max_quantity": 5
+    "max_quantity": 4
   },
   {
     "name": "Roll opens chests",

@@ -105,7 +105,9 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("dreams-keep-items").Active = (slot_data.dream_dungeons_do_not_change_items == 1)
     end
 
-    -- todo: slot_data.shard_settings == 0
+    if slot_data.start_with_warps then
+        Tracker:FindObjectForCode("start-warps").Active = (slot_data.start_with_warps == 1)
+    end
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
