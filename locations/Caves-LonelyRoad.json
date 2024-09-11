@@ -70,7 +70,6 @@
                 "name": "Rock and roll",
                 "access_rules": [
                     "$access|road,roll,stick",
-                    "$access|road,roll,icering",
                     "$access|road,roll,dynamite"
                 ]
             }
@@ -146,8 +145,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|road,stick",
-                    "$access|road,icering"
+                    "$access|road,stick"
                 ]
             }
         ]

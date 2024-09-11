@@ -89,8 +89,7 @@
                 "access_rules": [
                     "$access|ruins,stick",
                     "$access|ruins,wand",
-                    "$access|ruins,dynamite",
-                    "$access|ruins,ice,[headband]"
+                    "$access|ruins,dynamite"
                 ]
             }
         ]

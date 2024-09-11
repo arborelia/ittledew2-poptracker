@@ -49,10 +49,8 @@
         ],
         "sections": [
             {
-                // TODO: check this logic
                 "access_rules": [
-                    "$access|court,stick",
-                    "$access|court,ice"
+                    "$access|court,stick"
                 ]
             }
         ]
