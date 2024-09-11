@@ -7,6 +7,43 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 HOSTED = {}
 
+local positionKey = ""
+local levelNameKey = ""
+
+local dungeonNames = {
+    PillowFort = true,
+    SandCastle = true,
+    ArtExhibit = true,
+    TrashCave = true,
+    FloodedBasement = true,
+    PotassiumMine = true,
+    BoilingGrave = true,
+    GrandLibrary = true,
+    SunkenLabyrinth = true,
+    MachineFortress = true,
+    DarkHypostyle = true,
+    TombOfSimulacrum = true,
+}
+
+local dreamWorldNames = {
+    DreamWorld = true,
+    DreamForce = true, -- Wizardry Lab
+    DreamDynamite = true, -- Syncope
+    DreamIce = true, -- Bottomless Tower
+    DreamFireChain = true, -- Antigram
+    DreamAll = true, -- Quietus
+}
+
+local function levelNameToTabName(levelName)
+    if dungeonNames[levelName] then
+        return "Dungeons"
+    elseif dreamWorldNames[levelName] then
+        return "Dream World"
+    else
+        return "Overworld"
+    end
+end
+
 -- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
 -- dumps a table in a readable string
 function dump_table(o, depth)
@@ -29,8 +66,17 @@ function dump_table(o, depth)
     end
 end
 
+local function onRetrieved(key, value)
+    if key == levelNameKey then
+        local levelName = value
+        local tabName = levelNameToTabName(levelName)
 
-function onSetReply(key, value, old)
+        Tracker:UiHint("ActivateTab", tabName)
+    end
+end
+
+local function onSetReply(key, value, _old)
+    onRetrieved(key, value)
 end
 
 function onClear(slot_data)
@@ -116,6 +162,16 @@ function onClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
+    positionKey = "id2.pos." .. Archipelago.PlayerNumber
+    levelNameKey = "id2.levelName." .. Archipelago.PlayerNumber
+
+    local keys = {
+        positionKey,
+        levelNameKey
+    }
+
+    Archipelago:SetNotify(keys)
+    Archipelago:Get(keys)
 end
 
 -- called when an item gets collected
@@ -237,6 +293,7 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
+Archipelago:AddRetrievedHandler("retrieved handler", onRetrieved)
 Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
