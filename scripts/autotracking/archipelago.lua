@@ -101,6 +101,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("open-dream").Active = (slot_data.open_dreamworld == 1)
     end
 
+    if slot_data.open_s4 then
+        Tracker:FindObjectForCode("open-tomb").Active = (slot_data.open_s4 == 1)
+    end
+
     if slot_data.dream_dungeons_do_not_change_items then
         Tracker:FindObjectForCode("dreams-keep-items").Active = (slot_data.dream_dungeons_do_not_change_items == 1)
     end
