@@ -268,14 +268,9 @@
         ],
         "sections": [
             {
-                // TODO: check this logic. also it probably changes when
-                // there's combat logic
                 "name": "Red Green Blue",
                 "access_rules": [
-                    "$access|road,[roll],stick",
-                    "$access|road,[roll],wand",
-                    "$access|road,[roll],dynamite,[headband]",
-                    "$access|road,[roll],ice,[headband]"
+                    "$access|road,[roll],stick"
                 ]
             }
         ]
@@ -292,8 +287,12 @@
         ],
         "sections": [
             {
+                "name": "The meteor has 10 HP",
                 "access_rules": [
-                    "$access|road,stick,[roll]"
+                    "$access|road,stick,[roll]",
+                    "$access|road,dynamite,[roll]",
+                    "$access|road,force,[roll]",
+                    "$access|road,ice,headband,[stick],[roll]"
                 ]
             }
         ]

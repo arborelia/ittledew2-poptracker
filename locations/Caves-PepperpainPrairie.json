@@ -51,8 +51,8 @@
                 "name": "Follow a disguised exploding cowbun",
                 "access_rules": [
                     "$access|prairie,stick",
-                    "$access|prairie,roll,$can_phase_ice",
-                    "$access|prairie,roll,$can_phase_dynamite"
+                    "$access|prairie,ice,force",
+                    "$access|prairie,dynamite,force"
                 ]
             }
         ]
