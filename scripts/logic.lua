@@ -10,14 +10,50 @@ end
 
 function access(region)
     if has("region-gates") then
-        if has("start-warps") then
-            return has("access-" .. region)
+        if region == "fields" then
+            return true
+        elseif region == "coast" then
+            return (
+                has("access-coast")
+                or has("connect-fields-coast")
+            )
+        elseif region == "ruins" then
+            return (
+                has("access-ruins")
+                or has("connect-fields-ruins")
+                or (access("coast") and has("connect-coast-ruins"))
+            )
+        elseif region == "woods" then
+            return (
+                has("access-woods")
+                or has("connect-fields-woods")
+                or (access("coast") and has("connect-coast-woods"))
+                or (access("ruins") and has("connect-ruins-woods"))
+            )
+        elseif region == "slope" then
+            return (
+                has("access-slope")
+                or has("connect-fields-slope")
+                or (access("coast") and has("connect-coast-slope"))
+            )
+        elseif region == "prairie" then
+            return (
+                has("access-prairie")
+                or has("connect-fields-prairie")
+                or (access("ruins") and has("connect-ruins-prairie"))
+                or (access("slope") and has("connect-slope-prairie"))
+            )
         elseif region == "court" then
-            return has("access-court") and (has("access-ruins") or (has("access-woods") and weapon()))
+            return (
+                (has("access-court") and (has("access-ruins") or (has("access-woods") and weapon())))
+                or (access("ruins") and has("connect-ruins-court"))
+                or (access("woods") and has("connect-woods-court") and weapon())
+            )
         elseif region == "road" then
-            return has("access-road") and has("access-slope")
-        else
-            return has("access-" .. region)
+            return (
+                (has("access-slope") and has("access-road"))
+                or (access("slope") and has("connect-slope-road"))
+            )
         end
     else  -- no region gates, everything is open
         return true
