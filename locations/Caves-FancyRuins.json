@@ -12,7 +12,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,stick"
+                    "$access|ruins,stick",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -30,7 +31,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,stick"
+                    "$access|ruins,stick",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -49,7 +51,7 @@
             {
                 "access_rules": [
                     "$access|ruins,$weapon",
-                    "$access|ruins,$can_phase_itemless,roll,$openchest"
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -67,7 +69,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,$weapon"
+                    "$access|ruins,$weapon,[roll]",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -85,7 +88,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,$weapon"
+                    "$access|ruins,$openchest",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -103,7 +107,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,stick"
+                    "$access|ruins,stick",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -122,7 +127,8 @@
             {
                 "name": "Touch grass for a few seconds",
                 "access_rules": [
-                    "$access|ruins,$weapon"
+                    "$access|ruins,$weapon",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -159,7 +165,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,$weapon"
+                    "$access|ruins,$weapon",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -177,7 +184,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,$openchest"
+                    "$access|ruins,$openchest",
+                    "{$access|ruins}"
                 ]
             }
         ]
@@ -196,7 +204,8 @@
             {
                 "name": "Let the stressed ogler do its thing",
                 "access_rules": [
-                    "$access|ruins,stick"
+                    "$access|ruins,stick",
+                    "{$access|ruins}"
                 ]
             }
         ]

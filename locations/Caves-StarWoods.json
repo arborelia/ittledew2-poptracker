@@ -70,7 +70,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|woods,$weapon"
+                    "$access|woods,$weapon",
+                    "{$access|woods}"
                 ]
             }
         ]
@@ -106,7 +107,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|woods,$openchest"
+                    "$access|woods,$openchest",
+                    "{$access|woods}"
                 ]
             }
         ]
@@ -162,7 +164,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|woods,$openchest"
+                    "$access|woods,$openchest",
+                    "{$access|woods}"
                 ]
             }
         ]
@@ -180,7 +183,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|woods,$openchest"
+                    "$access|woods,$openchest",
+                    "{$access|woods}"
                 ]
             }
         ]
