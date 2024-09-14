@@ -122,116 +122,609 @@
     "max_quantity": 8
   },
   {
+    "name": "Pillow Fort",
+    "type": "static",
+    "img": "images/dungeons/d1.png",
+    "codes": "caption-d1"
+  },
+  {
+    "name": "Sand Castle",
+    "type": "static",
+    "img": "images/dungeons/d2.png",
+    "codes": "caption-d2"
+  },
+  {
+    "name": "Art Exhibit",
+    "type": "static",
+    "img": "images/dungeons/d3.png",
+    "codes": "caption-d3"
+  },
+  {
+    "name": "Trash Cave",
+    "type": "static",
+    "img": "images/dungeons/d4.png",
+    "codes": "caption-d4"
+  },
+  {
+    "name": "Flooded Basement",
+    "type": "static",
+    "img": "images/dungeons/d5.png",
+    "codes": "caption-d5"
+  },
+  {
+    "name": "Potassium Mine",
+    "type": "static",
+    "img": "images/dungeons/d6.png",
+    "codes": "caption-d6"
+  },
+  {
+    "name": "Boiling Grave",
+    "type": "static",
+    "img": "images/dungeons/d7.png",
+    "codes": "caption-d7"
+  },
+  {
+    "name": "Grand Library",
+    "type": "static",
+    "img": "images/dungeons/d8.png",
+    "codes": "caption-d8"
+  },
+  {
+    "name": "Sunken Labyrinth",
+    "type": "static",
+    "img": "images/dungeons/s1.png",
+    "codes": "caption-s1"
+  },
+  {
+    "name": "Machine Fortress",
+    "type": "static",
+    "img": "images/dungeons/s2.png",
+    "codes": "caption-s2"
+  },
+  {
+    "name": "Dark Hypostyle",
+    "type": "static",
+    "img": "images/dungeons/s3.png",
+    "codes": "caption-s3"
+  },
+  {
+    "name": "Tomb of Simulacrum",
+    "type": "static",
+    "img": "images/dungeons/s4.png",
+    "codes": "caption-s4"
+  },
+  {
+    "name": "Wizardry Lab",
+    "type": "static",
+    "img": "images/dungeons/wl.png",
+    "codes": "caption-dream1"
+  },
+  {
+    "name": "Bottomless Tower",
+    "type": "static",
+    "img": "images/dungeons/bt.png",
+    "codes": "caption-dream2"
+  },
+  {
+    "name": "Syncope",
+    "type": "static",
+    "img": "images/dungeons/s.png",
+    "codes": "caption-dream3"
+  },
+  {
+    "name": "Antigram",
+    "type": "static",
+    "img": "images/dungeons/a.png",
+    "codes": "caption-dream4"
+  },
+  {
+    "name": "Quietus",
+    "type": "static",
+    "img": "images/dungeons/q.png",
+    "codes": "caption-dream5"
+  },
+  {
+    "name": "Pillow Fort",
+    "type": "static",
+    "img": "images/items/d1-pillow-fort.png",
+    "codes": "icon-d1"
+  },
+  {
+    "name": "Sand Castle",
+    "type": "static",
+    "img": "images/items/d2-sand-castle.png",
+    "codes": "icon-d2"
+  },
+  {
+    "name": "Art Exhibit",
+    "type": "static",
+    "img": "images/items/d3-art-exhibit.png",
+    "codes": "icon-d3"
+  },
+  {
+    "name": "Trash Cave",
+    "type": "static",
+    "img": "images/items/d4-trash-cave.png",
+    "codes": "icon-d4"
+  },
+  {
+    "name": "Flooded Basement",
+    "type": "static",
+    "img": "images/items/d5-flooded-basement.png",
+    "codes": "icon-d5"
+  },
+  {
+    "name": "Potassium Mine",
+    "type": "static",
+    "img": "images/items/d6-potassium-mine.png",
+    "codes": "icon-d6"
+  },
+  {
+    "name": "Boiling Grave",
+    "type": "static",
+    "img": "images/items/d7-boiling-grave.png",
+    "codes": "icon-d7"
+  },
+  {
+    "name": "Grand Library",
+    "type": "static",
+    "img": "images/items/d8-grand-library.png",
+    "codes": "icon-d8"
+  },
+  {
+    "name": "Sunken Labyrinth",
+    "type": "static",
+    "img": "images/items/s1-sunken-labyrinth.png",
+    "codes": "icon-s1"
+  },
+  {
+    "name": "Machine Fortress",
+    "type": "static",
+    "img": "images/items/s2-machine-fortress.png",
+    "codes": "icon-s2"
+  },
+  {
+    "name": "Dark Hypostyle",
+    "type": "static",
+    "img": "images/items/s3-dark-hypostyle.png",
+    "codes": "icon-s3"
+  },
+  {
+    "name": "Tomb of Simulacrum",
+    "type": "static",
+    "img": "images/items/s4-tomb-of-simulacrum.png",
+    "codes": "icon-s4"
+  },
+  {
+    "name": "Wizardry Lab",
+    "type": "static",
+    "img": "images/items/dream1-wizardry-lab.png",
+    "codes": "icon-dream1"
+  },
+  {
+    "name": "Bottomless Tower",
+    "type": "static",
+    "img": "images/items/dream2-bottomless-tower.png",
+    "codes": "icon-dream2"
+  },
+  {
+    "name": "Syncope",
+    "type": "static",
+    "img": "images/items/dream3-syncope.png",
+    "codes": "icon-dream3"
+  },
+  {
+    "name": "Antigram",
+    "type": "static",
+    "img": "images/items/dream4-antigram.png",
+    "codes": "icon-dream4"
+  },
+  {
+    "name": "Quietus",
+    "type": "static",
+    "img": "images/items/dream5-quietus.png",
+    "codes": "icon-dream5"
+  },
+  {
     "name": "Pillow Fort keys",
     "type": "consumable",
-    "img": "images/items/d1-pillow-fort-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d1",
     "max_quantity": 2
   },
   {
     "name": "Sand Castle keys",
     "type": "consumable",
-    "img": "images/items/d2-sand-castle-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d2",
     "max_quantity": 2
   },
   {
     "name": "Art Exhibit keys",
     "type": "consumable",
-    "img": "images/items/d3-art-exhibit-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d3",
     "max_quantity": 4
   },
   {
     "name": "Trash Cave keys",
     "type": "consumable",
-    "img": "images/items/d4-trash-cave-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d4",
     "max_quantity": 4
   },
   {
     "name": "Flooded Basement keys",
     "type": "consumable",
-    "img": "images/items/d5-flooded-basement-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d5",
     "max_quantity": 5
   },
   {
     "name": "Potassium Mine keys",
     "type": "consumable",
-    "img": "images/items/d6-potassium-mine-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d6",
     "max_quantity": 5
   },
   {
     "name": "Boiling Grave keys",
     "type": "consumable",
-    "img": "images/items/d7-boiling-grave-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d7",
     "max_quantity": 5
   },
   {
     "name": "Grand Library keys",
     "type": "consumable",
-    "img": "images/items/d8-grand-library-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-d8",
     "max_quantity": 8
   },
   {
     "name": "Sunken Labyrinth keys",
     "type": "consumable",
-    "img": "images/items/s1-sunken-labyrinth-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-s1",
     "max_quantity": 3
   },
   {
     "name": "Machine Fortress keys",
     "type": "consumable",
-    "img": "images/items/s2-machine-fortress-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-s2",
     "max_quantity": 5
   },
   {
     "name": "Dark Hypostyle keys",
     "type": "consumable",
-    "img": "images/items/s3-dark-hypostyle-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-s3",
     "max_quantity": 5
   },
   {
     "name": "Tomb of Simulacrum keys",
     "type": "consumable",
-    "img": "images/items/s4-tomb-of-simulacrum-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-s4",
     "max_quantity": 10
   },
   {
     "name": "Bottomless Tower keys",
     "type": "consumable",
-    "img": "images/items/dream2-bottomless-tower-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-dream2",
     "max_quantity": 4
   },
   {
     "name": "Syncope keys",
     "type": "consumable",
-    "img": "images/items/dream3-syncope-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-dream3",
     "max_quantity": 3
   },
   {
     "name": "Antigram keys",
     "type": "consumable",
-    "img": "images/items/dream4-antigram-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-dream4",
     "max_quantity": 4
   },
   {
     "name": "Quietus keys",
     "type": "consumable",
-    "img": "images/items/dream5-quietus-keys.png",
+    "img": "images/items/key.png",
     "codes": "key-dream5",
     "max_quantity": 4
+  },
+  {
+    "name": "Pillow Fort goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d1"
+  },
+  {
+    "name": "Sand Castle goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d2"
+  },
+  {
+    "name": "Art Exhibit goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d3"
+  },
+  {
+    "name": "Trash Cave goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d4"
+  },
+  {
+    "name": "Flooded Basement goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d5"
+  },
+  {
+    "name": "Potassium Mine goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d6"
+  },
+  {
+    "name": "Boiling Grave goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d7"
+  },
+  {
+    "name": "Grand Library goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-d8"
+  },
+  {
+    "name": "Sunken Labyrinth goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-s1"
+  },
+  {
+    "name": "Machine Fortress goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-s2"
+  },
+  {
+    "name": "Dark Hypostyle goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-s3"
+  },
+  {
+    "name": "Tomb of Simulacrum goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-s4"
+  },
+  {
+    "name": "Wizardry Lab goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-dream1"
+  },
+  {
+    "name": "Bottomless Tower goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-dream2"
+  },
+  {
+    "name": "Syncope goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-dream3"
+  },
+  {
+    "name": "Antigram goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-dream4"
+  },
+  {
+    "name": "Quietus goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/transparent.png"
+      },
+      {
+        "img": "images/items/raft-piece.png"
+      },
+      {
+        "img": "images/items/check.png"
+      }
+    ],
+    "codes": "goal-dream5"
   },
   {
     "name": "Roll opens chests",
