@@ -32,6 +32,114 @@
                             }
                         },
                         {
+                            "title": "Pillow Fort",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sand Castle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Art Exhibit",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trash Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Flooded Basement",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Potassium Mine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d6"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Boiling Grave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d7"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Grand Library",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "d8"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunken Labyrinth",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "s1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Machine Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "s2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dark Hypostyle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "s3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Simulacrum",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "s4"
+                                ]
+                            }
+                        },
+                        {
                             "title": "Dream World",
                             "content": {
                                 "type": "map",

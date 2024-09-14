@@ -12,6 +12,78 @@
     "location_border_thickness": 3
   },
   {
+    "name": "d1",
+    "img": "images/maps/d1.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d2",
+    "img": "images/maps/d2.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d3",
+    "img": "images/maps/d3.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d4",
+    "img": "images/maps/d4.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d5",
+    "img": "images/maps/d5.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d6",
+    "img": "images/maps/d6.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d7",
+    "img": "images/maps/d7.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "d8",
+    "img": "images/maps/d8.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "s1",
+    "img": "images/maps/s1.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "s2",
+    "img": "images/maps/s2.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "s3",
+    "img": "images/maps/s3.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "s4",
+    "img": "images/maps/s4.png",
+    "location_size": 45,
+    "location_border_thickness": 3
+  },
+  {
     "name": "dreamworld",
     "img": "images/maps/dreamworld.png",
     "location_size": 40,
