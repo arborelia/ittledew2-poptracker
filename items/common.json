@@ -821,45 +821,163 @@
     "initial_stage_idx": 2
   },
   {
+    "name": "Fluffy Fields access",
+    "type": "static",
+    "img": "images/grid/grid-fields.png",
+    "codes": "access-fields"
+  },
+  {
     "name": "Sweetwater Coast access",
     "type": "toggle",
-    "img": "images/locations/coast.png",
+    "img": "images/grid/grid-coast.png",
     "codes": "access-coast"
   },
   {
     "name": "Fancy Ruins access",
     "type": "toggle",
-    "img": "images/locations/ruins.png",
+    "img": "images/grid/grid-ruins.png",
     "codes": "access-ruins"
   },
   {
     "name": "Star Woods access",
     "type": "toggle",
-    "img": "images/locations/woods.png",
+    "img": "images/grid/grid-woods.png",
     "codes": "access-woods"
   },
   {
     "name": "Slippery Slope access",
     "type": "toggle",
-    "img": "images/locations/slope.png",
+    "img": "images/grid/grid-slope.png",
     "codes": "access-slope"
   },
   {
     "name": "Pepperpain Prairie access",
     "type": "toggle",
-    "img": "images/locations/prairie.png",
+    "img": "images/grid/grid-prairie.png",
     "codes": "access-prairie"
   },
   {
     "name": "Frozen Court access",
     "type": "toggle",
-    "img": "images/locations/court.png",
+    "img": "images/grid/grid-court.png",
     "codes": "access-court"
   },
   {
     "name": "Lonely Road access",
     "type": "toggle",
-    "img": "images/locations/road.png",
+    "img": "images/grid/grid-road.png",
     "codes": "access-road"
+  },
+  {
+    "name": "Fluffy Fields to Sweetwater Coast",
+    "type": "toggle",
+    "img": "images/grid/grid-ne.png",
+    "disabled_img": "images/grid/blocked-ne.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-fields-coast"
+  },
+  {
+    "name": "Fluffy Fields to Fancy Ruins",
+    "type": "toggle",
+    "img": "images/grid/grid-e.png",
+    "disabled_img": "images/grid/blocked-e.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-fields-ruins"
+  },
+  {
+    "name": "Fluffy Fields to Star Woods",
+    "type": "toggle",
+    "img": "images/grid/grid-n.png",
+    "disabled_img": "images/grid/blocked-n.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-fields-woods"
+  },
+  {
+    "name": "Fluffy Fields to Slippery Slope",
+    "type": "toggle",
+    "img": "images/grid/grid-e.png",
+    "disabled_img": "images/grid/blocked-e.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-fields-slope"
+  },
+  {
+    "name": "Fluffy Fields to Pepperpain Prairie",
+    "type": "toggle",
+    "img": "images/grid/grid-n.png",
+    "disabled_img": "images/grid/blocked-n.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-fields-prairie"
+  },
+  {
+    "name": "Sweetwater Coast to Fancy Ruins tunnel",
+    "type": "toggle",
+    "img": "images/grid/grid-tunnel.png",
+    "disabled_img": "images/grid/blocked-tunnel.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-coast-ruins"
+  },
+  {
+    "name": "Sweetwater Coast to Star Woods",
+    "type": "toggle",
+    "img": "images/grid/grid-e.png",
+    "disabled_img": "images/grid/blocked-e.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-coast-woods"
+  },
+  {
+    "name": "Sweetwater Coast to Slippery Slope",
+    "type": "toggle",
+    "img": "images/grid/grid-n.png",
+    "disabled_img": "images/grid/blocked-n.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-coast-slope"
+  },
+  {
+    "name": "Fancy Ruins to Star Woods",
+    "type": "toggle",
+    "img": "images/grid/grid-ne.png",
+    "disabled_img": "images/grid/blocked-ne.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-ruins-woods"
+  },
+  {
+    "name": "Fancy Ruins to Frozen Court",
+    "type": "toggle",
+    "img": "images/grid/grid-n.png",
+    "disabled_img": "images/grid/blocked-n.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-ruins-court"
+  },
+  {
+    "name": "Fancy Ruins to Pepperpain Prairie",
+    "type": "toggle",
+    "img": "images/grid/grid-nw.png",
+    "disabled_img": "images/grid/blocked-nw.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-ruins-prairie"
+  },
+  {
+    "name": "Star Woods to Frozen Court",
+    "type": "toggle",
+    "img": "images/grid/grid-e.png",
+    "disabled_img": "images/grid/blocked-e.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-woods-court"
+  },
+  {
+    "name": "Slippery Slope to Pepperpain Prairie",
+    "type": "toggle",
+    "img": "images/grid/grid-ne.png",
+    "disabled_img": "images/grid/blocked-ne.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-slope-prairie"
+  },
+  {
+    "name": "Slippery Slope to Lonely Road",
+    "type": "toggle",
+    "img": "images/grid/grid-n.png",
+    "disabled_img": "images/grid/blocked-n.png",
+    "disabled_img_mods": "none",
+    "codes": "connect-slope-road"
   }
 ]

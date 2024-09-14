@@ -1,4 +1,32 @@
 {
+    "use_connections": {
+        "type": "dock",
+        "dock": "left",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": "30,5,5,0",
+                        "item_margin": "1,1",
+                        "item_size": 40,
+                        "badge_font_size": 20,
+                        "rows": [
+                            ["access-road", "", "access-prairie", "", ""],
+                            ["connect-slope-road", "connect-slope-prairie", "connect-fields-prairie", "connect-ruins-prairie", "connect-coast-ruins"],
+                            ["access-slope", "connect-fields-slope", "access-fields", "connect-fields-ruins", "access-ruins"],
+                            ["connect-coast-slope", "connect-fields-coast", "connect-fields-woods", "connect-ruins-woods", "connect-ruins-court"],
+                            ["access-coast", "connect-coast-woods", "access-woods", "connect-woods-court", "access-court"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "use_items": {
         "type": "dock",
         "dock": "left",
@@ -57,26 +85,6 @@
                             ["icon-d8", "caption-d8", "key-d8", "goal-d8", "", "icon-dream4", "caption-dream4", "key-dream4", "goal-dream4"],
                             ["", "", "", "", "", "icon-dream5", "caption-dream5", "key-dream5", "goal-dream5"]
                         ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "1,1",
-                        "item_size": "64,48",
-                        "badge_font_size": 20,
-                        "rows": [
-                            [
-                                "",
-                                "access-coast",
-                                "access-ruins",
-                                "access-woods"
-                            ],
-                            [
-                                "access-slope",
-                                "access-prairie",
-                                "access-court",
-                                "access-road"
-                            ]
-                        ]
                     }
                 ]
             }
@@ -90,14 +98,32 @@
                 "type": "dock",
                 "content": [
                     {
-                        "type": "group",
-                        "header": "Items",
-                        "dock": "left",
-                        "h_alignment": "center",
+                        "type": "array",
+                        "orientation": "vertical",
                         "content": [
                             {
-                                "type": "layout",
-                                "key": "use_items"
+                                "type": "group",
+                                "header": "Items",
+                                "dock": "left",
+                                "h_alignment": "center",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "key": "use_items"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "group",
+                                "header": "Connections",
+                                "dock": "left",
+                                "h_alignment": "center",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "key": "use_connections"
+                                    }
+                                ]
                             }
                         ]
                     }
