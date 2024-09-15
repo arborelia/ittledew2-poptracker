@@ -14,21 +14,26 @@
                 "rows": [
                     [
                         "key-settings",
-                        "open-library"
+                        "open-library",
+                        "include-portal-worlds"
                     ],
                     [
                         "roll-chests",
-                        "open-tomb"
+                        "open-tomb",
+                        "include-secret-dungeons"
                     ],
                     [
                         "dreams-keep-items",
-                        "open-dream"
+                        "open-dream",
+                        "include-dream-dungeons"
                     ],
                     [
                         "start-warps",
-                        "region-gates"
+                        "region-gates",
+                        "include-super-secrets"
                     ],
                     [
+                        "",
                         "shard-settings",
                         ""
                     ]

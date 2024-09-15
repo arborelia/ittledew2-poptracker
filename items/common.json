@@ -792,6 +792,30 @@
     "codes": "region-gates"
   },
   {
+    "name": "Include portal worlds",
+    "type": "toggle",
+    "img": "images/settings/include-portal-worlds.png",
+    "codes": "include-portal-worlds"
+  },
+  {
+    "name": "Include secret dungeons",
+    "type": "toggle",
+    "img": "images/settings/include-secret-dungeons.png",
+    "codes": "include-secret-dungeons"
+  },
+  {
+    "name": "Include dream dungeons",
+    "type": "toggle",
+    "img": "images/settings/include-dream-dungeons.png",
+    "codes": "include-dream-dungeons"
+  },
+  {
+    "name": "Include super secrets",
+    "type": "toggle",
+    "img": "images/settings/include-super-secrets.png",
+    "codes": "include-super-secrets"
+  },
+  {
     "name": "Shard settings",
     "type": "progressive",
     "allow_disabled": false,
