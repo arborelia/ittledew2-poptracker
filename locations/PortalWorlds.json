@@ -1,6 +1,7 @@
 [
     {
         "name": "Autumn Climb",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -20,6 +21,7 @@
     },
     {
         "name": "The Vault",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -38,6 +40,7 @@
     },
     {
         "name": "Painful Plain",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -56,6 +59,7 @@
     },
     {
         "name": "Farthest Shore",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -75,6 +79,7 @@
     },
     {
         "name": "Scrap Yard",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -96,6 +101,7 @@
     },
     {
         "name": "Brutal Oasis",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -115,6 +121,7 @@
     },
     {
         "name": "Former Colossus",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -132,6 +139,7 @@
             },
             {
                 "name": "Ludo City dev room, via passage in back of Colossus",
+                "visibility_rules": ["include-portal-worlds,include-super-secrets"],
                 "access_rules": [
                     "$access|woods,stick,$puzzledmg"
                 ]
@@ -140,6 +148,7 @@
     },
     {
         "name": "Sand Crucible",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -159,6 +168,7 @@
     },
     {
         "name": "Ocean Castle",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -177,6 +187,7 @@
     },
     {
         "name": "Promenade Path",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -195,6 +206,7 @@
     },
     {
         "name": "Maze of Steel",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -214,6 +226,7 @@
     },
     {
         "name": "Wall of Text",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -233,6 +246,7 @@
     },
     {
         "name": "Lost City of Avlopp",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -250,6 +264,7 @@
             },
             {
                 "name": "Promised Remedy (difficult secret boss)",
+                "visibility_rules": ["include-portal-worlds,include-super-secrets"],
                 "access_rules": [
                     "$access|court,mace,$puzzledmg,[roll]"
                 ]
@@ -258,6 +273,7 @@
     },
     {
         "name": "Northern End",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",
@@ -277,6 +293,7 @@
     },
     {
         "name": "Moon Garden",
+        "visibility_rules": "include-portal-worlds",
         "map_locations": [
             {
                 "map": "overworld",

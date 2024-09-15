@@ -1,6 +1,7 @@
 [
   {
     "name": "Wizardry Lab",
+    "visibility_rules": "include-dream-dungeons",
     "sections": [
       {
         "name": "Entrance",
@@ -63,6 +64,7 @@
   },
   {
     "name": "Syncope",
+    "visibility_rules": "include-dream-dungeons",
     "sections": [
       {
         "name": "Shifting Chamber",
@@ -158,6 +160,7 @@
   },
   {
     "name": "Bottomless Tower",
+    "visibility_rules": "include-dream-dungeons",
     "sections": [
       {
         "name": "1F Card",
@@ -258,6 +261,7 @@
       },
       {
         "name": "Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2",
+        "visibility_rules": ["include-dream-dungeons,include-super-secrets"],
         "access_rules": [
           "$bottomlessCompletable,[$bottomlessCompletableInLogic]"
         ]
@@ -274,6 +278,7 @@
   },
   {
     "name": "Antigram",
+    "visibility_rules": "include-dream-dungeons",
     "sections": [
       {
         "name": "West Light Bridge",
@@ -377,6 +382,7 @@
   },
   {
     "name": "Quietus",
+    "visibility_rules": "include-dream-dungeons",
     "sections": [
       {
         "name": "Alternating Floors",

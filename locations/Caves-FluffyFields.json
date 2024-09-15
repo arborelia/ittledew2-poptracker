@@ -216,6 +216,7 @@
         "sections": [
             {
                 "name": "Touch grass for 30 seconds",
+                "visibility_rules": "include-super-secrets",
                 "access_rules": [
                     "$weapon"
                 ]

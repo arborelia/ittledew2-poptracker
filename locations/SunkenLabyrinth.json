@@ -1,6 +1,7 @@
 [
   {
     "name": "Sunken Labyrinth",
+    "visibility_rules": "include-secret-dungeons",
     "sections": [
       {
         "name": "Death Ogler",

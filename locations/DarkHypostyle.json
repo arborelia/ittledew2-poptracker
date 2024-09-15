@@ -1,6 +1,7 @@
 [
   {
     "name": "Dark Hypostyle",
+    "visibility_rules": "include-secret-dungeons",
     "access_rules": [
       "$access|woods"
     ],

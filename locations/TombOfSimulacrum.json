@@ -1,6 +1,7 @@
 [
   {
     "name": "Tomb of Simulacrum",
+    "visibility_rules": "include-secret-dungeons",
     "access_rules": [
       "$access|road,$forbidden"
     ],
