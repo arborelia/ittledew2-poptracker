@@ -70,7 +70,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|prairie,$openchest"
+                    "$access|prairie,$openchest",
+                    "{$access|prairie}"
                 ]
             }
         ]
@@ -124,7 +125,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|prairie,$openchest"
+                    "$access|prairie,$openchest",
+                    "{$access|prairie}"
                 ]
             }
         ]
@@ -196,7 +198,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|prairie,$openchest"
+                    "$access|prairie,$openchest",
+                    "{$access|prairie}"
                 ]
             }
         ]

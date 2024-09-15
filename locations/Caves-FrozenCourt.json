@@ -32,7 +32,8 @@
             {
                 "name": "Follow the lost soul in daytime",
                 "access_rules": [
-                    "$access|court,$openchest"
+                    "$access|court,$openchest",
+                    "{$access|court}"
                 ]
             }
         ]
@@ -68,7 +69,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|court,$openchest"
+                    "$access|court,$openchest",
+                    "{$access|court}"
                 ]
             }
         ]
@@ -86,7 +88,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|court,$weapon,roll"
+                    "$access|court,$weapon,[roll]",
+                    "{$access|court}"
                 ]
             }
         ]
@@ -104,7 +107,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|court,$openchest"
+                    "$access|court,$openchest",
+                    "{$access|court}"
                 ]
             }
         ]
@@ -124,7 +128,7 @@
                 "name": "Counterclockwise through gates",
                 "access_rules": [
                     "$access|court,$nonforce",
-                    "$access|court,$can_phase_itemless,$openchest"
+                    "{$access|court}"
                 ]
             }
         ]
@@ -143,7 +147,8 @@
             {
                 "name": "Follow the lost soul at night",
                 "access_rules": [
-                    "$access|court,$weapon"
+                    "$access|court,$weapon",
+                    "{$access|court}"
                 ]
             }
         ]
@@ -179,7 +184,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|court,$openchest"
+                    "$access|court,$openchest",
+                    "{$access|court}"
                 ]
             }
         ]

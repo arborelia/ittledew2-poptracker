@@ -153,26 +153,6 @@
     ]
   },
   {
-    "name": "Tomb of Simulacrum Mothula Floor",
-    "sections": [
-      {
-        "ref": "Tomb of Simulacrum/Mothula Floor"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "dungeons",
-        "x": 1095,
-        "y": 745
-      },
-      {
-        "map": "s4",
-        "x": 1226,
-        "y": 956
-      }
-    ]
-  },
-  {
     "name": "Tomb of Simulacrum Metal Jelly",
     "sections": [
       {

@@ -3,9 +3,8 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
-LOCAL_ITEMS = {}
-GLOBAL_ITEMS = {}
 HOSTED = {}
+REGION_CODES = ["coast", "ruins", "woods", "slope", "prairie", "court", "road"]
 
 local positionKey = ""
 local levelNameKey = ""
@@ -159,8 +158,21 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("start-warps").Active = (slot_data.start_with_all_warps == 1)
     end
 
-    LOCAL_ITEMS = {}
-    GLOBAL_ITEMS = {}
+    if slot_data.include_portal_worlds then
+        Tracker:FindObjectForCode("include-portal-worlds").Active = (slot_data.include_portal_worlds == 1)
+    end
+
+    if slot_data.include_secret_dungeons then
+        Tracker:FindObjectForCode("include-secret-dungeons").Active = (slot_data.include_secret_dungeons == 1)
+    end
+
+    if slot_data.include_dream_dungeons then
+        Tracker:FindObjectForCode("include-dream-dungeons").Active = (slot_data.include_dream_dungeons == 1)
+    end
+
+    if slot_data.include_super_secrets then
+        Tracker:FindObjectForCode("include-super-secrets").Active = (slot_data.include_super_secrets == 1)
+    end
 
     positionKey = "id2.pos." .. Archipelago.PlayerNumber
     levelNameKey = "id2.levelName." .. Archipelago.PlayerNumber
@@ -204,6 +216,13 @@ function onItem(index, item_id, item_name, player_number)
     if obj then
         if v[2] == "toggle" then
             obj.Active = true
+        elseif v[2] == "propagate" then
+            obj.Active = true
+            for code in REGION_CODES do
+                local region = Tracker:FindObjectForCode("access-" .. code)
+                region.Active = False
+                region.Active = access(code)
+            end
         elseif v[2] == "progressive" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
@@ -217,27 +236,6 @@ function onItem(index, item_id, item_name, player_number)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
-    end
-    -- track local items via snes interface
-    if is_local then
-        if LOCAL_ITEMS[v[1]] then
-            LOCAL_ITEMS[v[1]] = LOCAL_ITEMS[v[1]] + 1
-        else
-            LOCAL_ITEMS[v[1]] = 1
-        end
-    else
-        if GLOBAL_ITEMS[v[1]] then
-            GLOBAL_ITEMS[v[1]] = GLOBAL_ITEMS[v[1]] + 1
-        else
-            GLOBAL_ITEMS[v[1]] = 1
-        end
-    end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-    end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
     end
 end
 

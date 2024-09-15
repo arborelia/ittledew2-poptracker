@@ -51,7 +51,7 @@
                     "$access|slope,stick",
                     "$access|slope,dynamite,icering,[stick]",
                     "$access|slope,dynamite,forcewand,[stick]",
-                    "$access|slope,$can_phase_ice"
+                    "{$access|slope}"
                 ]
             }
         ]
@@ -69,7 +69,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$openchest"
+                    "$access|slope,$openchest",
+                    "{$access|slope}"
                 ]
             }
         ]
@@ -105,7 +106,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$openchest"
+                    "$access|slope,$openchest",
+                    "{$access|slope}"
                 ]
             }
         ]
@@ -141,8 +143,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$weapon",
-                    "$access|slope,roll,$can_phase_itemless_difficult"
+                    "$access|slope,$weapon"
                 ]
             }
         ]
@@ -180,7 +181,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$openchest"
+                    "$access|slope,$openchest",
+                    "{$access|slope}"
                 ]
             }
         ]
