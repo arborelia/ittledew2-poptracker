@@ -220,7 +220,6 @@ function onItem(index, item_id, item_name, player_number)
             obj.Active = true
             for code in REGION_CODES do
                 local region = Tracker:FindObjectForCode("access-" .. code)
-                region.Active = False
                 region.Active = access(code)
             end
         elseif v[2] == "progressive" then
