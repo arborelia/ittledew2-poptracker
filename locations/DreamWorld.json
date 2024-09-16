@@ -201,8 +201,8 @@
         "name": "3F Ice Square Card",
         "access_rules": [
           "$bottomless,dreams-keep-items,sword,ice",
-          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|1,[$realkeys|dream2|1]",
-          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|2,[$realkeys|dream2|2]",
+          "$bottomless,dreams-keep-items,stick,ice,wand,$keys|dream2|3,[$realkeys|dream2|4]",
+          "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|4,[$realkeys|dream2|4]",
           "$bottomless,$dreamchange,$keys|dream2|2,[$realkeys|dream2|2]"
         ]
       },
@@ -237,6 +237,7 @@
         "name": "4F Key",
         "access_rules": [
           "$bottomless,dreams-keep-items,sword,ice,$keys|dream2|1,[$realkeys|dream2|3]",
+          "$bottomless,dreams-keep-items,stick,wand,ice,$keys|dream2|2,[$realkeys|dream2|3]",
           "$bottomless,dreams-keep-items,stick,ice,$keys|dream2|3,[$realkeys|dream2|3]",
           "$bottomless,$dreamchange,$keys|dream2|3,[$realkeys|dream2|3]"
         ]

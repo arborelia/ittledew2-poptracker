@@ -91,7 +91,9 @@ function bottomlessCompletable()
     if not bottomless() then
         return false
     elseif has("dreams-keep-items") then
-        if has("sword") and has("icering") then
+        if has("sword") and has("icering") and has("forcewand") then
+            return keys("dream2", 3)
+        elseif has("sword") and has("icering") then
             return keys("dream2", 2)
         elseif has("stick") and has("icering") then
             return keys("dream2", 4)
