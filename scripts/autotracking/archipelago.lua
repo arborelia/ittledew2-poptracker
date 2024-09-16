@@ -4,43 +4,34 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 CUR_INDEX = -1
 SLOT_DATA = nil
 HOSTED = {}
-REGION_CODES = ["coast", "ruins", "woods", "slope", "prairie", "court", "road"]
+REGION_CODES = {"coast", "ruins", "woods", "slope", "prairie", "court", "road"}
 
 local positionKey = ""
 local levelNameKey = ""
 
-local dungeonNames = {
-    PillowFort = true,
-    SandCastle = true,
-    ArtExhibit = true,
-    TrashCave = true,
-    FloodedBasement = true,
-    PotassiumMine = true,
-    BoilingGrave = true,
-    GrandLibrary = true,
-    SunkenLabyrinth = true,
-    MachineFortress = true,
-    DarkHypostyle = true,
-    TombOfSimulacrum = true,
-}
-
-local dreamWorldNames = {
-    DreamWorld = true,
-    DreamForce = true, -- Wizardry Lab
-    DreamDynamite = true, -- Syncope
-    DreamIce = true, -- Bottomless Tower
-    DreamFireChain = true, -- Antigram
-    DreamAll = true, -- Quietus
+local tabNamesByInternalMapName = {
+    PillowFort = "Pillow Fort",
+    SandCastle = "Sand Castle",
+    ArtExhibit = "Art Exhibit",
+    TrashCave = "Trash Cave",
+    FloodedBasement = "Flooded Basement",
+    PotassiumMine = "Potassium Mine",
+    BoilingGrave = "Boiling Grave",
+    GrandLibrary = "Grand Library",
+    SunkenLabyrinth = "Sunken Labyrinth",
+    MachineFortress = "Machine Fortress",
+    DarkHypostyle = "Dark Hypostyle",
+    TombOfSimulacrum = "Tomb of Simulacrum",
+    DreamWorld = "Dream World",
+    DreamForce = "Dream World", -- Wizardry Lab
+    DreamDynamite = "Dream World", -- Syncope
+    DreamIce = "Dream World", -- Bottomless Tower
+    DreamFireChain = "Dream World", -- Antigram
+    DreamAll = "Dream World", -- Quietus
 }
 
 local function levelNameToTabName(levelName)
-    if dungeonNames[levelName] then
-        return "Dungeons"
-    elseif dreamWorldNames[levelName] then
-        return "Dream World"
-    else
-        return "Overworld"
-    end
+    return tabNamesByInternalMapName[levelName] or "Overworld"
 end
 
 -- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
