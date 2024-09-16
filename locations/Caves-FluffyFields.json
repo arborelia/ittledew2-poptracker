@@ -12,7 +12,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$weapon",
+                    "{}"
                 ]
             }
         ]
@@ -31,7 +32,8 @@
             {
                 "name": "Circle the tree. Everything is always counterclockwise",
                 "access_rules": [
-                    "$openchest"
+                    "$openchest",
+                    "{}"
                 ]
             }
         ]
@@ -68,7 +70,8 @@
             {
                 "name": "By the weird flex",
                 "access_rules": [
-                    "$openchest"
+                    "$openchest",
+                    "{}"
                 ]
             }
         ]
@@ -105,7 +108,8 @@
             {
                 "name": "Let the stressed fishbun do its thing",
                 "access_rules": [
-                    "$openchest"
+                    "$openchest",
+                    "{}"
                 ]
             }
         ]
@@ -124,8 +128,7 @@
             {
                 "access_rules": [
                     "stick",
-                    "$weapon,$can_phase_ice",
-                    "$weapon,$can_phase_dynamite"
+                    "{$weapon}"
                 ]
             }
         ]
@@ -144,7 +147,8 @@
             {
                 "name": "Hidden switches in the field",
                 "access_rules": [
-                    "$weapon"
+                    "$weapon",
+                    "{}"
                 ]
             }
         ]
@@ -162,7 +166,8 @@
         "sections": [
             {
                 "access_rules": [
-                    "$weapon"
+                    "$weapon",
+                    "{}"
                 ]
             }
         ]

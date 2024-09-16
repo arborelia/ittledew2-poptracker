@@ -17,13 +17,15 @@
           "stick,chain",
           "firemace",
           "forcewand",
-          "dynamite"
+          "dynamite",
+          "{}"
         ]
       },
       {
         "name": "Spikebun Dunes",
         "access_rules": [
-          "$weapon"
+          "$weapon",
+          "{}"
         ]
       },
       {

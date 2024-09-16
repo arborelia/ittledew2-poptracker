@@ -8,19 +8,22 @@
       {
         "name": "Crayons",
         "access_rules": [
-          "$weapon"
+          "$weapon",
+          "{}"
         ]
       },
       {
         "name": "Safety Jenny Gate",
         "access_rules": [
-          "$weapon"
+          "$weapon",
+          "{}"
         ]
       },
       {
         "name": "Treasure",
         "access_rules": [
-          "$openchest,$keys|d1|1,[$realkeys|d1|2]"
+          "$openchest,$keys|d1|1,[$realkeys|d1|2]",
+          "{$realkeys|d1|2}"
         ]
       },
       {
