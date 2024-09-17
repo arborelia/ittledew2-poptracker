@@ -30,6 +30,46 @@ local tabNamesByInternalMapName = {
     DreamAll = "Dream World", -- Quietus
 }
 
+local dungeonNameToGoalName = {
+    ["Pillow Fort"] = "goal-d1",
+    ["Sand Castle"] = "goal-d2",
+    ["Art Exhibit"] = "goal-d3",
+    ["Trash Cave"] = "goal-d4",
+    ["Flooded Basement"] = "goal-d5",
+    ["Potassium Mine"] = "goal-d6",
+    ["Boiling Grave"] = "goal-d7",
+    ["Grand Library"] = "goal-d8",
+    ["Sunken Labyrinth"] = "goal-s1",
+    ["Machine Fortress"] = "goal-s2",
+    ["Dark Hypostyle"] = "goal-s3",
+    ["Tomb of Simulacrum"] = "goal-s4",
+    ["Wizardry Lab"] = "goal-dream1",
+    ["Bottomless Tower"] = "goal-dream2",
+    ["Syncope"] = "goal-dream3",
+    ["Antigram"] = "goal-dream4",
+    ["Quietus"] = "goal-dream5",
+}
+
+local locationNameToGoalName = {
+    ["Pillow Fort - Boss Reward Chest"] = "goal-d1",
+    ["Sand Castle - Boss Reward Chest"] = "goal-d2",
+    ["Art Exhibit - Boss Reward Chest"] = "goal-d3",
+    ["Trash Cave - Boss Reward Chest"] = "goal-d4",
+    ["Flooded Basement - Boss Reward Chest"] = "goal-d5",
+    ["Potassium Mine - Boss Reward Chest"] = "goal-d6",
+    ["Boiling Grave - Boss Reward Chest"] = "goal-d7",
+    ["Grand Library - Boss Reward Chest"] = "goal-d8",
+    ["Sunken Labyrinth - Boss Reward Chest"] = "goal-s1",
+    ["Machine Fortress - Boss Reward Chest"] = "goal-s2",
+    ["Dark Hypostyle - Boss Reward Chest"] = "goal-s3",
+    ["Tomb of Simulacrum - Boss Reward Chest"] = "goal-s4",
+    ["Wizardry Lab - Reward Card B"] = "goal-dream1",
+    ["Bottomless Tower - Reward Card B"] = "goal-dream2",
+    ["Syncope - Reward Card B"] = "goal-dream3",
+    ["Antigram - Reward Card B"] = "goal-dream4",
+    ["Quietus - Reward Card B"] = "goal-dream5",
+}
+
 local function levelNameToTabName(levelName)
     return tabNamesByInternalMapName[levelName] or "Overworld"
 end
@@ -73,8 +113,8 @@ function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
-    SLOT_DATA = slot_data
     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -166,6 +206,22 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("include-super-secrets").Active = (slot_data.include_super_secrets == 1)
     end
 
+    if slot_data.block_region_connections then
+        Tracker:FindObjectForCode("region-gates").Active = (slot_data.block_region_connections == 1)
+    end
+
+    for _, goalName in pairs(dungeonNameToGoalName) do
+        goal = Tracker:FindObjectForCode(goalName)
+        goal.CurrentStage = 0
+    end
+    for n, dungeon in pairs(slot_data.required_dungeons) do
+        local goalName = dungeonNameToGoalName[dungeon]
+        if goalName then
+            goal = Tracker:FindObjectForCode(goalName)
+            goal.CurrentStage = 1
+        end
+    end
+
     positionKey = "id2.pos." .. Archipelago.PlayerNumber
     levelNameKey = "id2.levelName." .. Archipelago.PlayerNumber
 
@@ -210,7 +266,7 @@ function onItem(index, item_id, item_name, player_number)
             obj.Active = true
         elseif v[2] == "propagate" then
             obj.Active = true
-            for code in REGION_CODES do
+            for _, code in pairs(REGION_CODES) do
                 local region = Tracker:FindObjectForCode("access-" .. code)
                 region.Active = access(code)
             end
@@ -254,6 +310,14 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+
+    local goalName = locationNameToGoalName[location_name]
+    if goalName then
+        goal = Tracker:FindObjectForCode(goalName)
+        if goal.CurrentStage == 1 then
+            goal.CurrentStage = 2
+        end
     end
 end
 
