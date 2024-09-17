@@ -11,16 +11,46 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "margin": "30,5,5,0",
+                        "margin": "52,5,5,0",
                         "item_margin": "1,1",
-                        "item_size": 40,
+                        "item_size": 32,
                         "badge_font_size": 20,
                         "rows": [
-                            ["access-road", "", "access-prairie", "", ""],
-                            ["connect-slope-road", "connect-slope-prairie", "connect-fields-prairie", "connect-ruins-prairie", "connect-coast-ruins"],
-                            ["access-slope", "connect-fields-slope", "access-fields", "connect-fields-ruins", "access-ruins"],
-                            ["connect-coast-slope", "connect-fields-coast", "connect-fields-woods", "connect-ruins-woods", "connect-ruins-court"],
-                            ["access-coast", "connect-coast-woods", "access-woods", "connect-woods-court", "access-court"]
+                            [
+                                "access-road",
+                                "",
+                                "access-prairie",
+                                "",
+                                ""
+                            ],
+                            [
+                                "connect-slope-road",
+                                "connect-slope-prairie",
+                                "connect-fields-prairie",
+                                "connect-ruins-prairie",
+                                "connect-coast-ruins"
+                            ],
+                            [
+                                "access-slope",
+                                "connect-fields-slope",
+                                "access-fields",
+                                "connect-fields-ruins",
+                                "access-ruins"
+                            ],
+                            [
+                                "connect-coast-slope",
+                                "connect-fields-coast",
+                                "connect-fields-woods",
+                                "connect-ruins-woods",
+                                "connect-ruins-court"
+                            ],
+                            [
+                                "access-coast",
+                                "connect-coast-woods",
+                                "access-woods",
+                                "connect-woods-court",
+                                "access-court"
+                            ]
                         ]
                     }
                 ]
@@ -75,15 +105,105 @@
                         "item_size": "28,28",
                         "badge_font_size": 20,
                         "rows": [
-                            ["icon-d1", "caption-d1", "key-d1", "goal-d1", "", "icon-s1", "caption-s1", "key-s1", "goal-s1"],
-                            ["icon-d2", "caption-d2", "key-d2", "goal-d2", "", "icon-s2", "caption-s2", "key-s2", "goal-s2"],
-                            ["icon-d3", "caption-d3", "key-d3", "goal-d3", "", "icon-s3", "caption-s3", "key-s3", "goal-s3"],
-                            ["icon-d4", "caption-d4", "key-d4", "goal-d4", "", "icon-s4", "caption-s4", "key-s4", "goal-s4"],
-                            ["icon-d5", "caption-d5", "key-d5", "goal-d5", "", "icon-dream1", "caption-dream1", "", "goal-dream1"],
-                            ["icon-d6", "caption-d6", "key-d6", "goal-d6", "", "icon-dream2", "caption-dream2", "key-dream2", "goal-dream2"],
-                            ["icon-d7", "caption-d7", "key-d7", "goal-d7", "", "icon-dream3", "caption-dream3", "key-dream3", "goal-dream3"],
-                            ["icon-d8", "caption-d8", "key-d8", "goal-d8", "", "icon-dream4", "caption-dream4", "key-dream4", "goal-dream4"],
-                            ["", "", "", "", "", "icon-dream5", "caption-dream5", "key-dream5", "goal-dream5"]
+                            [
+                                "icon-d1",
+                                "caption-d1",
+                                "key-d1",
+                                "goal-d1",
+                                "",
+                                "icon-s1",
+                                "caption-s1",
+                                "key-s1",
+                                "goal-s1"
+                            ],
+                            [
+                                "icon-d2",
+                                "caption-d2",
+                                "key-d2",
+                                "goal-d2",
+                                "",
+                                "icon-s2",
+                                "caption-s2",
+                                "key-s2",
+                                "goal-s2"
+                            ],
+                            [
+                                "icon-d3",
+                                "caption-d3",
+                                "key-d3",
+                                "goal-d3",
+                                "",
+                                "icon-s3",
+                                "caption-s3",
+                                "key-s3",
+                                "goal-s3"
+                            ],
+                            [
+                                "icon-d4",
+                                "caption-d4",
+                                "key-d4",
+                                "goal-d4",
+                                "",
+                                "icon-s4",
+                                "caption-s4",
+                                "key-s4",
+                                "goal-s4"
+                            ],
+                            [
+                                "icon-d5",
+                                "caption-d5",
+                                "key-d5",
+                                "goal-d5",
+                                "",
+                                "icon-dream1",
+                                "caption-dream1",
+                                "",
+                                "goal-dream1"
+                            ],
+                            [
+                                "icon-d6",
+                                "caption-d6",
+                                "key-d6",
+                                "goal-d6",
+                                "",
+                                "icon-dream2",
+                                "caption-dream2",
+                                "key-dream2",
+                                "goal-dream2"
+                            ],
+                            [
+                                "icon-d7",
+                                "caption-d7",
+                                "key-d7",
+                                "goal-d7",
+                                "",
+                                "icon-dream3",
+                                "caption-dream3",
+                                "key-dream3",
+                                "goal-dream3"
+                            ],
+                            [
+                                "icon-d8",
+                                "caption-d8",
+                                "key-d8",
+                                "goal-d8",
+                                "",
+                                "icon-dream4",
+                                "caption-dream4",
+                                "key-dream4",
+                                "goal-dream4"
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "icon-dream5",
+                                "caption-dream5",
+                                "key-dream5",
+                                "goal-dream5"
+                            ]
                         ]
                     }
                 ]
