@@ -96,7 +96,7 @@
   },
   {
     "name": "Headband",
-    "type": "toggle",
+    "type": "consumable",
     "img": "images/items/headband.png",
     "codes": "headband"
   },
