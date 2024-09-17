@@ -4,7 +4,7 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 CUR_INDEX = -1
 SLOT_DATA = nil
 HOSTED = {}
-REGION_CODES = ["coast", "ruins", "woods", "slope", "prairie", "court", "road"]
+REGION_CODES = {"coast", "ruins", "woods", "slope", "prairie", "court", "road"}
 
 local positionKey = ""
 local levelNameKey = ""
@@ -83,6 +83,7 @@ function onClear(slot_data)
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
     SLOT_DATA = slot_data
+    print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     CUR_INDEX = -1
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
