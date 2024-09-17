@@ -31,8 +31,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|ruins,stick",
-                    "{$access|ruins}"
+                    "$access|ruins,stick"
                 ]
             }
         ]
