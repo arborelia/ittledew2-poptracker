@@ -260,7 +260,7 @@ LOCATION_MAPPING = {
     [BASE + 2512] = {"@Lost City of Avlopp/Island grave via passage under the snow"},
     [BASE + 2513] = {"@Northern End/Red Green Blue"},
     [BASE + 2514] = {"@Moon Garden/The meteor has 10 HP"},
-    [BASE + 2600] = {"@Former Colossus/Ludo City dev room, via passage in back of Colossus"},
+    [BASE + 2600] = {"@Somewhere (passage in back of Colossus)/Ludo City chest"},
     [BASE + 2602] = {"@Bottomless Tower/Bad Dream - StarMoonSunMoon StarSun (StarMoonSunMoon)x2"},
-    [BASE + 2603] = {"@Lost City of Avlopp/Promised Remedy (difficult secret boss)"}
+    [BASE + 2603] = {"@Promised Remedy - from passage bottom left of Avlopp/That Guy"}
 }

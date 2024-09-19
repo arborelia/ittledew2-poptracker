@@ -816,6 +816,12 @@
     "codes": "include-super-secrets"
   },
   {
+    "name": "Include secret signs",
+    "type": "toggle",
+    "img": "images/settings/include-secret-signs.png",
+    "codes": "include-secret-signs"
+  },
+  {
     "name": "Shard settings",
     "type": "progressive",
     "allow_disabled": false,

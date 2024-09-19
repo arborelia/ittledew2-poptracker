@@ -33,9 +33,9 @@
                         "include-super-secrets"
                     ],
                     [
-                        "",
                         "shard-settings",
-                        ""
+                        "",
+                        "include-secret-signs"
                     ]
                 ]
             }

@@ -97,6 +97,10 @@ function dump_table(o, depth)
 end
 
 local function onRetrieved(key, value)
+    print("onRetrieved: " .. key)
+    if value then
+        print("value: " .. value)
+    end
     if key == levelNameKey then
         local levelName = value
         local tabName = levelNameToTabName(levelName)

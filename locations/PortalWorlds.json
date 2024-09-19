@@ -78,6 +78,34 @@
         ]
     },
     {
+        "name": "Nowhere (umbrella in Farthest Shore)",
+        "visibility_rules": [
+            "include-portal-worlds,include-secret-signs"
+        ],
+        "access_rules": [
+            "$access|ruins,$weapon"
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 910,
+                "y": 400,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "name": "Left Hint Sign"
+            },
+            {
+                "name": "Right Hint Sign"
+            },
+            {
+                "name": "Cipher Sign"
+            }
+        ]
+    },
+    {
         "name": "Scrap Yard",
         "visibility_rules": "include-portal-worlds",
         "map_locations": [
@@ -136,13 +164,34 @@
                 "access_rules": [
                     "$access|woods,stick"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Somewhere (passage in back of Colossus)",
+        "visibility_rules": [
+            "include-portal-worlds,include-super-secrets",
+            "include-portal-worlds,include-secret-signs"
+        ],
+        "access_rules": [
+            "$access|woods,stick,$puzzledmg"
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 765,
+                "y": 595,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "name": "Ludo City chest",
+                "visibility_rules": "include-super-secrets"
             },
             {
-                "name": "Ludo City dev room, via passage in back of Colossus",
-                "visibility_rules": ["include-portal-worlds,include-super-secrets"],
-                "access_rules": [
-                    "$access|woods,stick,$puzzledmg"
-                ]
+                "name": "Cipher sign (break Ludo City left wall)",
+                "visibility_rules": "include-secret-signs"
             }
         ]
     },
@@ -221,6 +270,20 @@
                 "access_rules": [
                     "$access|prairie,$weapon"
                 ]
+            },
+            {
+                "name": "Hint Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|prairie,$weapon"
+                ]
+            },
+            {
+                "name": "Cipher Sign (behind 2 hidden walls)",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|prairie,$weapon"
+                ]
             }
         ]
     },
@@ -261,12 +324,85 @@
                 "access_rules": [
                     "$access|court,$weapon,[roll]"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Promised Remedy - from passage bottom left of Avlopp",
+        "visibility_rules": [
+            "include-portal-worlds,include-secret-signs",
+            "include-portal-worlds,include-super-secrets"
+        ],
+        "access_rules": [
+            "$access|court,$weapon"
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 1015,
+                "y": 775,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "name": "First sign",
+                "visibility_rules": "include-secret-signs"
             },
             {
-                "name": "Promised Remedy (difficult secret boss)",
-                "visibility_rules": ["include-portal-worlds,include-super-secrets"],
+                "name": "E Cipher Sign",
+                "visibility_rules": "include-secret-signs",
                 "access_rules": [
-                    "$access|court,mace,$puzzledmg,[roll]"
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "F Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "G Left Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "G Middle Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "G Right Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "M Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "N Cipher Sign",
+                "visibility_rules": "include-secret-signs",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg"
+                ]
+            },
+            {
+                "name": "That Guy",
+                "visibility_rules": "include-super-secrets",
+                "access_rules": [
+                    "$access|court,mace,$puzzledmg,roll"
                 ]
             }
         ]
@@ -298,7 +434,7 @@
             {
                 "map": "overworld",
                 "x": 60,
-                "y": 20,
+                "y": 30,
                 "size": 15
             }
         ],
@@ -311,6 +447,43 @@
                     "$access|road,force,[roll]",
                     "$access|road,ice,headband,[stick],[roll]"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Abyssal Plain (back of Moon Garden)",
+        "visibility_rules": [
+            "include-portal-worlds,include-secret-signs"
+        ],
+        "access_rules": [
+            "$access|road,stick,[roll]",
+            "$access|road,dynamite,[roll]",
+            "$access|road,force,[roll]",
+            "$access|road,ice,headband,[stick],[roll]"
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 60,
+                "y": 0,
+                "size": 15
+            }
+        ],
+        "sections": [
+            {
+                "name": "Shard Hint Sign"
+            },
+            {
+                "name": "Roll Hint Sign"
+            },
+            {
+                "name": "Drop Table Hint Sign"
+            },
+            {
+                "name": "Boss Hint Sign"
+            },
+            {
+                "name": "Place From Younger Days - Cipher Sign"
             }
         ]
     }
