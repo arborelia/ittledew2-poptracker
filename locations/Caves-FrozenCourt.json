@@ -130,6 +130,15 @@
                     "$access|court,$nonforce",
                     "{$access|court}"
                 ]
+            },
+            {
+                "name": "Force jump cipher sign",
+                "visibility_rules": [
+                    "include-secret-signs,include-super-secrets"
+                ],
+                "access_rules": [
+                    "$access|court,force,ice"
+                ]
             }
         ]
     },

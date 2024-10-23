@@ -68,6 +68,7 @@
         "name": "Boss",
         "access_rules": [
           "icering,stick,$keys|d5|3,[$realkeys|d5|5],[roll]",
+          "icering,stick,$projectile,$keys|d5|2,[$realkeys|d5|5],[roll]",
           "chain,stick,$keys|d5|3,[$realkeys|d5|5],[roll]",
           "$weapon,$keys|d5|4,[$realkeys|d5|5],[roll]"
         ]

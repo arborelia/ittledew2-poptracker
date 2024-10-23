@@ -95,6 +95,34 @@
         ]
     },
     {
+        "name": "Fluffy Fields - Incomplete Sign",
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 697,
+                "y": 350,
+                "size": 10
+            },
+            {
+                "map": "overworld",
+                "x": 237,
+                "y": 490,
+                "size": 10
+            }
+        ],
+        "visibility_rules": [
+            "include-secret-signs"
+        ],
+        "sections": [
+            {
+                "access_rules": [
+                    "$openchest",
+                    "{}"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Fluffy Fields - Number Blocks",
         "map_locations": [
             {
@@ -222,6 +250,16 @@
             {
                 "name": "Touch grass for 30 seconds",
                 "visibility_rules": "include-super-secrets",
+                "access_rules": [
+                    "$weapon"
+                ]
+            },
+            {
+                "name": "Cipher sign",
+                "visibility_rules": [
+                    "include-secret-signs",
+                    "include-super-secrets"
+                ],
                 "access_rules": [
                     "$weapon"
                 ]
