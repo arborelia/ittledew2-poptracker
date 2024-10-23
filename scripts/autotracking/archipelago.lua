@@ -270,9 +270,12 @@ function onItem(index, item_id, item_name, player_number)
             obj.Active = true
         elseif v[2] == "propagate" then
             obj.Active = true
-            for _, code in pairs(REGION_CODES) do
-                local region = Tracker:FindObjectForCode("access-" .. code)
-                region.Active = access(code)
+            needsPropagate = true
+            while needsPropagate do
+                needsPropagate = false
+                for _, code in pairs(REGION_CODES) do
+                    needsPropagate = needsPropagate or propagateRegion(code)
+                end
             end
         elseif v[2] == "progressive" then
             if obj.Active then
@@ -288,6 +291,13 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+end
+
+function propagateRegion(code)
+    local region = Tracker:FindObjectForCode("access-" .. code)
+    prevActive = region.Active
+    region.Active = access(code)
+    return (region.Active and (not prevActive))
 end
 
 -- called when a location gets cleared

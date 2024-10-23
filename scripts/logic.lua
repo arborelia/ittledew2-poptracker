@@ -8,6 +8,7 @@ function has(item, amount)
     end
 end
 
+
 function access(region)
     if has("region-gates") then
         if region == "fields" then
@@ -16,43 +17,51 @@ function access(region)
             return (
                 has("access-coast")
                 or has("connect-fields-coast")
+                or (has("access-slope") and has("connect-coast-slope"))
+                or (has("access-woods") and has("connect-coast-woods"))
+                or (has("access-ruins") and has("connect-coast-ruins"))
             )
         elseif region == "ruins" then
             return (
                 has("access-ruins")
                 or has("connect-fields-ruins")
-                or (access("coast") and has("connect-coast-ruins"))
+                or (has("access-coast") and has("connect-coast-ruins"))
+                or (has("access-woods") and has("connect-ruins-woods"))
+                or (has("access-prairie") and has("connect-ruins-prairie"))
+                or (has("access-court") and has("connect-ruins-court"))
             )
         elseif region == "woods" then
             return (
                 has("access-woods")
                 or has("connect-fields-woods")
-                or (access("coast") and has("connect-coast-woods"))
-                or (access("ruins") and has("connect-ruins-woods"))
+                or (has("access-coast") and has("connect-coast-woods"))
+                or (has("access-ruins") and has("connect-ruins-woods"))
+                or (has("access-court") and has("connect-woods-court"))
             )
         elseif region == "slope" then
             return (
                 has("access-slope")
                 or has("connect-fields-slope")
-                or (access("coast") and has("connect-coast-slope"))
+                or (has("access-coast") and has("connect-coast-slope"))
+                or (has("access-prairie") and has("connect-slope-prairie"))
             )
         elseif region == "prairie" then
             return (
                 has("access-prairie")
                 or has("connect-fields-prairie")
-                or (access("ruins") and has("connect-ruins-prairie"))
-                or (access("slope") and has("connect-slope-prairie"))
+                or (has("access-ruins") and has("connect-ruins-prairie"))
+                or (has("access-slope") and has("connect-slope-prairie"))
             )
         elseif region == "court" then
             return (
                 (has("access-court") and (has("access-ruins") or (has("access-woods") and weapon())))
-                or (access("ruins") and has("connect-ruins-court"))
-                or (access("woods") and has("connect-woods-court") and weapon())
+                or (has("access-ruins") and has("connect-ruins-court"))
+                or (has("access-woods") and has("connect-woods-court") and weapon())
             )
         elseif region == "road" then
             return (
                 (has("access-slope") and has("access-road"))
-                or (access("slope") and has("connect-slope-road"))
+                or (has("access-slope") and has("connect-slope-road"))
             )
         end
     else  -- no region gates, everything is open
