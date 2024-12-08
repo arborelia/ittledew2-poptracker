@@ -25,7 +25,8 @@
         "name": "Land Sharks", // U
         "access_rules": [
           "stick,chain,$keys|d5|1,[$realkeys|d5|4]",
-          "icering,sword,$keys|d5|1,[$realkeys|d5|4]"
+          "icering,sword,$keys|d5|1,[$realkeys|d5|4]",
+          "$weapon,$keys|d5|2,[$realkeys|d5|5]",
         ]
       },
       {
@@ -33,8 +34,8 @@
         "access_rules": [
           "icering,stick,$projectile,$keys|d5|1,[$realkeys|d5|3]",
           "icering,sword,$keys|d5|2,[$realkeys|d5|3]",
-          "chain,stick,$keys|d5|2,[$realkeys|d5|3]",
-          "$weapon,$keys|d5|3,[$realkeys|d5|3]"
+          "chain,stick,$keys|d5|3,[$realkeys|d5|5]",
+          "$weapon,$keys|d5|4,[$realkeys|d5|5]"
         ]
       },
       {

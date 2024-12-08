@@ -257,8 +257,7 @@
             {
                 "name": "Cipher sign",
                 "visibility_rules": [
-                    "include-secret-signs",
-                    "include-super-secrets"
+                    "include-secret-signs,include-super-secrets"
                 ],
                 "access_rules": [
                     "$weapon"
