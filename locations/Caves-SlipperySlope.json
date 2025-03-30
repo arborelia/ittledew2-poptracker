@@ -88,7 +88,7 @@
         "sections": [
             {
                 "access_rules": [
-                    "$access|slope,$nonforce"
+                    "$access|slope,$weapon"
                 ]
             }
         ]
