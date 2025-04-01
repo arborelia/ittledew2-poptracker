@@ -15,7 +15,6 @@
       {
         "name": "Red Path Cannon",
         "access_rules": [
-          // TODO: check this logic
           "$shard24,stick,$keys|s3|1,[$realkeys|s3|4]",
           "$shard24,ice,$keys|s3|1,[$realkeys|s3|4]",
           "$shard24,dynamite,[stick],$keys|s3|1,[$realkeys|s3|4]"
@@ -24,9 +23,9 @@
       {
         "name": "Red Path",
         "access_rules": [
-          "$shard24,stick,$keys|s3|2,[$realkeys|s3|4]",
-          "$shard24,ice,$keys|s3|2,[$realkeys|s3|4]",
-          "$shard24,dynamite,[stick],$keys|s3|2,[$realkeys|s3|4]"
+          "$shard24,stick,$keys|s3|2,[$realkeys|s3|5]",
+          "$shard24,ice,$keys|s3|2,[$realkeys|s3|5]",
+          "$shard24,dynamite,[stick],$keys|s3|2,[$realkeys|s3|5]"
         ]
       },
       {
