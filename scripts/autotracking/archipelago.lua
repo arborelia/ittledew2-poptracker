@@ -206,6 +206,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("include-dream-dungeons").Active = (slot_data.include_dream_dungeons == 1)
     end
 
+    if slot_data.include_secret_signs then
+        Tracker:FindObjectForCode("include-secret-signs").Active = (slot_data.include_secret_signs == 1)
+    end
+
     if slot_data.include_super_secrets then
         Tracker:FindObjectForCode("include-super-secrets").Active = (slot_data.include_super_secrets == 1)
     end
