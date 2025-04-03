@@ -167,5 +167,16 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Sweetwater Coast - Incomplete Sign",
+        "map_locations": [],
+        "sections": [
+            {
+                "access_rules": [
+                    "$access|coast"
+                ]
+            }
+        ]
     }
 ]

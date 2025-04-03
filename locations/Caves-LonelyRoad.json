@@ -170,5 +170,16 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Lonely Road - Incomplete Sign",
+        "map_locations": [],
+        "sections": [
+            {
+                "access_rules": [
+                    "$access|road"
+                ]
+            }
+        ]
     }
 ]

@@ -203,5 +203,16 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Pepperpain Prairie - Incomplete Sign",
+        "map_locations": [],
+        "sections": [
+            {
+                "access_rules": [
+                    "$access|prairie"
+                ]
+            }
+        ]
     }
 ]
