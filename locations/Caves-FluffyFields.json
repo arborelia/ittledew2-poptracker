@@ -115,10 +115,7 @@
         ],
         "sections": [
             {
-                "access_rules": [
-                    "$openchest",
-                    "{}"
-                ]
+                "access_rules": []
             }
         ]
     },

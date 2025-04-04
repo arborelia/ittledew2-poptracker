@@ -173,11 +173,27 @@
     },
     {
         "name": "Lonely Road - Incomplete Sign",
-        "map_locations": [],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 635,
+                "y": 112,
+                "size": 10
+            },
+            {
+                "map": "overworld",
+                "x": 775,
+                "y": 100,
+                "size": 10
+            }
+        ],
+        "visibility_rules": [
+            "include-secret-signs"
+        ],
         "sections": [
             {
                 "access_rules": [
-                    "$access|road"
+                    "$access|road,$weapon"
                 ]
             }
         ]
